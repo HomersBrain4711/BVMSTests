@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{25842A29-BAA6-44C2-A5C2-32BEDE290696}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{4C80D7CE-6D48-4B86-8870-8EFD3E8E55E6}">
+			<config nodeName="OnStopTest" lastOpenedTLB="" generatedCLSID="{EB93E918-3880-4EE6-910B-089627E500F4}" generatedTLBKey="{6CDCAE75-8904-4F27-941A-214FACC212AD}" generatedEventsKey="{20F5135C-4984-429E-B5F4-3B969FD88A54}" generatedTLBDesc="TestComplete OnStopTest Control - 30.08.2022 10:14:12">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743809" infoControlName="Test Engine Events" infoEventName="OnStopTest" infoEventRealName="OnStopTest" infoDescription="Occurs when TestComplete stops running a test or when the execution of a test item is over." />
+				<handlerInfo handlerName="OnStopTest" handlerMoniker="{68A9CA4A-F033-4D11-8A10-D2B64C8BD1F0}OnStopTest" handlerEventName="OnStopTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743809" />
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{9DF37B37-6B01-426A-876A-35F340D8F6A9}">
+			<config nodeName="OnStartTest" lastOpenedTLB="" generatedCLSID="{9585ED6C-B4D9-4040-B91F-564B346945A4}" generatedTLBKey="{07C7CCEF-DC08-4A63-81B2-BCE5876563E3}" generatedEventsKey="{55A0AF75-3B45-493D-A82A-C77D7A815D3C}" generatedTLBDesc="TestComplete OnStartTest Control - 30.08.2022 10:12:50">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743808" infoControlName="Test Engine Events" infoEventName="OnStartTest" infoEventRealName="OnStartTest" infoDescription="Occurs when TestComplete starts running a test (whether it is run from the UI or command line, or as a project test item)." />
+				<handlerInfo handlerName="OnStartTest" handlerMoniker="{68A9CA4A-F033-4D11-8A10-D2B64C8BD1F0}OnStartTest" handlerEventName="OnStartTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743808" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{086F0E14-3458-4A47-A40C-BC98715F73EF}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="OperatorClient" Key="{0012055A-F504-49E8-AA99-69877F4DDC53}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OperatorClient" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Control" Key="{E48C53E0-C9AD-47AA-94B6-4CB0EA8C3DE5}">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="Control" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{FBC3CF0B-4A29-4892-8207-ABE571E644B8}">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="WindowDockingArea" Key="{44AFBEEA-4A86-4970-90A3-BD6323FE9A00}">
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="Infragistics.Win.UltraWinDock.WindowDockingArea" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="DockableWindow" Key="{749361EA-FEF3-47F1-808C-5FCAD4CD674B}">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="6" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="LogicalTree" Key="{AF440EC8-57AD-4233-ADBF-51CB836C8250}">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="LogicalTree" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="LogicalTree" Key="{621DA091-95BF-48F3-A581-52542114C8AA}">
+																		<TypeInfo Item0="{DD73880A-8D35-4CD0-B768-936F10FD5DC7}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="LogicalTree" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="DockableWindow2" Key="{E6E61A59-2BFD-4A16-A00D-9EA4A81379F8}">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="8" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CameoSpace" Key="{BAC0A70A-6500-48D9-BBCA-76CD6328CA89}">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="CameoSpace" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ToggleLiveCameoSpace" Key="{F7811B68-3E57-411E-AFFF-D6108E59831E}">
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="ToggleLiveCameoSpace" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="CameoSpacePanel" Key="{547BDCC5-A189-45D7-8082-5B4F722E0365}">
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="CameoSpacePanel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Cameo1" Key="{8290C373-1820-439C-A7D0-15D705E3C073}">
+																						<TypeInfo Item0="{8CEDA5DC-6F35-4567-B4FB-31BE6926BB85}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="Cameo2" Key="{84A6EE49-233B-4DB3-8577-8DE825106706}">
+																						<TypeInfo Item0="{8CEDA5DC-6F35-4567-B4FB-31BE6926BB85}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="4" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="Cameo3" Key="{94683159-BEFD-49A1-AC96-34BDBF2BCC24}">
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="7" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="Cameo4" Key="{5E3C63ED-CD48-4FAC-ACF7-20E974CB5A04}">
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="10" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="Cameo5" Key="{0C70E465-5DA1-4FE2-AAAA-4B74680BF708}">
+																						<TypeInfo Item0="{0CB54EC9-EC42-4ABE-853F-48E1D2457D90}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="WndCaption">
+																								<Value Value="No connection: " />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="DockableWindow3" Key="{B11953DE-6610-4711-A145-A3DA8DD90704}">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="5" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="FavoritesTree" Key="{2D264459-5F8F-466F-85CE-8C6DDDF41434}">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="FavoritesTree" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="FavoritesTree" Key="{A5FF280C-1C88-4C0D-BCB8-99C63CCB9B1B}">
+																		<TypeInfo Item0="{DD73880A-8D35-4CD0-B768-936F10FD5DC7}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="FavoritesTree" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="FavoritesTree_LabelEditNode" Key="{526DCA74-DA38-45E6-9611-C90F35D61E2C}">
+																				<TypeInfo Item0="{AF6BDFFA-EC2B-4A00-9B12-3A019746F399}" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="FavoritesTree_LabelEditNode" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Button" Key="{7D4AF7B4-E0B6-4657-B69A-B53C6FE4C1A2}">
+										<TypeInfo Item0="{A92EB536-335A-4CA3-8C01-BBAA305280AD}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="r" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm" Key="{0B21BA01-4554-4E0B-9B1D-EE9A53000D83}">
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{7E1A075C-6A38-48AE-B252-B8FE5C0A9334}">
+										<TypeInfo Item0="{8CEDA5DC-6F35-4567-B4FB-31BE6926BB85}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BoschMessageBox" Key="{86F7F534-1B22-4851-94BC-F62EE88C6354}">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="BoschMessageBox" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{3B38E330-A2F8-4837-8D2F-05AC14CF42E5}">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonMiddle" Key="{1237559C-BF3E-491E-8F4B-E0A957B203B7}">
+												<TypeInfo Item0="{A92EB536-335A-4CA3-8C01-BBAA305280AD}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="buttonMiddle" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="EditCameoViewDisplayNameDialogForm" Key="{E370DA7C-DCDE-4AC2-B6D5-FDC8527990A2}">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="EditCameoViewDisplayNameDialogForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{F2D1AA88-83E8-4201-A2D6-1415843A1F6C}">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="nameTextBox" Key="{0FA4D9BF-0C99-402E-B16B-6A5005E1BE07}">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="nameTextBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="nameTextBox_EmbeddableTextBox" Key="{B39A2989-DD40-4BD8-9789-7D664B50BF79}">
+														<TypeInfo Item0="{AF6BDFFA-EC2B-4A00-9B12-3A019746F399}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="nameTextBox_EmbeddableTextBox" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="okButton" Key="{D6E2C9C9-49F7-44B5-B093-919540C702B5}">
+												<TypeInfo Item0="{A92EB536-335A-4CA3-8C01-BBAA305280AD}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="okButton" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{D05DA273-7A2E-44C6-8434-4521A8342221}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{9E4D0574-78D9-427A-AB64-7A6C345F279D}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{2FA594FE-D06A-49DB-B033-A35B6817F791}">
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{4AC293B7-DF91-4743-8C8B-9BC7436F7A59}">
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{654327C2-B775-42AD-80FB-D6B3BE4BD058}">
+														<TypeInfo Item0="{8CEDA5DC-6F35-4567-B4FB-31BE6926BB85}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="OperatorClient" Owner="{0012055A-F504-49E8-AA99-69877F4DDC53}">
+			<Child Name="Control" Owner="{E48C53E0-C9AD-47AA-94B6-4CB0EA8C3DE5}">
+				<Child Name="ContainerControl" Owner="{FBC3CF0B-4A29-4892-8207-ABE571E644B8}">
+					<Child Name="WindowDockingArea" Owner="{44AFBEEA-4A86-4970-90A3-BD6323FE9A00}">
+						<Child Name="DockableWindow" Owner="{749361EA-FEF3-47F1-808C-5FCAD4CD674B}">
+							<Child Name="LogicalTree" Owner="{AF440EC8-57AD-4233-ADBF-51CB836C8250}">
+								<Child Name="LogicalTree" Owner="{621DA091-95BF-48F3-A581-52542114C8AA}" />
+							</Child>
+						</Child>
+						<Child Name="DockableWindow2" Owner="{E6E61A59-2BFD-4A16-A00D-9EA4A81379F8}">
+							<Child Name="CameoSpace" Owner="{BAC0A70A-6500-48D9-BBCA-76CD6328CA89}">
+								<Child Name="ToggleLiveCameoSpace" Owner="{F7811B68-3E57-411E-AFFF-D6108E59831E}">
+									<Child Name="CameoSpacePanel" Owner="{547BDCC5-A189-45D7-8082-5B4F722E0365}">
+										<Child Name="Cameo4" Owner="{8290C373-1820-439C-A7D0-15D705E3C073}" />
+										<Child Name="Cameo1" Owner="{84A6EE49-233B-4DB3-8577-8DE825106706}" />
+										<Child Name="Cameo2" Owner="{94683159-BEFD-49A1-AC96-34BDBF2BCC24}" />
+										<Child Name="Cameo3" Owner="{5E3C63ED-CD48-4FAC-ACF7-20E974CB5A04}" />
+										<Child Name="Cameo5" Owner="{0C70E465-5DA1-4FE2-AAAA-4B74680BF708}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="DockableWindow3" Owner="{B11953DE-6610-4711-A145-A3DA8DD90704}">
+							<Child Name="FavoritesTree" Owner="{2D264459-5F8F-466F-85CE-8C6DDDF41434}">
+								<Child Name="FavoritesTree" Owner="{A5FF280C-1C88-4C0D-BCB8-99C63CCB9B1B}">
+									<Child Name="FavoritesTree_LabelEditNode" Owner="{526DCA74-DA38-45E6-9611-C90F35D61E2C}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="Button" Owner="{7D4AF7B4-E0B6-4657-B69A-B53C6FE4C1A2}" />
+			</Child>
+			<Child Name="DropDownForm" Owner="{0B21BA01-4554-4E0B-9B1D-EE9A53000D83}">
+				<Child Name="PopupControl" Owner="{7E1A075C-6A38-48AE-B252-B8FE5C0A9334}" />
+			</Child>
+			<Child Name="BoschMessageBox" Owner="{86F7F534-1B22-4851-94BC-F62EE88C6354}">
+				<Child Name="ContainerControl" Owner="{3B38E330-A2F8-4837-8D2F-05AC14CF42E5}">
+					<Child Name="buttonMiddle" Owner="{1237559C-BF3E-491E-8F4B-E0A957B203B7}" />
+				</Child>
+			</Child>
+			<Child Name="EditCameoViewDisplayNameDialogForm" Owner="{E370DA7C-DCDE-4AC2-B6D5-FDC8527990A2}">
+				<Child Name="ContainerControl" Owner="{F2D1AA88-83E8-4201-A2D6-1415843A1F6C}">
+					<Child Name="nameTextBox" Owner="{0FA4D9BF-0C99-402E-B16B-6A5005E1BE07}">
+						<Child Name="nameTextBox_EmbeddableTextBox" Owner="{B39A2989-DD40-4BD8-9789-7D664B50BF79}" />
+					</Child>
+					<Child Name="okButton" Owner="{D6E2C9C9-49F7-44B5-B093-919540C702B5}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{D05DA273-7A2E-44C6-8434-4521A8342221}">
+			<Child Name="wndShell_TrayWnd" Owner="{9E4D0574-78D9-427A-AB64-7A6C345F279D}">
+				<Child Name="ReBarWindow32" Owner="{2FA594FE-D06A-49DB-B033-A35B6817F791}">
+					<Child Name="MSTaskSwWClass" Owner="{4AC293B7-DF91-4743-8C8B-9BC7436F7A59}">
+						<Child Name="MSTaskListWClass" Owner="{654327C2-B775-42AD-80FB-D6B3BE4BD058}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

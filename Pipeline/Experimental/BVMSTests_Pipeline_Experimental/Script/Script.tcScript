@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Shared">
+			<child name="EventHandlers" key="{27919381-9415-4BCC-A010-79370C139208}" path="Shared\EventHandlers.js" />
+			<child name="Helpers" key="{66A3008E-B0E4-4E20-B7BD-35551200BD10}" path="Shared\Helpers.js" />
+		</folder>
+		<child name="CC_Schedules" key="{7CA2A391-A505-4D80-9F3A-D6D77509A2CD}" path="CC_Schedules.js" />
+		<child name="CC_UserGroupsAndUsers" key="{9FA2ABD2-3EFE-4C3F-8FC2-E2E393D17652}" path="CC_UserGroupsAndUsers.js" />
+		<child name="OC_Cameos" key="{DA49248B-F464-4D94-97B6-D6B8D928123D}" path="OC_Cameos.js" />
+		<child name="OC_Favorites" key="{0C2FCCE9-98C0-433F-A6D2-36CE2C0FC494}" path="OC_Favorites.js" />
+		<child name="OC_Shared" key="{7B8BAA8B-E1A9-48F6-95BD-F98230DCDB09}" path="OC_Shared.js" />
+		<child name="OC_CameoSpace" key="{71120A6A-05AD-49D9-A137-B4CCA16F0130}" path="OC_CameoSpace.js" />
+	</children>
+</Root>

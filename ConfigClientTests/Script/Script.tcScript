@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="CC_AddUserGroupAndUsers" key="{692EAF5F-5A96-4452-92FE-0FDF54F628E9}" path="CC_AddUserGroupAndUsers.js" />
+		<child name="cc_addSchedules" key="{D195588A-1CEA-42C7-96EB-AB20E27530AD}" path="cc_addSchedules.js" />
+		<child name="StartStopVideoRecorder" key="{32C882AC-3117-4376-A0F8-E8D44FCAA567}" path="..\..\Shared\Script\StartStopVideoRecorder.js" />
+		<child name="CC_Shared" key="{57DF9B53-1C2C-4AA0-9F40-057B77DBDDE8}" path="CC_Shared.js" />
+	</children>
+</Root>

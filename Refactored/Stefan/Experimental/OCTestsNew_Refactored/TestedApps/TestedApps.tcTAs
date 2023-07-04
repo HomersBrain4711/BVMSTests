@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{7A08E754-21F3-4D59-B147-F113B1E02B65}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{7A726DF1-1C11-4C60-8F38-B43938924D86}">
+			<config nodeName="ConfigClient" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-user:admin -password:&quot;&quot;" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-user:admin -password:&quot;&quot;" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+					<param name="Simple" fileName="ConfigClient.exe" filePath="$(BvmsDirectory)\" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{51F4E931-B419-4B0D-A54B-876931371BAC}">
+			<config nodeName="OperatorClient" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-user:admin -password:&quot;&quot;" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-user:admin -password:&quot;&quot;" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+					<param name="Simple" fileName="OperatorClient.exe" filePath="$(BvmsDirectory)\" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{9AF653C2-8347-4FA2-BDC1-93293338AE5E}">
+			<config nodeName="OperatorClient_Supervisor" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="OperatorClient.Supervisor.exe" filePath="$(BvmsDirectory)\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

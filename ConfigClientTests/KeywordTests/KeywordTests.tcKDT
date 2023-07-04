@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="EventControl1_OnStopTest" key="{4DAC9735-9A60-4DCB-B97B-46FF98B3475C}" path="EventControl1_OnStopTest.tcKDTest" />
+	</children>
+</Root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{FFBE59AA-08E4-454C-AAF4-5951A1BA6F2B}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{CF71DBC0-1E65-4945-AFA4-88BCC13B01DB}">
+			<config nodeName="ConfigClient" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-user:admin -password:&quot;&quot;" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-user:admin -password:&quot;&quot;" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+					<param name="Simple" fileName="ConfigClient.exe" filePath="$(BvmsDirectory)\" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{CFA56830-8F9D-481F-811D-1317DDB52FD2}">
+			<config nodeName="OperatorClient" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-user:admin -password:&quot;&quot;" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-user:admin -password:&quot;&quot;" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+					<param name="Simple" fileName="OperatorClient.exe" filePath="$(BvmsDirectory)\" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="OC_TestDragCamsToCameos" key="{1DC3C7FB-62EF-45E5-A662-AA2CDF519CE2}" path="OC_TestDragCamsToCameos.js" />
+		<child name="StartStopVideoRecorder" key="{CC34937A-F7F9-4148-AAB4-F3A693FB9989}" path="..\..\Shared\Script\StartStopVideoRecorder.js" />
+		<child name="OC_Shared" key="{82B289BE-7CA2-42A3-85F8-F55D0799C6BC}" path="OC_Shared.js" />
+		<child name="OC_AddFavorites" key="{A088CA5D-013D-45F9-8BA5-6910DAD0E3DE}" path="OC_AddFavorites.js" />
+	</children>
+</Root>

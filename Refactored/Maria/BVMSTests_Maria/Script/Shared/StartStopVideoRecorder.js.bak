@@ -1,0 +1,41 @@
+﻿var videoDir = "c:\\_TestCompleteLogs\\VideoCaptures"; 
+function OnStartTest(Sender)
+{
+  var videoFileName = "";
+  if(Project.TestItems.Current != null)
+  {
+    videoFileName = Project.TestItems.Current.ElementToBeRun.Caption;
+    videoFileName = videoFileName.replace("Script\\", "");
+    videoFileName = Project.TestItems.Current.Name + " - " + videoFileName;
+  }
+  VideoRecorder.Start("Normal", videoDir, videoFileName);  
+}
+
+function OnStopTest(Sender)
+{
+    VideoRecorder.Stop();
+}
+
+function RestoreBvmsConfig(configName = "default")
+{
+    let serviceName ="BVMSCentralServer";
+    let elementsTargetPath ="C:\\ProgramData\\Bosch\\VMS\\Elements.BVMS";
+    let elementsSourcePath = Project.Path +"BVMSConfig\\" + configName + "\\Elements.bvms";
+    WshShell.Run('net stop ' + serviceName, 1, true);
+    elementsSourcePath = aqFileSystem.ExpandFileName(elementsSourcePath);
+    aqFileSystem.DeleteFile(elementsTargetPath);
+    
+    let result = aqFileSystem.CopyFile(elementsSourcePath, elementsTargetPath, true);
+    result = aqFileSystem.ChangeAttributes(elementsTargetPath, aqFileSystem.faReadOnly, aqFileSystem.fattrFree);
+    WshShell.Run('net start ' + serviceName, 1, true);
+}
+
+function ClickContextMenu(menuItemText, subMenuItemText = "")
+{
+  menuItemText = aqString.Replace(menuItemText, " ", "_");
+  subMenuItemText = aqString.Replace(subMenuItemText, " ", "_");
+  let contextMenu = Aliases.OperatorClient.DropDownForm.PopupControl.UIAObject("MenuAgent").UIAObject(menuItemText);
+  contextMenu.Click();
+  if(subMenuItemText != "")
+    Aliases.OperatorClient.WinFormsObject("DropDownForm", "Show - 1").WinFormsObject("PopupControl").UIAObject(menuItemText).UIAObject(subMenuItemText).Click();
+}

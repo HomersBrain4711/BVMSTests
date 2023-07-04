@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{564392B5-7C01-4CD4-9E41-29F9F2DB35E8}">
+	<children>
+		<folder name="Pipeline">
+			<folder name="Experimental">
+				<child name="BVMSTests_Pipeline_Experimental" key="{9104FFE9-D178-41D3-993E-5AE149FD005E}" path="Pipeline\Experimental\BVMSTests_Pipeline_Experimental\BVMSTests_Pipeline_Experimental.mds" />
+			</folder>
+			<folder name="Real">
+				<child name="BVMSTests_Pipeline" key="{AC162841-A8B3-4E18-9331-E0A6667458C7}" path="Pipeline\Real\BVMSTests_Pipeline\BVMSTests_Pipeline.mds" />
+			</folder>
+		</folder>
+		<folder name="_Templates">
+			<child name="BVMSTests_Template-WithVideoCapture" key="{A5C15B5B-10C8-44C8-BC64-3155B6AB9882}" path="_Templates\BVMSTests_Template-WithVideoCapture\BVMSTests_Template-WithVideoCapture.mds" />
+		</folder>
+		<folder name="Recorded">
+			<folder name="Jens" />
+			<folder name="Maria">
+				<child name="TestMaria" key="{4FD66356-2671-40A2-A1EE-C2F8761EBF36}" path="Recorded\Maria\TestMaria\TestMaria.mds" />
+			</folder>
+			<folder name="Markus" />
+			<folder name="Sabine" />
+			<folder name="Stefan">
+				<folder name="Experimental">
+					<child name="ConfigClientTests" key="{8114E127-9408-4FFA-8513-185B114D2F6C}" path="Recorded\Stefan\Experimental\ConfigClientTests\ConfigClientTests.mds" />
+					<child name="OpClientTests" key="{88F71705-83D5-4BD4-9E5F-75E9764FB481}" path="Recorded\Stefan\Experimental\OpClientTests\OpClientTests.mds" />
+					<child name="OCTestsNew" key="{043E4188-4EC7-4765-AB11-0E56BA651657}" path="Recorded\Stefan\Experimental\OCTestsNew\OCTestsNew.mds" />
+				</folder>
+				<child name="Stefan_101222" key="{2C02E6D5-3021-4DD0-9413-B0903E490A8A}" path="Recorded\Stefan\Stefan_101222\Stefan_101222.mds" />
+				<child name="Stefan_071222" key="{82774FD4-E5F2-4BDB-9445-0A94AC557FCA}" path="Recorded\Stefan\Stefan_071222\Stefan_071222.mds" />
+				<child name="Stefan_121222" key="{25BD1134-8D8E-453C-B98F-2D86A92812A5}" path="Recorded\Stefan\Stefan_121222\Stefan_121222.mds" />
+			</folder>
+		</folder>
+		<folder name="Refactored">
+			<folder name="Jens" />
+			<folder name="Maria">
+				<child name="BVMSTests_Maria" key="{4C8FBFB4-A9B0-466D-8281-8411CB3142E4}" path="Refactored\Maria\BVMSTests_Maria\BVMSTests_Maria.mds" />
+			</folder>
+			<folder name="Markus" />
+			<folder name="Sabine" />
+			<folder name="Stefan">
+				<folder name="Experimental">
+					<child name="CCTests_Refactored" key="{2FBF9B19-D0D7-4BC9-8DDD-54649434C1AB}" path="Refactored\Stefan\Experimental\CCTests_Refactored\CCTests_Refactored.mds" />
+					<child name="OCTests_Refactored" key="{FD108FD9-E13B-4FB3-9D34-1B53A6C7E880}" path="Refactored\Stefan\Experimental\OCTests_Refactored\OCTests_Refactored.mds" />
+					<child name="OCTestsNew_Refactored" key="{CC7D2697-7974-4FBC-B208-F912216E0AF2}" path="Refactored\Stefan\Experimental\OCTestsNew_Refactored\OCTestsNew_Refactored.mds" />
+				</folder>
+				<child name="Stefan_101222_1" key="{9EA1C283-497A-4C87-8848-CCB8B79B03F6}" path="Refactored\Stefan\Stefan_101222_1\Stefan_101222_1.mds" />
+				<child name="Stefan_121222_1" key="{86380BD0-7FD5-45D2-B249-B24379781F80}" path="Refactored\Stefan\Stefan_121222_1\Stefan_121222_1.mds" />
+				<child name="CameoResizing" key="{3D94E88C-2B37-475A-A028-472F973DD5C5}" path="Refactored\Stefan\Stefan_140323\CameoResizing\CameoResizing.mds" />
+			</folder>
+			<folder name="Xin">
+				<child name="xin_16032023" key="{C4E19CB4-0923-4A9F-BE5D-6B693D5E8697}" path="Refactored\Xin\xin_16032023\xin_16032023.mds" />
+				<child name="xin_21032023" key="{6D534F13-C2A4-4117-8BE4-54E885E5F81B}" path="Refactored\Xin\xin_21032023\xin_21032023.mds" />
+			</folder>
+		</folder>
+	</children>
+	<testItems key="{A7F35645-FABA-4533-8800-525A88449FA1}">
+		<children>
+			<testItem key="{A5C15B5B-10C8-44C8-BC64-3155B6AB9882}" enabled="False" timeout="0" stopOnError="True" description="" />
+			<testItem key="{4FD66356-2671-40A2-A1EE-C2F8761EBF36}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{4C8FBFB4-A9B0-466D-8281-8411CB3142E4}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{AC162841-A8B3-4E18-9331-E0A6667458C7}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{8114E127-9408-4FFA-8513-185B114D2F6C}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{88F71705-83D5-4BD4-9E5F-75E9764FB481}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{2FBF9B19-D0D7-4BC9-8DDD-54649434C1AB}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{FD108FD9-E13B-4FB3-9D34-1B53A6C7E880}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{9104FFE9-D178-41D3-993E-5AE149FD005E}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{043E4188-4EC7-4765-AB11-0E56BA651657}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{CC7D2697-7974-4FBC-B208-F912216E0AF2}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{82774FD4-E5F2-4BDB-9445-0A94AC557FCA}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{2C02E6D5-3021-4DD0-9413-B0903E490A8A}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{9EA1C283-497A-4C87-8848-CCB8B79B03F6}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{25BD1134-8D8E-453C-B98F-2D86A92812A5}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{86380BD0-7FD5-45D2-B249-B24379781F80}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{3D94E88C-2B37-475A-A028-472F973DD5C5}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{C4E19CB4-0923-4A9F-BE5D-6B693D5E8697}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{6D534F13-C2A4-4117-8BE4-54E885E5F81B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0C2E123D-7808-44A3-B401-46DE641D8100}">
+		<data Version="4">
+			<Items>
+				<Variable Name="BvmsDirectory" Type="String" Local="False">
+					<DefValue StrValue="c:\program files\bosch\vms\bin" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{B43ADAF3-FA00-42AA-95A7-B6CE2E0FF70D}" />
+	<scc key="{F0D60D49-B342-4271-94E0-3E8C61A0E7D6}" name="Team Foundation Version Control Plugin">
+		<data />
+	</scc>
+</Root>

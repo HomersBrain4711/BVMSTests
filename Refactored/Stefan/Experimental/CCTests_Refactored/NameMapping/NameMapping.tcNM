@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{3659090C-8F75-4135-B536-138B1AD7B315}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="ConfigClient" Key="{AAB90021-CFB4-49D8-AB57-882D280FDFED}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ConfigClient" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="OnSiteClientLoginForm" Key="{7D905026-D02A-4F25-AE47-AC13F8592FC0}">
+								<Image FileName="1672144228" Left="0" Top="0" Right="640" Bottom="480" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OnSiteClientLoginForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="login" Key="{5E39A3D6-46DA-466A-B5F0-BE51D815F906}">
+										<Image FileName="1672144228" Left="84" Top="216" Right="496" Bottom="404" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="login" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnOK" Key="{301413AE-7C4D-4C9C-A97F-935CE11DC494}">
+												<Image FileName="1672144228" Left="238" Top="356" Right="328" Bottom="381" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnOK" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnCancel" Key="{B54F57F2-6778-4799-A3DC-88636C983BF5}">
+												<Image FileName="-545412177" Left="347" Top="356" Right="437" Bottom="381" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnCancel" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ConfigClientForm" Key="{A65B52DD-7EFD-4508-AAE0-BF1A4F0CF2AB}">
+								<Image FileName="1030854479" Left="0" Top="0" Right="1024" Bottom="768" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="ConfigClientForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="UltraToolbarsDockArea" Key="{C269D43F-75D1-4399-9838-C46C2BF3ACEE}">
+										<Image FileName="489821670" Left="8" Top="31" Right="1016" Bottom="61" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Toolbar" Key="{B5246C0E-CF6C-407A-9175-69710FB47CC7}">
+												<Image FileName="489821670" Left="8" Top="31" Right="1016" Bottom="61" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="tool bar" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Toolbar" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="System" Key="{CE203907-A376-4626-81AC-1CD676506328}">
+														<Image FileName="489821670" Left="11" Top="36" Right="60" Bottom="56" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="menu item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="System" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ConfigTabCtrl" Key="{A17FC8DF-E900-42F8-8092-24F5AEE0199D}">
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ConfigTabCtrl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="zpnlButtons" Key="{431A549B-4A18-4B92-9B31-C13161FD07A2}">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="_pnlButtons" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="zConfigTabUltraButton_TabPage_11" Key="{E5F21E9C-AC83-4111-B501-6FDF3D9CD538}">
+														<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="_ConfigTabUltraButton_TabPage_11" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="zConfigTabUltraButton_TabPage_3" Key="{A0D7DCDA-FEC3-411E-8AB2-B067E25AF73C}">
+														<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="_ConfigTabUltraButton_TabPage_3" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="tabControl" Key="{640DC868-9021-44A4-A89A-94A33188A597}">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="tabControl" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="UltraTabPageControl" Key="{C2FC0619-121E-4DED-BB6F-0D555E7B3687}">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinTabControl.UltraTabPageControl" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="8" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="UserAccessControl" Key="{305A9534-8E43-4468-AACB-F8D7FBA9C161}">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="UserAccessControl" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ConfigurationControl_Fill_Panel" Key="{BBB9F552-7777-4ABE-9A04-2E0EF783B4D6}">
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="ConfigurationControl_Fill_Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="userGroupTreeTabControl" Key="{D85540A5-457D-4326-BB37-4979C3083E26}">
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="userGroupTreeTabControl" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="ultraTabControl1" Key="{1742AFB9-536D-44AF-A0FF-9B919DBA1083}">
+																						<Properties>
+																							<Property Name="WinFormsControlName">
+																								<Value Value="ultraTabControl1" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="ultraTabPageControl1" Key="{EAD870B0-0B05-4467-BE6F-D5DEE9684640}">
+																								<Properties>
+																									<Property Name="WinFormsControlName">
+																										<Value Value="ultraTabPageControl1" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="ultraTreeLocalGroups" Key="{8A856386-21CE-4880-9CB8-F6D1752467FF}">
+																										<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																										<Properties>
+																											<Property Name="WinFormsControlName">
+																												<Value Value="ultraTreeLocalGroups" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="ultraTreeLocalGroups_LabelEditNode" Key="{BBBD86FC-001D-4DE9-88C6-55526AE23265}">
+																												<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																												<Properties>
+																													<Property Name="WinFormsControlName">
+																														<Value Value="ultraTreeLocalGroups_LabelEditNode" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="UltraTabPageControl2" Key="{77367A7D-94CA-4CCD-92FC-E2A5D708570A}">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinTabControl.UltraTabPageControl" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="4" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="SchedulesPage" Key="{9D3EFC9A-F9DF-4AEE-9728-3C392F98D647}">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="SchedulesPage" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ConfigurationControl_Fill_Panel" Key="{4F80A5B8-A80B-4CEC-B737-811A6F35B223}">
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="ConfigurationControl_Fill_Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelLeft" Key="{CE17E12E-E6BC-48E0-8A55-2E29B0D56875}">
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="panelLeft" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel4" Key="{46F2A26C-4A43-4265-8AC6-97453E6057C8}">
+																						<Properties>
+																							<Property Name="WinFormsControlName">
+																								<Value Value="panel4" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="labelTaskSchedules" Key="{701A49BB-16C5-4BB5-B33C-2092D2916A1A}">
+																								<Properties>
+																									<Property Name="WinFormsControlName">
+																										<Value Value="labelTaskSchedules" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel1" Key="{40F9DE62-4976-4DE3-862F-A9445190D0C9}">
+																										<Properties>
+																											<Property Name="WinFormsControlName">
+																												<Value Value="panel1" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="addTaskSchedule" Key="{0CB1C5DB-9D32-47BB-A468-EA0DB788F5FE}">
+																												<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																												<Properties>
+																													<Property Name="WinFormsControlName">
+																														<Value Value="addTaskSchedule" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="panelRight" Key="{123F652C-1131-4E63-B04A-6B7A8ED63DF1}">
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="panelRight" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelScheduleConfig" Key="{03BA6A29-D006-49A2-9622-0DEF43950F2F}">
+																						<Properties>
+																							<Property Name="WinFormsControlName">
+																								<Value Value="panelScheduleConfig" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="ScheduleTabCtrl" Key="{2963F435-F841-48F5-AB77-19516DB40880}">
+																								<Properties>
+																									<Property Name="ClrFullClassName">
+																										<Value Value="Bosch.Vms.Config.Schedules.ScheduleTabCtrl" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="" />
+																									</Property>
+																									<Property Name="Index">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="ultraGroupBox1" Key="{DC610344-042E-47DC-80EF-B62A4F9169D6}">
+																										<Properties>
+																											<Property Name="WinFormsControlName">
+																												<Value Value="ultraGroupBox1" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="scheduleTab" Key="{A50687B8-F493-4D1B-A407-9F1E652F3ABF}">
+																												<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																												<Properties>
+																													<Property Name="WinFormsControlName">
+																														<Value Value="scheduleTab" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="WeekdayPage" Key="{83CF54EE-156C-4FB3-92F7-4D6E6E60EFDA}">
+																														<Properties>
+																															<Property Name="WinFormsControlName">
+																																<Value Value="WeekdayPage" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="bottomPanel" Key="{174C786F-288C-4551-8920-8D4EA1E761CE}">
+																																<Properties>
+																																	<Property Name="WinFormsControlName">
+																																		<Value Value="bottomPanel" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="UltraPanelClientAreaUnsafe" Key="{FD7C74CA-A1EF-4652-B0D7-94597B8DD408}">
+																																		<Properties>
+																																			<Property Name="ClrFullClassName">
+																																				<Value Value="Infragistics.Win.Misc.UltraPanelClientAreaUnsafe" />
+																																			</Property>
+																																			<Property Name="WndCaption">
+																																				<Value Value="" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="ScheduleTable" Key="{95283C08-9E43-4CDC-B539-251802DF54D8}">
+																																				<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																																				<Properties>
+																																					<Property Name="WinFormsControlName">
+																																						<Value Value="ScheduleTable" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="HolidaysPage" Key="{61BFF031-2EE7-4250-8415-F591D232E0BD}">
+																														<Properties>
+																															<Property Name="WinFormsControlName">
+																																<Value Value="HolidaysPage" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="holidayTopPanel" Key="{536604C9-AEEA-4371-A992-B61DFA59C0F5}">
+																																<Properties>
+																																	<Property Name="WinFormsControlName">
+																																		<Value Value="holidayTopPanel" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="UltraPanelClientAreaUnsafe" Key="{8C6E8931-FB57-4444-AA0F-5697E9B521FD}">
+																																		<Properties>
+																																			<Property Name="ClrFullClassName">
+																																				<Value Value="Infragistics.Win.Misc.UltraPanelClientAreaUnsafe" />
+																																			</Property>
+																																			<Property Name="WndCaption">
+																																				<Value Value="" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="btnAddHoliday" Key="{50E472CD-5308-4FB0-B10B-5E565C68DE8C}">
+																																				<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																																				<Properties>
+																																					<Property Name="WinFormsControlName">
+																																						<Value Value="btnAddHoliday" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="SpecialDaysPage" Key="{10D17577-6138-4343-B634-7FE0980F9FD0}">
+																														<Properties>
+																															<Property Name="WinFormsControlName">
+																																<Value Value="SpecialDaysPage" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="specialDayTopBottom" Key="{BB5DBABE-81DD-4EDC-AC26-19D64D71DE28}">
+																																<Properties>
+																																	<Property Name="WinFormsControlName">
+																																		<Value Value="specialDayTopBottom" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="UltraPanelClientAreaUnsafe" Key="{F9E74DB5-12DE-47EB-8613-D6CD68402850}">
+																																		<Properties>
+																																			<Property Name="ClrFullClassName">
+																																				<Value Value="Infragistics.Win.Misc.UltraPanelClientAreaUnsafe" />
+																																			</Property>
+																																			<Property Name="WndCaption">
+																																				<Value Value="" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="btnAddSpecialDay" Key="{09716FF1-BA92-4B63-A2F9-6499CDC322B5}">
+																																				<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																																				<Properties>
+																																					<Property Name="WinFormsControlName">
+																																						<Value Value="btnAddSpecialDay" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm" Key="{237D1A78-CC9C-415A-8627-6C47E98AC21C}">
+								<Image FileName="-79933261" Left="0" Top="0" Right="82" Bottom="114" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{2A9F0E7C-85E0-4E43-A813-242DEF3A3EA7}">
+										<Image FileName="154044228" Left="0" Top="0" Right="244" Bottom="176" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="System" Key="{6098349D-A4E6-41E4-9508-5A8F9151E74C}">
+												<Image FileName="154044228" Left="0" Top="0" Right="244" Bottom="176" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="group" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="System" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Activation_Manager_" Key="{5FE0F4D2-B036-4630-960D-F510812DA809}">
+														<Image FileName="154044228" Left="1" Top="55" Right="243" Bottom="77" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="menu item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Activation_Manager_" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Exit" Key="{8834F1DB-D8AB-4AE8-BC27-2F0EF6BF74D2}">
+														<Image FileName="-362212008" Left="1" Top="153" Right="243" Bottom="175" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="menu item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Exit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ActivationView" Key="{72B2C74B-E749-4A9C-88EF-E5BC2035A5FD}">
+								<Image FileName="-1688183936" Left="0" Top="0" Right="454" Bottom="381" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="ActivationView" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{322A3817-0BEA-4594-97F8-21E7BC1504DE}">
+										<Image FileName="-1688183936" Left="4" Top="32" Right="450" Bottom="377" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="okButton" Key="{DE3739EF-D46B-4047-A7F0-FFC357426927}">
+												<Image FileName="-1688183936" Left="122" Top="340" Right="202" Bottom="363" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="okButton" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ActivateConfigForm" Key="{AA299346-4885-47B0-85A9-AB541F42B002}">
+								<Image FileName="-1711056187" Left="0" Top="0" Right="666" Bottom="506" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="ActivateConfigForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="labelList" Key="{852A4991-4488-4F4A-A5D9-12FF8B12B961}">
+										<Image FileName="-1711056187" Left="16" Top="101" Right="648" Bottom="362" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="labelList" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Item_Initial_Configuration_for_TestComplete_UIA_Tests" Key="{7C865FD2-FC67-4036-B0D6-24E9570958DA}" ExtendedFind="True">
+												<Image FileName="-493087207" Left="274" Top="144" Right="629" Bottom="161" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="NativeUIAObject.Name">
+														<Value Value="Initial Configuration for TestComplete UIA Tests" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="buttonOK" Key="{7B49F59A-B241-451E-978D-3ADC268B4F6F}">
+										<Image FileName="1600123018" Left="416" Top="466" Right="528" Bottom="489" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="buttonOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BoschMessageBox" Key="{1210210A-9BF0-4F01-A1A2-14D614CD8ED5}">
+								<Image FileName="612979469" Left="0" Top="0" Right="381" Bottom="169" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="BoschMessageBox" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{711EA618-99D8-4BDB-BC7C-3C1436FDA80B}">
+										<Image FileName="612979469" Left="4" Top="32" Right="377" Bottom="165" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonMiddle" Key="{C1A012BB-6684-46E6-A88F-FD8A64E65C7C}">
+												<Image FileName="612979469" Left="199" Top="130" Right="279" Bottom="153" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="buttonMiddle" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="AddUserGroupForm" Key="{D709E4A0-EB14-4081-8974-70245D41A597}">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="AddUserGroupForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{DEF3AD3D-AED2-4B1B-912B-229B9857321B}">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="userGroupNameTextBox" Key="{B7271A40-1417-4CD0-812F-1CC3603A7FC8}">
+												<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="userGroupNameTextBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="userGroupNameTextBox_EmbeddableTextBox" Key="{5DED2E81-DF3C-457A-90C1-97E825A7B1B0}">
+														<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="userGroupNameTextBox_EmbeddableTextBox" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="UserGroupOkButton" Key="{33F81FBA-C9E1-4527-ADFA-1DAEF0749B1F}">
+												<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="UserGroupOkButton" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="SelectDayForm" Key="{CE81109C-1094-4ED4-8889-F6993689A7A0}">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="SelectDayForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{552028BC-CD72-4A5E-A899-F0833656AC72}">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel1" Key="{B8864204-C309-44C2-AD33-84E6D8E93632}">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="panel1" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="listViewHolidays" Key="{5E091475-495F-41CD-BEAF-888908F70012}">
+														<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="listViewHolidays" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnOK" Key="{673B334D-0F83-492C-B67F-F5E11A813CF7}">
+														<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="btnOK" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="SpecialDayAddForm" Key="{CAD49C77-FC09-425B-86E9-F978B657A827}">
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="SpecialDayAddForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{C4628A33-DD13-4A8F-93F2-90037F7C825E}">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel1" Key="{32A86613-BD7E-4B6A-BAB2-535486A385E4}">
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="panel1" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel2" Key="{8C70D322-F9C0-4E32-A4E0-E6A409E276A0}">
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="panel2" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ultraMonthViewMulti1" Key="{F74CB35B-BD98-448A-A9F9-4C21FA3D29F0}">
+																<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="ultraMonthViewMulti1" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="panel3" Key="{3841DDAC-D620-41FC-BE1A-75B378CDFC75}">
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="panel3" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel5" Key="{47D3E639-2AF9-4577-9C75-64C3CBA5C35C}">
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="panel5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="btnOk" Key="{AAADF4EF-5113-4CBE-A1A9-0ADB7B6C48DA}">
+																		<TypeInfo Item0="{0D2FEFD1-5FC2-4DE4-87AF-94852442CA38}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="btnOk" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="OperatorClient" Key="{9154C4E3-0525-4065-B952-EE8DDAF223B3}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OperatorClient" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Control" Key="{B4E28B9D-5D3B-4E7F-9FA2-E130277E3882}">
+								<Image FileName="-1089612834" Left="0" Top="0" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="Control" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{6A20F417-C405-46CC-AE95-3A0B67C8D439}">
+										<Image FileName="-1089612834" Left="0" Top="32" Right="1920" Bottom="1040" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="UltraToolbarsDockArea" Key="{234EAF76-8811-4CF7-8A5C-24686B69784F}">
+												<Image FileName="1722077708" Left="0" Top="32" Right="1920" Bottom="62" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="5" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Toolbar" Key="{104FF94A-FD87-408E-9A0D-760A8A4BF030}">
+														<Image FileName="1722077708" Left="0" Top="32" Right="1920" Bottom="62" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="Symbolleiste" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Toolbar" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Extras" Key="{202DADA6-5225-4448-B48A-92625EE38F09}">
+																<Image FileName="1722077708" Left="224" Top="37" Right="265" Bottom="57" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="WinForm" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="Menüelement" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Extras" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Button" Key="{F9EE3DE8-DF77-4472-8BDC-566215FC9FAB}">
+										<Image FileName="-599404101" Left="1870" Top="4" Right="1916" Bottom="32" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="r" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm" Key="{0CC0F122-03EE-4CC8-A507-D25B243A1353}">
+								<Image FileName="600998956" Left="0" Top="0" Right="183" Bottom="28" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{E03A7BEA-1B6E-4094-934A-8AB1788EEDD1}">
+										<Image FileName="600998956" Left="0" Top="0" Right="183" Bottom="28" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm3" Key="{A758BA83-814B-456E-BC81-ABFFB7E2F5F8}">
+								<Image FileName="24234577" Left="0" Top="0" Right="201" Bottom="210" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Extras - 0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{5ED24B3D-CA79-4A0B-8BA1-38E491340FE4}">
+										<Image FileName="24234577" Left="0" Top="0" Right="201" Bottom="210" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Extras" Key="{CC725C5F-6E7F-4A94-A524-B8314EE15D31}">
+												<Image FileName="24234577" Left="0" Top="0" Right="201" Bottom="210" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="Gruppe" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Extras" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Restore" Key="{5ECA7DA8-60FA-40FD-A45B-B0747445EAE7}">
+														<Image FileName="24234577" Left="1" Top="99" Right="200" Bottom="121" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="Menüelement" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Restore" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm4" Key="{BB2259A4-EFF9-4865-9B02-A4A1BB0F9474}">
+								<Image FileName="201213165" Left="0" Top="0" Right="133" Bottom="46" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Restore - 1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{3AED7559-0033-4E16-8818-AB3D79202C93}">
+										<Image FileName="201213165" Left="0" Top="0" Right="133" Bottom="46" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Restore" Key="{C91AE144-FF9A-41DB-83AF-14327DFC8FB1}">
+												<Image FileName="201213165" Left="0" Top="0" Right="133" Bottom="46" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="Gruppe" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Restore" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Default_settings" Key="{5F097EFD-22B7-456E-8331-5865717A1C5B}">
+														<Image FileName="201213165" Left="1" Top="1" Right="132" Bottom="23" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="Menüelement" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Default_settings" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BoschMessageBox" Key="{6835D41B-6512-445B-9FF2-6C2F0A230E53}">
+								<Image FileName="-620320042" Left="0" Top="0" Right="464" Bottom="182" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="BoschMessageBox" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{8F3232E6-1D7F-4467-B7F4-715307D48721}">
+										<Image FileName="-620320042" Left="4" Top="32" Right="460" Bottom="178" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonMiddle" Key="{8D013E1A-0848-415C-ACBA-59D65ADABD94}">
+												<Image FileName="-620320042" Left="282" Top="143" Right="362" Bottom="166" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="buttonMiddle" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="ConfigClient" Owner="{AAB90021-CFB4-49D8-AB57-882D280FDFED}">
+			<Child Name="OnSiteClientLoginForm" Owner="{7D905026-D02A-4F25-AE47-AC13F8592FC0}">
+				<Child Name="login" Owner="{5E39A3D6-46DA-466A-B5F0-BE51D815F906}">
+					<Child Name="btnOK" Owner="{301413AE-7C4D-4C9C-A97F-935CE11DC494}" />
+					<Child Name="btnCancel" Owner="{B54F57F2-6778-4799-A3DC-88636C983BF5}" />
+				</Child>
+			</Child>
+			<Child Name="ConfigClientForm" Owner="{A65B52DD-7EFD-4508-AAE0-BF1A4F0CF2AB}">
+				<Child Name="UltraToolbarsDockArea" Owner="{C269D43F-75D1-4399-9838-C46C2BF3ACEE}">
+					<Child Name="Toolbar" Owner="{B5246C0E-CF6C-407A-9175-69710FB47CC7}">
+						<Child Name="System" Owner="{CE203907-A376-4626-81AC-1CD676506328}" />
+					</Child>
+				</Child>
+				<Child Name="ConfigTabCtrl" Owner="{A17FC8DF-E900-42F8-8092-24F5AEE0199D}">
+					<Child Name="zpnlButtons" Owner="{431A549B-4A18-4B92-9B31-C13161FD07A2}">
+						<Child Name="zConfigTabUltraButton_TabPage_11" Owner="{E5F21E9C-AC83-4111-B501-6FDF3D9CD538}" />
+						<Child Name="zConfigTabUltraButton_TabPage_3" Owner="{A0D7DCDA-FEC3-411E-8AB2-B067E25AF73C}" />
+					</Child>
+					<Child Name="tabControl" Owner="{640DC868-9021-44A4-A89A-94A33188A597}">
+						<Child Name="UltraTabPageControl" Owner="{C2FC0619-121E-4DED-BB6F-0D555E7B3687}">
+							<Child Name="UserAccessControl" Owner="{305A9534-8E43-4468-AACB-F8D7FBA9C161}">
+								<Child Name="ConfigurationControl_Fill_Panel" Owner="{BBB9F552-7777-4ABE-9A04-2E0EF783B4D6}">
+									<Child Name="userGroupTreeTabControl" Owner="{D85540A5-457D-4326-BB37-4979C3083E26}">
+										<Child Name="ultraTabControl1" Owner="{1742AFB9-536D-44AF-A0FF-9B919DBA1083}">
+											<Child Name="ultraTabPageControl1" Owner="{EAD870B0-0B05-4467-BE6F-D5DEE9684640}">
+												<Child Name="ultraTreeLocalGroups" Owner="{8A856386-21CE-4880-9CB8-F6D1752467FF}">
+													<Child Name="ultraTreeLocalGroups_LabelEditNode" Owner="{BBBD86FC-001D-4DE9-88C6-55526AE23265}" />
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="UltraTabPageControl2" Owner="{77367A7D-94CA-4CCD-92FC-E2A5D708570A}">
+							<Child Name="SchedulesPage" Owner="{9D3EFC9A-F9DF-4AEE-9728-3C392F98D647}">
+								<Child Name="ConfigurationControl_Fill_Panel" Owner="{4F80A5B8-A80B-4CEC-B737-811A6F35B223}">
+									<Child Name="panelLeft" Owner="{CE17E12E-E6BC-48E0-8A55-2E29B0D56875}">
+										<Child Name="panel4" Owner="{46F2A26C-4A43-4265-8AC6-97453E6057C8}">
+											<Child Name="labelTaskSchedules" Owner="{701A49BB-16C5-4BB5-B33C-2092D2916A1A}">
+												<Child Name="panel1" Owner="{40F9DE62-4976-4DE3-862F-A9445190D0C9}">
+													<Child Name="addTaskSchedule" Owner="{0CB1C5DB-9D32-47BB-A468-EA0DB788F5FE}" />
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+									<Child Name="panelRight" Owner="{123F652C-1131-4E63-B04A-6B7A8ED63DF1}">
+										<Child Name="panelScheduleConfig" Owner="{03BA6A29-D006-49A2-9622-0DEF43950F2F}">
+											<Child Name="ScheduleTabCtrl" Owner="{2963F435-F841-48F5-AB77-19516DB40880}">
+												<Child Name="ultraGroupBox1" Owner="{DC610344-042E-47DC-80EF-B62A4F9169D6}">
+													<Child Name="scheduleTab" Owner="{A50687B8-F493-4D1B-A407-9F1E652F3ABF}">
+														<Child Name="WeekdayPage" Owner="{83CF54EE-156C-4FB3-92F7-4D6E6E60EFDA}">
+															<Child Name="bottomPanel" Owner="{174C786F-288C-4551-8920-8D4EA1E761CE}">
+																<Child Name="UltraPanelClientAreaUnsafe" Owner="{FD7C74CA-A1EF-4652-B0D7-94597B8DD408}">
+																	<Child Name="ScheduleTable" Owner="{95283C08-9E43-4CDC-B539-251802DF54D8}" />
+																</Child>
+															</Child>
+														</Child>
+														<Child Name="HolidaysPage" Owner="{61BFF031-2EE7-4250-8415-F591D232E0BD}">
+															<Child Name="holidayTopPanel" Owner="{536604C9-AEEA-4371-A992-B61DFA59C0F5}">
+																<Child Name="UltraPanelClientAreaUnsafe" Owner="{8C6E8931-FB57-4444-AA0F-5697E9B521FD}">
+																	<Child Name="btnAddHoliday" Owner="{50E472CD-5308-4FB0-B10B-5E565C68DE8C}" />
+																</Child>
+															</Child>
+														</Child>
+														<Child Name="SpecialDaysPage" Owner="{10D17577-6138-4343-B634-7FE0980F9FD0}">
+															<Child Name="specialDayTopBottom" Owner="{BB5DBABE-81DD-4EDC-AC26-19D64D71DE28}">
+																<Child Name="UltraPanelClientAreaUnsafe" Owner="{F9E74DB5-12DE-47EB-8613-D6CD68402850}">
+																	<Child Name="btnAddSpecialDay" Owner="{09716FF1-BA92-4B63-A2F9-6499CDC322B5}" />
+																</Child>
+															</Child>
+														</Child>
+													</Child>
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="DropDownForm" Owner="{237D1A78-CC9C-415A-8627-6C47E98AC21C}">
+				<Child Name="PopupControl" Owner="{2A9F0E7C-85E0-4E43-A813-242DEF3A3EA7}">
+					<Child Name="System" Owner="{6098349D-A4E6-41E4-9508-5A8F9151E74C}">
+						<Child Name="Activation_Manager_" Owner="{5FE0F4D2-B036-4630-960D-F510812DA809}" />
+						<Child Name="Exit" Owner="{8834F1DB-D8AB-4AE8-BC27-2F0EF6BF74D2}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="ActivationView" Owner="{72B2C74B-E749-4A9C-88EF-E5BC2035A5FD}">
+				<Child Name="ContainerControl" Owner="{322A3817-0BEA-4594-97F8-21E7BC1504DE}">
+					<Child Name="okButton" Owner="{DE3739EF-D46B-4047-A7F0-FFC357426927}" />
+				</Child>
+			</Child>
+			<Child Name="ActivateConfigForm" Owner="{AA299346-4885-47B0-85A9-AB541F42B002}">
+				<Child Name="labelList" Owner="{852A4991-4488-4F4A-A5D9-12FF8B12B961}" />
+				<Child Name="buttonOK" Owner="{7B49F59A-B241-451E-978D-3ADC268B4F6F}" />
+			</Child>
+			<Child Name="BoschMessageBox" Owner="{1210210A-9BF0-4F01-A1A2-14D614CD8ED5}">
+				<Child Name="ContainerControl" Owner="{711EA618-99D8-4BDB-BC7C-3C1436FDA80B}">
+					<Child Name="buttonMiddle" Owner="{C1A012BB-6684-46E6-A88F-FD8A64E65C7C}" />
+				</Child>
+			</Child>
+			<Child Name="AddUserGroupForm" Owner="{D709E4A0-EB14-4081-8974-70245D41A597}">
+				<Child Name="ContainerControl" Owner="{DEF3AD3D-AED2-4B1B-912B-229B9857321B}">
+					<Child Name="userGroupNameTextBox" Owner="{B7271A40-1417-4CD0-812F-1CC3603A7FC8}">
+						<Child Name="userGroupNameTextBox_EmbeddableTextBox" Owner="{5DED2E81-DF3C-457A-90C1-97E825A7B1B0}" />
+					</Child>
+					<Child Name="UserGroupOkButton" Owner="{33F81FBA-C9E1-4527-ADFA-1DAEF0749B1F}" />
+				</Child>
+			</Child>
+			<Child Name="SelectDayForm" Owner="{CE81109C-1094-4ED4-8889-F6993689A7A0}">
+				<Child Name="ContainerControl" Owner="{552028BC-CD72-4A5E-A899-F0833656AC72}">
+					<Child Name="panel1" Owner="{B8864204-C309-44C2-AD33-84E6D8E93632}">
+						<Child Name="listViewHolidays" Owner="{5E091475-495F-41CD-BEAF-888908F70012}" />
+						<Child Name="btnOK" Owner="{673B334D-0F83-492C-B67F-F5E11A813CF7}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="SpecialDayAddForm" Owner="{CAD49C77-FC09-425B-86E9-F978B657A827}">
+				<Child Name="ContainerControl" Owner="{C4628A33-DD13-4A8F-93F2-90037F7C825E}">
+					<Child Name="panel1" Owner="{32A86613-BD7E-4B6A-BAB2-535486A385E4}">
+						<Child Name="panel2" Owner="{8C70D322-F9C0-4E32-A4E0-E6A409E276A0}">
+							<Child Name="ultraMonthViewMulti1" Owner="{F74CB35B-BD98-448A-A9F9-4C21FA3D29F0}" />
+						</Child>
+						<Child Name="panel3" Owner="{3841DDAC-D620-41FC-BE1A-75B378CDFC75}">
+							<Child Name="panel5" Owner="{47D3E639-2AF9-4577-9C75-64C3CBA5C35C}">
+								<Child Name="btnOk" Owner="{AAADF4EF-5113-4CBE-A1A9-0ADB7B6C48DA}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="OperatorClient" Owner="{9154C4E3-0525-4065-B952-EE8DDAF223B3}">
+			<Child Name="Control" Owner="{B4E28B9D-5D3B-4E7F-9FA2-E130277E3882}">
+				<Child Name="ContainerControl" Owner="{6A20F417-C405-46CC-AE95-3A0B67C8D439}">
+					<Child Name="UltraToolbarsDockArea" Owner="{234EAF76-8811-4CF7-8A5C-24686B69784F}">
+						<Child Name="Toolbar" Owner="{104FF94A-FD87-408E-9A0D-760A8A4BF030}">
+							<Child Name="Extras" Owner="{202DADA6-5225-4448-B48A-92625EE38F09}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="Button" Owner="{F9EE3DE8-DF77-4472-8BDC-566215FC9FAB}" />
+			</Child>
+			<Child Name="DropDownForm" Owner="{0CC0F122-03EE-4CC8-A507-D25B243A1353}">
+				<Child Name="PopupControl" Owner="{E03A7BEA-1B6E-4094-934A-8AB1788EEDD1}" />
+			</Child>
+			<Child Name="DropDownForm3" Owner="{A758BA83-814B-456E-BC81-ABFFB7E2F5F8}">
+				<Child Name="PopupControl" Owner="{5ED24B3D-CA79-4A0B-8BA1-38E491340FE4}">
+					<Child Name="Extras" Owner="{CC725C5F-6E7F-4A94-A524-B8314EE15D31}">
+						<Child Name="Restore" Owner="{5ECA7DA8-60FA-40FD-A45B-B0747445EAE7}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="DropDownForm4" Owner="{BB2259A4-EFF9-4865-9B02-A4A1BB0F9474}">
+				<Child Name="PopupControl" Owner="{3AED7559-0033-4E16-8818-AB3D79202C93}">
+					<Child Name="Restore" Owner="{C91AE144-FF9A-41DB-83AF-14327DFC8FB1}">
+						<Child Name="Default_settings" Owner="{5F097EFD-22B7-456E-8331-5865717A1C5B}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BoschMessageBox" Owner="{6835D41B-6512-445B-9FF2-6C2F0A230E53}">
+				<Child Name="ContainerControl" Owner="{8F3232E6-1D7F-4467-B7F4-715307D48721}">
+					<Child Name="buttonMiddle" Owner="{8D013E1A-0848-415C-ACBA-59D65ADABD94}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Shared">
+			<child name="EventHandlers" key="{6A487E23-3493-4F16-BCAD-A3DDF6C25C1F}" path="Shared\EventHandlers.js" />
+			<child name="Helpers" key="{C0F0DC56-2CE7-4011-9068-5F1954F1AFAD}" path="Shared\Helpers.js" />
+		</folder>
+		<child name="CC_Schedules" key="{6E753E1D-029C-4D76-B762-D37E10FE7111}" path="CC_Schedules.js" />
+		<child name="CC_UserGroupsAndUsers" key="{0E29B7E2-B23E-48BA-9BC2-938D162BB371}" path="CC_UserGroupsAndUsers.js" />
+	</children>
+</Root>

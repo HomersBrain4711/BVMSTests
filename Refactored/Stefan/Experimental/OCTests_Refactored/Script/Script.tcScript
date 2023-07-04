@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Shared">
+			<child name="EventHandlers" key="{A855956E-7A1D-47AA-853A-809F0C867D6C}" path="Shared\EventHandlers.js" />
+			<child name="Helpers" key="{D15AE02A-7084-4449-B490-EFBCC103B0FC}" path="Shared\Helpers.js" />
+		</folder>
+		<child name="OC_Favorites" key="{81A29D73-C82B-4D3F-97A9-78BE8EB8AECA}" path="OC_Favorites.js" />
+		<child name="OC_Shared" key="{C662B91B-6850-4EFB-ABCC-9BD5BE3F7525}" path="OC_Shared.js" />
+		<child name="OC_Cameos" key="{3BC481A5-77A6-4FD6-8BC4-5B36F8B29DEA}" path="OC_Cameos.js" />
+	</children>
+</Root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Shared">
+			<child name="EventHandlers" key="{E0176DA4-6F38-49DB-AD1E-1EFA36363E5A}" path="Shared\EventHandlers.js" />
+			<child name="Helpers" key="{051AACD6-E3E8-48ED-8249-B8449FEAD3C7}" path="Shared\Helpers.js" />
+		</folder>
+		<child name="OC_CameoSpace" key="{2B97D623-8DC0-4D4D-B573-D21A705333B6}" path="OC_CameoSpace.js" />
+	</children>
+</Root>

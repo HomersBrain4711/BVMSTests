@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{3659090C-8F75-4135-B536-138B1AD7B315}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="ConfigClient" Key="{AAB90021-CFB4-49D8-AB57-882D280FDFED}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ConfigClient" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="OnSiteClientLoginForm" Key="{7D905026-D02A-4F25-AE47-AC13F8592FC0}">
+								<Image FileName="1672144228" Left="0" Top="0" Right="640" Bottom="480" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OnSiteClientLoginForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="login" Key="{5E39A3D6-46DA-466A-B5F0-BE51D815F906}">
+										<Image FileName="1672144228" Left="84" Top="216" Right="496" Bottom="404" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="login" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnOK" Key="{301413AE-7C4D-4C9C-A97F-935CE11DC494}">
+												<Image FileName="1672144228" Left="238" Top="356" Right="328" Bottom="381" />
+												<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnOK" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnCancel" Key="{B54F57F2-6778-4799-A3DC-88636C983BF5}">
+												<Image FileName="-545412177" Left="347" Top="356" Right="437" Bottom="381" />
+												<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnCancel" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ConfigClientForm" Key="{A65B52DD-7EFD-4508-AAE0-BF1A4F0CF2AB}">
+								<Image FileName="1030854479" Left="0" Top="0" Right="1024" Bottom="768" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="ConfigClientForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ConfigTabCtrl" Key="{86944266-B62D-4D77-9D86-BAA5FFA4A910}">
+										<Image FileName="1030854479" Left="8" Top="61" Right="1016" Bottom="760" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ConfigTabCtrl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="zpnlButtons" Key="{D3200C52-C8D9-4DE5-AC53-03F8AD030E9F}">
+												<Image FileName="1030854479" Left="8" Top="69" Right="1016" Bottom="114" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="_pnlButtons" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="zConfigTabUltraButton_TabPage_1" Key="{9A15D269-0585-48E2-B0A9-C1923B05760F}">
+														<Image FileName="1030854479" Left="97" Top="71" Right="214" Bottom="116" />
+														<TypeInfo Item0="{C27A36A5-2EB3-4D37-B11B-8FEC198EB92A}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="_ConfigTabUltraButton_TabPage_1" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="tabControl" Key="{5A559510-034C-4C44-9DA1-6931767656AD}">
+												<Image FileName="-1954126497" Left="8" Top="114" Right="1016" Bottom="760" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="tabControl" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="UltraTabPageControl" Key="{1BEF65D9-7780-424C-A527-78E3AA61E77A}">
+														<Image FileName="-1954126497" Left="8" Top="114" Right="1016" Bottom="760" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinTabControl.UltraTabPageControl" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="StructurePage" Key="{55C25FEE-351F-4E49-B70F-81BC4905CCD4}">
+																<Image FileName="-1954126497" Left="8" Top="114" Right="1016" Bottom="760" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="StructurePage" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="zConfigurationControl_Toolbars_Dock_Area_Top" Key="{9E8FB816-7CC2-498F-ADE9-D9E7B19494EE}">
+																		<Image FileName="-1954126497" Left="8" Top="114" Right="1016" Bottom="158" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="_ConfigurationControl_Toolbars_Dock_Area_Top" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="configBar" Key="{B3AF9F7C-A5D3-439B-9E29-12C419963710}">
+																				<Image FileName="-1954126497" Left="8" Top="115" Right="1016" Bottom="158" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="WinForm" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="tool bar" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="configBar" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Add_and_Edit_Camera_Sequence" Key="{4A721017-C57B-4368-ADF8-7046F21A577F}">
+																						<Image FileName="-1954126497" Left="302" Top="116" Right="342" Bottom="156" />
+																						<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="button" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Add_and_Edit_Camera_Sequence" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="Save_Changes" Key="{54359140-CF86-4990-87B3-AA6B56C8920F}">
+																						<Image FileName="-436045533" Left="10" Top="116" Right="50" Bottom="156" />
+																						<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="button" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Save_Changes" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="Activate_working_copy_of_configuration" Key="{84A324FC-D2CF-4A9D-9291-27C3AFCA6B4C}">
+																						<Image FileName="-494592180" Left="90" Top="116" Right="130" Bottom="156" />
+																						<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="button" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Activate_working_copy_of_configuration" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="UltraToolbarsDockArea" Key="{C269D43F-75D1-4399-9838-C46C2BF3ACEE}">
+										<Image FileName="489821670" Left="8" Top="31" Right="1016" Bottom="61" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Toolbar" Key="{B5246C0E-CF6C-407A-9175-69710FB47CC7}">
+												<Image FileName="489821670" Left="8" Top="31" Right="1016" Bottom="61" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="tool bar" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Toolbar" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="System" Key="{CE203907-A376-4626-81AC-1CD676506328}">
+														<Image FileName="489821670" Left="11" Top="36" Right="60" Bottom="56" />
+														<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="menu item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="System" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="SequenceBuilderDlg" Key="{68633754-507A-4FA5-96FC-8AE0F49F7CAB}">
+								<Image FileName="316678667" Left="0" Top="0" Right="850" Bottom="556" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="SequenceBuilderDlg" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{B4D51761-88B2-4F8C-B7BB-4E90F60E13B3}">
+										<Image FileName="440079591" Left="4" Top="32" Right="846" Bottom="552" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel1" Key="{080E6E11-28D3-4AF1-8920-447A6C351A4E}">
+												<Image FileName="440079591" Left="4" Top="32" Right="204" Bottom="552" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="panel1" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelsTopLeftButtons" Key="{4CA69470-E180-401A-9795-F429C408BFFD}">
+														<Image FileName="440079591" Left="16" Top="35" Right="157" Bottom="75" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="panelsTopLeftButtons" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="btnAdd" Key="{10E22DE2-DB88-411D-A4C4-871E3C649D69}">
+																<Image FileName="440079591" Left="20" Top="38" Right="54" Bottom="72" />
+																<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="btnAdd" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="panelsAddToLogicalTree" Key="{5E2FADF5-ABCA-4C0B-8B86-90ABFC2333E7}">
+														<Image FileName="28756713" Left="7" Top="518" Right="198" Bottom="547" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="panelsAddToLogicalTree" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="buttonAddToTree" Key="{60FD37C5-1E85-4C90-839E-320D93B1542A}">
+																<Image FileName="28756713" Left="10" Top="521" Right="194" Bottom="544" />
+																<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="buttonAddToTree" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="panel2" Key="{4002BA2D-8611-4189-9189-365CA95FF9C0}">
+												<Image FileName="-1314564274" Left="204" Top="32" Right="846" Bottom="552" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="panel2" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="sequenceBuilderGrid" Key="{27EF73FF-9CE7-4AE5-AD67-AE3C62E4C9D3}">
+														<Image FileName="-1314564274" Left="212" Top="80" Right="828" Bottom="512" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="sequenceBuilderGrid" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="grid" Key="{AFD34638-B8A6-4B11-80F5-7DE43CF674DF}">
+																<Image FileName="-1314564274" Left="212" Top="80" Right="828" Bottom="512" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="grid" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Data_Area" Key="{262FE16F-9425-49C8-A0FF-E9E68B0A22F7}">
+																		<Image FileName="-1314564274" Left="213" Top="104" Right="827" Bottom="511" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="WinForm" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="custom" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Data_Area" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="ColScrollRegion_0_RowScrollRegion_0" Key="{B2A4B4B4-15F6-4028-9F35-F42243A1E8D5}">
+																				<Image FileName="-1314564274" Left="213" Top="104" Right="827" Bottom="511" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="WinForm" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="tree view" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="ColScrollRegion_0_RowScrollRegion_0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Item" Key="{53C3D77D-2081-4608-8B74-FAB72A20EA5B}">
+																						<Image FileName="-1314564274" Left="213" Top="126" Right="826" Bottom="149" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{1DE039AE-BDA0-4993-891C-053307C2DE1F}">
+																								<Image FileName="-1314564274" Left="426" Top="127" Right="612" Bottom="148" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{F8F0C5AE-D135-43A7-96E1-ED10CFA09F86}">
+																										<Image FileName="-1314564274" Left="427" Top="127" Right="594" Bottom="148" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Item_2" Key="{E7373E39-E3B2-44EE-911E-6543E5911208}">
+																						<Image FileName="-1774204045" Left="213" Top="148" Right="826" Bottom="171" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item_2" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{A7A10F2F-51EF-4BB7-8309-CC088F02C0D1}">
+																								<Image FileName="-1774204045" Left="426" Top="149" Right="612" Bottom="170" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{2E53BBA9-8ECC-49F6-9F18-C61A08BD2C3E}">
+																										<Image FileName="-1774204045" Left="427" Top="149" Right="594" Bottom="170" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Item_3" Key="{21A9C9EF-6DCF-426B-887A-5E219C167D4C}">
+																						<Image FileName="2037140685" Left="213" Top="170" Right="826" Bottom="193" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item_3" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{92C694C1-B490-4E54-B720-AA850C80CA78}">
+																								<Image FileName="2037140685" Left="426" Top="171" Right="612" Bottom="192" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{B2A80078-84AF-41D2-8528-3E1BF9E9C590}">
+																										<Image FileName="2037140685" Left="427" Top="171" Right="594" Bottom="192" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Item_4" Key="{075B2412-5ED4-4A33-BE2F-19639B6C1E95}">
+																						<Image FileName="-1961160482" Left="213" Top="192" Right="826" Bottom="215" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item_4" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{71EDD9E8-6302-46C0-8450-092AA121BD7A}">
+																								<Image FileName="-1961160482" Left="426" Top="193" Right="612" Bottom="214" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{70D85F01-CF04-40F6-B9CD-C98D8A9FE8DC}">
+																										<Image FileName="-1961160482" Left="427" Top="193" Right="594" Bottom="214" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Item_5" Key="{517D2368-074B-438B-93B7-AF3E166C5C6D}">
+																						<Image FileName="-1150387515" Left="213" Top="214" Right="826" Bottom="237" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item_5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{C73FC653-8B5F-41C5-B103-D787837FF1B5}">
+																								<Image FileName="-1150387515" Left="426" Top="215" Right="612" Bottom="236" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{4A9078F9-C3AC-40B5-AD66-A38A64721FEE}">
+																										<Image FileName="-1150387515" Left="427" Top="215" Right="594" Bottom="236" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Item_6" Key="{9571F401-D9B5-4F5F-911E-9F48DD247401}">
+																						<Image FileName="366189918" Left="213" Top="236" Right="826" Bottom="259" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item_6" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{9C6A578B-5371-4AE4-A9C1-6E61FF7FAADB}">
+																								<Image FileName="366189918" Left="426" Top="237" Right="612" Bottom="258" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{6500AD67-657E-4122-9C80-B2BB8A94E842}">
+																										<Image FileName="366189918" Left="427" Top="237" Right="594" Bottom="258" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Item_7" Key="{E86ABE15-B67D-41C0-AE64-AEDEFA39FF04}">
+																						<Image FileName="-1827239255" Left="213" Top="258" Right="826" Bottom="281" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item_7" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{D39D81F0-ADF6-422A-8725-A6B5ECA9B85F}">
+																								<Image FileName="-1827239255" Left="426" Top="259" Right="612" Bottom="280" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{30746955-F311-446F-B6AB-705B148D6656}">
+																										<Image FileName="-1827239255" Left="427" Top="259" Right="594" Bottom="280" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Item_8" Key="{38221CC8-A15F-4083-97A3-26351EC37B81}">
+																						<Image FileName="-666846" Left="213" Top="280" Right="826" Bottom="303" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item_8" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{8EE75660-B55A-4878-8162-01C9114F7019}">
+																								<Image FileName="-666846" Left="426" Top="281" Right="612" Bottom="302" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{3C09959A-AD1E-4CD1-B87F-213B707695F2}">
+																										<Image FileName="-666846" Left="427" Top="281" Right="594" Bottom="302" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Item_9" Key="{3ABDEFD2-7011-45A6-A360-2626C21D5FCA}">
+																						<Image FileName="-959261774" Left="213" Top="302" Right="826" Bottom="325" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="dataitem" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Item_9" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Camera" Key="{7B936968-1D7C-4EBB-ABC8-F458C0928037}">
+																								<Image FileName="-959261774" Left="426" Top="303" Right="612" Bottom="324" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="combo box" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Camera" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Editor_Edit_Area" Key="{9B8410A2-2682-49D3-B10A-F96D37972A79}">
+																										<Image FileName="-959261774" Left="427" Top="303" Right="594" Bottom="324" />
+																										<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="WinForm" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="edit" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="Editor_Edit_Area" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="SequenceAddForm" Key="{5833C3C1-37AF-4437-9644-540E70ED6A05}">
+								<Image FileName="1580460876" Left="0" Top="0" Right="354" Bottom="286" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="SequenceAddForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{C24656D1-5F0A-4A6A-B387-591DFD4DB827}">
+										<Image FileName="1580460876" Left="4" Top="32" Right="350" Bottom="282" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="tbSequenceName" Key="{FDD7449C-06C5-485B-8238-D686C94E1813}">
+												<Image FileName="1580460876" Left="188" Top="48" Right="340" Bottom="67" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="tbSequenceName" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="tbSequenceName_EmbeddableTextBox" Key="{FF8550FC-0F65-4134-8803-908735D9B760}">
+														<Image FileName="1580460876" Left="193" Top="51" Right="339" Bottom="64" />
+														<TypeInfo Item0="{2CE90894-D3A7-43C1-B0CA-568CA1FCC8D5}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="tbSequenceName_EmbeddableTextBox" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="dwellTimeComboBox1" Key="{5850AB55-BA28-4A1A-9C70-76568F4F0960}">
+												<Image FileName="78880146" Left="244" Top="134" Right="324" Bottom="153" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="dwellTimeComboBox1" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Editor_Edit_Area" Key="{0AF41B0A-AD05-45EC-9395-BDA89577D398}">
+														<Image FileName="78880146" Left="245" Top="135" Right="306" Bottom="152" />
+														<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="edit" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Editor_Edit_Area" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="nudSteps" Key="{F2C85959-7BA6-4CC2-A3BC-1D070CA008A2}">
+												<Image FileName="-206090009" Left="244" Top="197" Right="324" Bottom="217" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="nudSteps" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="UpDownButtons" Key="{23AEED8D-FD05-4661-87EC-2D8BD3525ABF}">
+														<Image FileName="-206090009" Left="307" Top="198" Right="323" Bottom="216" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Forms.UpDownBase+UpDownButtons" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Forward" Key="{2161541B-EF2E-4623-A4A9-BC835C37A17F}">
+																<Image FileName="-206090009" Left="307" Top="198" Right="323" Bottom="207" />
+																<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="WinForm" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="button" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Forward" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="btOk" Key="{CF3CAF64-AC91-4660-810C-055BE906E49B}">
+												<Image FileName="-882645287" Left="172" Top="250" Right="252" Bottom="273" />
+												<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btOk" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm" Key="{237D1A78-CC9C-415A-8627-6C47E98AC21C}">
+								<Image FileName="-79933261" Left="0" Top="0" Right="82" Bottom="114" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ValueListDropDown" Key="{7823996E-D3DE-4AB0-B0BC-0E5BEED42A44}">
+										<Image FileName="-79933261" Left="0" Top="0" Right="82" Bottom="114" />
+										<TypeInfo Item0="{C27A36A5-2EB3-4D37-B11B-8FEC198EB92A}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ValueListDropDown" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="valuelist_ValueListItem_2" Key="{D4BB662F-93AA-4722-8448-E48484CA5B01}">
+												<Image FileName="335808323" Left="1" Top="15" Right="64" Bottom="29" />
+												<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="list item" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="valuelist_ValueListItem_2" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Camera_1" Key="{4FFFB7F8-0BA0-43FC-80E6-64562076AB31}">
+												<Image FileName="711356746" Left="1" Top="18" Right="185" Bottom="35" />
+												<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="list item" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Camera_1" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Camera_2" Key="{4267EA57-6F00-4666-9E25-3BE0D6F386D4}">
+												<Image FileName="1462793430" Left="1" Top="35" Right="185" Bottom="52" />
+												<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="list item" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Camera_2" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Camera_3" Key="{25EF1AF4-DBE7-49F5-9AA8-0D47EA2AD9ED}">
+												<Image FileName="793606638" Left="1" Top="52" Right="185" Bottom="69" />
+												<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="list item" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Camera_3" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Camera_4" Key="{93823173-34F0-43D5-94FA-132CCE55F46D}">
+												<Image FileName="1737358420" Left="1" Top="69" Right="185" Bottom="86" />
+												<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="list item" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Camera_4" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="PopupControl" Key="{2A9F0E7C-85E0-4E43-A813-242DEF3A3EA7}">
+										<Image FileName="154044228" Left="0" Top="0" Right="244" Bottom="176" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="System" Key="{6098349D-A4E6-41E4-9508-5A8F9151E74C}">
+												<Image FileName="154044228" Left="0" Top="0" Right="244" Bottom="176" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="group" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="System" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Activation_Manager_" Key="{5FE0F4D2-B036-4630-960D-F510812DA809}">
+														<Image FileName="154044228" Left="1" Top="55" Right="243" Bottom="77" />
+														<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="menu item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Activation_Manager_" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Exit" Key="{8834F1DB-D8AB-4AE8-BC27-2F0EF6BF74D2}">
+														<Image FileName="-362212008" Left="1" Top="153" Right="243" Bottom="175" />
+														<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="menu item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Exit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ActivationView" Key="{72B2C74B-E749-4A9C-88EF-E5BC2035A5FD}">
+								<Image FileName="-1688183936" Left="0" Top="0" Right="454" Bottom="381" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="ActivationView" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{322A3817-0BEA-4594-97F8-21E7BC1504DE}">
+										<Image FileName="-1688183936" Left="4" Top="32" Right="450" Bottom="377" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="okButton" Key="{DE3739EF-D46B-4047-A7F0-FFC357426927}">
+												<Image FileName="-1688183936" Left="122" Top="340" Right="202" Bottom="363" />
+												<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="okButton" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ActivateConfigForm" Key="{AA299346-4885-47B0-85A9-AB541F42B002}">
+								<Image FileName="-1711056187" Left="0" Top="0" Right="666" Bottom="506" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="ActivateConfigForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="labelList" Key="{852A4991-4488-4F4A-A5D9-12FF8B12B961}">
+										<Image FileName="-1711056187" Left="16" Top="101" Right="648" Bottom="362" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="labelList" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Item_Initial_Configuration_for_TestComplete_UIA_Tests" Key="{7C865FD2-FC67-4036-B0D6-24E9570958DA}" ExtendedFind="True">
+												<Image FileName="1767371431" Left="274" Top="144" Right="629" Bottom="161" />
+												<TypeInfo Item0="{5FF5E486-1879-4C04-9725-FD170261D89F}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="NativeUIAObject.Name">
+														<Value Value="Initial Configuration for TestComplete UIA Tests" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="buttonOK" Key="{7B49F59A-B241-451E-978D-3ADC268B4F6F}">
+										<Image FileName="1600123018" Left="416" Top="466" Right="528" Bottom="489" />
+										<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="buttonOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BoschMessageBox" Key="{1210210A-9BF0-4F01-A1A2-14D614CD8ED5}">
+								<Image FileName="612979469" Left="0" Top="0" Right="381" Bottom="169" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="BoschMessageBox" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{711EA618-99D8-4BDB-BC7C-3C1436FDA80B}">
+										<Image FileName="612979469" Left="4" Top="32" Right="377" Bottom="165" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonMiddle" Key="{C1A012BB-6684-46E6-A88F-FD8A64E65C7C}">
+												<Image FileName="612979469" Left="199" Top="130" Right="279" Bottom="153" />
+												<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="buttonMiddle" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="OperatorClient" Key="{9154C4E3-0525-4065-B952-EE8DDAF223B3}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OperatorClient" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Control" Key="{B4E28B9D-5D3B-4E7F-9FA2-E130277E3882}">
+								<Image FileName="-1089612834" Left="0" Top="0" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="Control" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{6A20F417-C405-46CC-AE95-3A0B67C8D439}">
+										<Image FileName="-1089612834" Left="0" Top="32" Right="1920" Bottom="1040" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="WindowDockingArea" Key="{350C185C-EDC4-4072-BF8D-E8BD526E3198}">
+												<Image FileName="-1089612834" Left="0" Top="62" Right="1920" Bottom="1040" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="Infragistics.Win.UltraWinDock.WindowDockingArea" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="DockableWindow" Key="{00CC8051-7C1B-492C-B6A6-94DD0D954CEE}">
+														<Image FileName="-1089612834" Left="44" Top="62" Right="396" Bottom="881" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="6" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="LogicalTree" Key="{23C110EE-2E29-4FCF-AF1D-FC7BE9157505}">
+																<Image FileName="-1089612834" Left="44" Top="62" Right="396" Bottom="881" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="LogicalTree" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="LogicalTree" Key="{4A7E077F-7653-45AD-90BC-4851682A9583}">
+																		<Image FileName="-1089612834" Left="44" Top="96" Right="396" Bottom="881" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="LogicalTree" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Logical_Tree" Key="{FDF34A38-9033-4248-8FF3-282D9622DFD8}">
+																				<Image FileName="-1089612834" Left="44" Top="96" Right="157" Bottom="120" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="WinForm" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="Datenelement" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Logical_Tree" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="MySequence_1_" Key="{0A7CD653-8470-4927-9BE9-1E8B90BEEB63}">
+																						<Image FileName="-1089612834" Left="63" Top="360" Right="195" Bottom="384" />
+																						<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="Datenelement" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="MySequence_1_" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="DockableWindow2" Key="{64E8E66B-7337-43E3-8A3F-F732454A9128}">
+														<Image FileName="-1502614080" Left="399" Top="62" Right="1920" Bottom="820" />
+														<TypeInfo Item0="{5EB545A9-5EAA-4B7B-B01E-3095DEF4C5F0}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="8" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CameoSpace" Key="{5E84172A-06DD-48F1-83C2-EDBC101DFFAD}">
+																<Image FileName="-1502614080" Left="399" Top="62" Right="1920" Bottom="820" />
+																<TypeInfo Item0="{BA4ADCE6-5B61-48AA-B4D3-E41BAB984648}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="CameoSpace" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ToggleLiveCameoSpace" Key="{97FE7141-4887-4AD3-BEA8-0DC836FE7D38}">
+																		<Image FileName="-1502614080" Left="399" Top="62" Right="1920" Bottom="820" />
+																		<TypeInfo Item0="{BA4ADCE6-5B61-48AA-B4D3-E41BAB984648}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="ToggleLiveCameoSpace" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="CameoSpacePanel" Key="{34EC5683-3C97-4EB2-A8DE-62E56F8B0FE6}">
+																				<Image FileName="-1502614080" Left="399" Top="96" Right="1920" Bottom="820" />
+																				<TypeInfo Item0="{BA4ADCE6-5B61-48AA-B4D3-E41BAB984648}" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="CameoSpacePanel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Cameo1" Key="{78372316-5856-45E5-9589-4F9C9C1F500B}">
+																						<Image FileName="-1502614080" Left="525" Top="101" Right="841" Bottom="338" />
+																						<TypeInfo Item0="{BA4ADCE6-5B61-48AA-B4D3-E41BAB984648}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="Cameo4" Key="{8A7EB36A-A4C8-4681-B39E-FF13D85437F5}">
+																						<Image FileName="228847080" Left="843" Top="101" Right="1159" Bottom="338" />
+																						<TypeInfo Item0="{BA4ADCE6-5B61-48AA-B4D3-E41BAB984648}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="4" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="Cameo7" Key="{3171B5EA-786D-4225-A320-0FB6F2C0575F}">
+																						<Image FileName="519970856" Left="1161" Top="101" Right="1477" Bottom="338" />
+																						<TypeInfo Item0="{BA4ADCE6-5B61-48AA-B4D3-E41BAB984648}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="7" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="UltraToolbarsDockArea" Key="{234EAF76-8811-4CF7-8A5C-24686B69784F}">
+												<Image FileName="1722077708" Left="0" Top="32" Right="1920" Bottom="62" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="5" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Toolbar" Key="{104FF94A-FD87-408E-9A0D-760A8A4BF030}">
+														<Image FileName="1722077708" Left="0" Top="32" Right="1920" Bottom="62" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="Symbolleiste" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Toolbar" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Extras" Key="{202DADA6-5225-4448-B48A-92625EE38F09}">
+																<Image FileName="1722077708" Left="224" Top="37" Right="265" Bottom="57" />
+																<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="WinForm" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="Menüelement" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Extras" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Button" Key="{F9EE3DE8-DF77-4472-8BDC-566215FC9FAB}">
+										<Image FileName="-599404101" Left="1870" Top="4" Right="1916" Bottom="32" />
+										<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="r" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm" Key="{0CC0F122-03EE-4CC8-A507-D25B243A1353}">
+								<Image FileName="600998956" Left="0" Top="0" Right="183" Bottom="28" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{E03A7BEA-1B6E-4094-934A-8AB1788EEDD1}">
+										<Image FileName="600998956" Left="0" Top="0" Right="183" Bottom="28" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Show" Key="{32F79D30-1824-413B-907B-6DEDA693151B}">
+												<Image FileName="600998956" Left="0" Top="0" Right="183" Bottom="28" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="Gruppe" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Show" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="in_selected_image_pane" Key="{A6A9D9E7-A17C-4E23-AF27-AB44C028A914}">
+														<Image FileName="600998956" Left="2" Top="2" Right="181" Bottom="26" />
+														<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="Menüelement" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="in_selected_image_pane" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm2" Key="{AF318924-AF11-4BBB-A719-20A053182041}">
+								<Image FileName="-1000347342" Left="0" Top="0" Right="149" Bottom="79" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Popup Menu - 0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{10BCD70C-C197-4A93-8434-4E5FBC81B51A}">
+										<Image FileName="-1000347342" Left="0" Top="0" Right="149" Bottom="79" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MenuAgent" Key="{9CA92FF9-1E2F-4EFB-BDC7-47760E72B502}">
+												<Image FileName="1557894119" Left="0" Top="0" Right="149" Bottom="79" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="Gruppe" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="MenuAgent" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Show" Key="{BF676942-BECC-4122-9ACF-8C13BF4129B6}">
+														<Image FileName="1557894119" Left="2" Top="2" Right="147" Bottom="26" />
+														<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="Menüelement" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Show" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm3" Key="{A758BA83-814B-456E-BC81-ABFFB7E2F5F8}">
+								<Image FileName="24234577" Left="0" Top="0" Right="201" Bottom="210" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Extras - 0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{5ED24B3D-CA79-4A0B-8BA1-38E491340FE4}">
+										<Image FileName="24234577" Left="0" Top="0" Right="201" Bottom="210" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Extras" Key="{CC725C5F-6E7F-4A94-A524-B8314EE15D31}">
+												<Image FileName="24234577" Left="0" Top="0" Right="201" Bottom="210" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="Gruppe" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Extras" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Restore" Key="{5ECA7DA8-60FA-40FD-A45B-B0747445EAE7}">
+														<Image FileName="24234577" Left="1" Top="99" Right="200" Bottom="121" />
+														<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="Menüelement" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Restore" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DropDownForm4" Key="{BB2259A4-EFF9-4865-9B02-A4A1BB0F9474}">
+								<Image FileName="201213165" Left="0" Top="0" Right="133" Bottom="46" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="Infragistics.Win.DropDownManager+DropDownForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Restore - 1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupControl" Key="{3AED7559-0033-4E16-8818-AB3D79202C93}">
+										<Image FileName="201213165" Left="0" Top="0" Right="133" Bottom="46" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="PopupControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Restore" Key="{C91AE144-FF9A-41DB-83AF-14327DFC8FB1}">
+												<Image FileName="201213165" Left="0" Top="0" Right="133" Bottom="46" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WinForm" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="Gruppe" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Restore" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Default_settings" Key="{5F097EFD-22B7-456E-8331-5865717A1C5B}">
+														<Image FileName="201213165" Left="1" Top="1" Right="132" Bottom="23" />
+														<TypeInfo Item0="{C473FFA5-A5EE-4F5F-BD8D-FB28DDCC5408}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WinForm" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="Menüelement" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Default_settings" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BoschMessageBox" Key="{6835D41B-6512-445B-9FF2-6C2F0A230E53}">
+								<Image FileName="-620320042" Left="0" Top="0" Right="464" Bottom="182" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="BoschMessageBox" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ContainerControl" Key="{8F3232E6-1D7F-4467-B7F4-715307D48721}">
+										<Image FileName="-620320042" Left="4" Top="32" Right="460" Bottom="178" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.ContainerControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonMiddle" Key="{8D013E1A-0848-415C-ACBA-59D65ADABD94}">
+												<Image FileName="-620320042" Left="282" Top="143" Right="362" Bottom="166" />
+												<TypeInfo Item0="{0D628FB7-9797-4331-B89B-5887A1A3EE14}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="buttonMiddle" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="ConfigClient" Owner="{AAB90021-CFB4-49D8-AB57-882D280FDFED}">
+			<Child Name="OnSiteClientLoginForm" Owner="{7D905026-D02A-4F25-AE47-AC13F8592FC0}">
+				<Child Name="login" Owner="{5E39A3D6-46DA-466A-B5F0-BE51D815F906}">
+					<Child Name="btnOK" Owner="{301413AE-7C4D-4C9C-A97F-935CE11DC494}" />
+					<Child Name="btnCancel" Owner="{B54F57F2-6778-4799-A3DC-88636C983BF5}" />
+				</Child>
+			</Child>
+			<Child Name="ConfigClientForm" Owner="{A65B52DD-7EFD-4508-AAE0-BF1A4F0CF2AB}">
+				<Child Name="ConfigTabCtrl" Owner="{86944266-B62D-4D77-9D86-BAA5FFA4A910}">
+					<Child Name="zpnlButtons" Owner="{D3200C52-C8D9-4DE5-AC53-03F8AD030E9F}">
+						<Child Name="zConfigTabUltraButton_TabPage_1" Owner="{9A15D269-0585-48E2-B0A9-C1923B05760F}" />
+					</Child>
+					<Child Name="tabControl" Owner="{5A559510-034C-4C44-9DA1-6931767656AD}">
+						<Child Name="UltraTabPageControl" Owner="{1BEF65D9-7780-424C-A527-78E3AA61E77A}">
+							<Child Name="StructurePage" Owner="{55C25FEE-351F-4E49-B70F-81BC4905CCD4}">
+								<Child Name="zConfigurationControl_Toolbars_Dock_Area_Top" Owner="{9E8FB816-7CC2-498F-ADE9-D9E7B19494EE}">
+									<Child Name="configBar" Owner="{B3AF9F7C-A5D3-439B-9E29-12C419963710}">
+										<Child Name="Add_and_Edit_Camera_Sequence" Owner="{4A721017-C57B-4368-ADF8-7046F21A577F}" />
+										<Child Name="Save_Changes" Owner="{54359140-CF86-4990-87B3-AA6B56C8920F}" />
+										<Child Name="Activate_working_copy_of_configuration" Owner="{84A324FC-D2CF-4A9D-9291-27C3AFCA6B4C}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="UltraToolbarsDockArea" Owner="{C269D43F-75D1-4399-9838-C46C2BF3ACEE}">
+					<Child Name="Toolbar" Owner="{B5246C0E-CF6C-407A-9175-69710FB47CC7}">
+						<Child Name="System" Owner="{CE203907-A376-4626-81AC-1CD676506328}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="SequenceBuilderDlg" Owner="{68633754-507A-4FA5-96FC-8AE0F49F7CAB}">
+				<Child Name="ContainerControl" Owner="{B4D51761-88B2-4F8C-B7BB-4E90F60E13B3}">
+					<Child Name="panel1" Owner="{080E6E11-28D3-4AF1-8920-447A6C351A4E}">
+						<Child Name="panelsTopLeftButtons" Owner="{4CA69470-E180-401A-9795-F429C408BFFD}">
+							<Child Name="btnAdd" Owner="{10E22DE2-DB88-411D-A4C4-871E3C649D69}" />
+						</Child>
+						<Child Name="panelsAddToLogicalTree" Owner="{5E2FADF5-ABCA-4C0B-8B86-90ABFC2333E7}">
+							<Child Name="buttonAddToTree" Owner="{60FD37C5-1E85-4C90-839E-320D93B1542A}" />
+						</Child>
+					</Child>
+					<Child Name="panel2" Owner="{4002BA2D-8611-4189-9189-365CA95FF9C0}">
+						<Child Name="sequenceBuilderGrid" Owner="{27EF73FF-9CE7-4AE5-AD67-AE3C62E4C9D3}">
+							<Child Name="grid" Owner="{AFD34638-B8A6-4B11-80F5-7DE43CF674DF}">
+								<Child Name="Data_Area" Owner="{262FE16F-9425-49C8-A0FF-E9E68B0A22F7}">
+									<Child Name="ColScrollRegion_0_RowScrollRegion_0" Owner="{B2A4B4B4-15F6-4028-9F35-F42243A1E8D5}">
+										<Child Name="Item" Owner="{53C3D77D-2081-4608-8B74-FAB72A20EA5B}">
+											<Child Name="Camera" Owner="{1DE039AE-BDA0-4993-891C-053307C2DE1F}">
+												<Child Name="Editor_Edit_Area" Owner="{F8F0C5AE-D135-43A7-96E1-ED10CFA09F86}" />
+											</Child>
+										</Child>
+										<Child Name="Item_2" Owner="{E7373E39-E3B2-44EE-911E-6543E5911208}">
+											<Child Name="Camera" Owner="{A7A10F2F-51EF-4BB7-8309-CC088F02C0D1}">
+												<Child Name="Editor_Edit_Area" Owner="{2E53BBA9-8ECC-49F6-9F18-C61A08BD2C3E}" />
+											</Child>
+										</Child>
+										<Child Name="Item_3" Owner="{21A9C9EF-6DCF-426B-887A-5E219C167D4C}">
+											<Child Name="Camera" Owner="{92C694C1-B490-4E54-B720-AA850C80CA78}">
+												<Child Name="Editor_Edit_Area" Owner="{B2A80078-84AF-41D2-8528-3E1BF9E9C590}" />
+											</Child>
+										</Child>
+										<Child Name="Item_4" Owner="{075B2412-5ED4-4A33-BE2F-19639B6C1E95}">
+											<Child Name="Camera" Owner="{71EDD9E8-6302-46C0-8450-092AA121BD7A}">
+												<Child Name="Editor_Edit_Area" Owner="{70D85F01-CF04-40F6-B9CD-C98D8A9FE8DC}" />
+											</Child>
+										</Child>
+										<Child Name="Item_5" Owner="{517D2368-074B-438B-93B7-AF3E166C5C6D}">
+											<Child Name="Camera" Owner="{C73FC653-8B5F-41C5-B103-D787837FF1B5}">
+												<Child Name="Editor_Edit_Area" Owner="{4A9078F9-C3AC-40B5-AD66-A38A64721FEE}" />
+											</Child>
+										</Child>
+										<Child Name="Item_6" Owner="{9571F401-D9B5-4F5F-911E-9F48DD247401}">
+											<Child Name="Camera" Owner="{9C6A578B-5371-4AE4-A9C1-6E61FF7FAADB}">
+												<Child Name="Editor_Edit_Area" Owner="{6500AD67-657E-4122-9C80-B2BB8A94E842}" />
+											</Child>
+										</Child>
+										<Child Name="Item_7" Owner="{E86ABE15-B67D-41C0-AE64-AEDEFA39FF04}">
+											<Child Name="Camera" Owner="{D39D81F0-ADF6-422A-8725-A6B5ECA9B85F}">
+												<Child Name="Editor_Edit_Area" Owner="{30746955-F311-446F-B6AB-705B148D6656}" />
+											</Child>
+										</Child>
+										<Child Name="Item_8" Owner="{38221CC8-A15F-4083-97A3-26351EC37B81}">
+											<Child Name="Camera" Owner="{8EE75660-B55A-4878-8162-01C9114F7019}">
+												<Child Name="Editor_Edit_Area" Owner="{3C09959A-AD1E-4CD1-B87F-213B707695F2}" />
+											</Child>
+										</Child>
+										<Child Name="Item_9" Owner="{3ABDEFD2-7011-45A6-A360-2626C21D5FCA}">
+											<Child Name="Camera" Owner="{7B936968-1D7C-4EBB-ABC8-F458C0928037}">
+												<Child Name="Editor_Edit_Area" Owner="{9B8410A2-2682-49D3-B10A-F96D37972A79}" />
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="SequenceAddForm" Owner="{5833C3C1-37AF-4437-9644-540E70ED6A05}">
+				<Child Name="ContainerControl" Owner="{C24656D1-5F0A-4A6A-B387-591DFD4DB827}">
+					<Child Name="tbSequenceName" Owner="{FDD7449C-06C5-485B-8238-D686C94E1813}">
+						<Child Name="tbSequenceName_EmbeddableTextBox" Owner="{FF8550FC-0F65-4134-8803-908735D9B760}" />
+					</Child>
+					<Child Name="dwellTimeComboBox1" Owner="{5850AB55-BA28-4A1A-9C70-76568F4F0960}">
+						<Child Name="Editor_Edit_Area" Owner="{0AF41B0A-AD05-45EC-9395-BDA89577D398}" />
+					</Child>
+					<Child Name="nudSteps" Owner="{F2C85959-7BA6-4CC2-A3BC-1D070CA008A2}">
+						<Child Name="UpDownButtons" Owner="{23AEED8D-FD05-4661-87EC-2D8BD3525ABF}">
+							<Child Name="Forward" Owner="{2161541B-EF2E-4623-A4A9-BC835C37A17F}" />
+						</Child>
+					</Child>
+					<Child Name="btOk" Owner="{CF3CAF64-AC91-4660-810C-055BE906E49B}" />
+				</Child>
+			</Child>
+			<Child Name="DropDownForm" Owner="{237D1A78-CC9C-415A-8627-6C47E98AC21C}">
+				<Child Name="ValueListDropDown" Owner="{7823996E-D3DE-4AB0-B0BC-0E5BEED42A44}">
+					<Child Name="valuelist_ValueListItem_2" Owner="{D4BB662F-93AA-4722-8448-E48484CA5B01}" />
+					<Child Name="Camera_1" Owner="{4FFFB7F8-0BA0-43FC-80E6-64562076AB31}" />
+					<Child Name="Camera_2" Owner="{4267EA57-6F00-4666-9E25-3BE0D6F386D4}" />
+					<Child Name="Camera_3" Owner="{25EF1AF4-DBE7-49F5-9AA8-0D47EA2AD9ED}" />
+					<Child Name="Camera_4" Owner="{93823173-34F0-43D5-94FA-132CCE55F46D}" />
+				</Child>
+				<Child Name="PopupControl" Owner="{2A9F0E7C-85E0-4E43-A813-242DEF3A3EA7}">
+					<Child Name="System" Owner="{6098349D-A4E6-41E4-9508-5A8F9151E74C}">
+						<Child Name="Activation_Manager_" Owner="{5FE0F4D2-B036-4630-960D-F510812DA809}" />
+						<Child Name="Exit" Owner="{8834F1DB-D8AB-4AE8-BC27-2F0EF6BF74D2}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="ActivationView" Owner="{72B2C74B-E749-4A9C-88EF-E5BC2035A5FD}">
+				<Child Name="ContainerControl" Owner="{322A3817-0BEA-4594-97F8-21E7BC1504DE}">
+					<Child Name="okButton" Owner="{DE3739EF-D46B-4047-A7F0-FFC357426927}" />
+				</Child>
+			</Child>
+			<Child Name="ActivateConfigForm" Owner="{AA299346-4885-47B0-85A9-AB541F42B002}">
+				<Child Name="labelList" Owner="{852A4991-4488-4F4A-A5D9-12FF8B12B961}" />
+				<Child Name="buttonOK" Owner="{7B49F59A-B241-451E-978D-3ADC268B4F6F}" />
+			</Child>
+			<Child Name="BoschMessageBox" Owner="{1210210A-9BF0-4F01-A1A2-14D614CD8ED5}">
+				<Child Name="ContainerControl" Owner="{711EA618-99D8-4BDB-BC7C-3C1436FDA80B}">
+					<Child Name="buttonMiddle" Owner="{C1A012BB-6684-46E6-A88F-FD8A64E65C7C}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="OperatorClient" Owner="{9154C4E3-0525-4065-B952-EE8DDAF223B3}">
+			<Child Name="Control" Owner="{B4E28B9D-5D3B-4E7F-9FA2-E130277E3882}">
+				<Child Name="ContainerControl" Owner="{6A20F417-C405-46CC-AE95-3A0B67C8D439}">
+					<Child Name="WindowDockingArea" Owner="{350C185C-EDC4-4072-BF8D-E8BD526E3198}">
+						<Child Name="DockableWindow" Owner="{00CC8051-7C1B-492C-B6A6-94DD0D954CEE}">
+							<Child Name="LogicalTree" Owner="{23C110EE-2E29-4FCF-AF1D-FC7BE9157505}">
+								<Child Name="LogicalTree" Owner="{4A7E077F-7653-45AD-90BC-4851682A9583}">
+									<Child Name="Logical_Tree" Owner="{FDF34A38-9033-4248-8FF3-282D9622DFD8}">
+										<Child Name="MySequence_1_" Owner="{0A7CD653-8470-4927-9BE9-1E8B90BEEB63}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="DockableWindow2" Owner="{64E8E66B-7337-43E3-8A3F-F732454A9128}">
+							<Child Name="CameoSpace" Owner="{5E84172A-06DD-48F1-83C2-EDBC101DFFAD}">
+								<Child Name="ToggleLiveCameoSpace" Owner="{97FE7141-4887-4AD3-BEA8-0DC836FE7D38}">
+									<Child Name="CameoSpacePanel" Owner="{34EC5683-3C97-4EB2-A8DE-62E56F8B0FE6}">
+										<Child Name="Cameo1" Owner="{78372316-5856-45E5-9589-4F9C9C1F500B}" />
+										<Child Name="Cameo4" Owner="{8A7EB36A-A4C8-4681-B39E-FF13D85437F5}" />
+										<Child Name="Cameo7" Owner="{3171B5EA-786D-4225-A320-0FB6F2C0575F}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+					<Child Name="UltraToolbarsDockArea" Owner="{234EAF76-8811-4CF7-8A5C-24686B69784F}">
+						<Child Name="Toolbar" Owner="{104FF94A-FD87-408E-9A0D-760A8A4BF030}">
+							<Child Name="Extras" Owner="{202DADA6-5225-4448-B48A-92625EE38F09}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="Button" Owner="{F9EE3DE8-DF77-4472-8BDC-566215FC9FAB}" />
+			</Child>
+			<Child Name="DropDownForm" Owner="{0CC0F122-03EE-4CC8-A507-D25B243A1353}">
+				<Child Name="PopupControl" Owner="{E03A7BEA-1B6E-4094-934A-8AB1788EEDD1}">
+					<Child Name="Show" Owner="{32F79D30-1824-413B-907B-6DEDA693151B}">
+						<Child Name="in_selected_image_pane" Owner="{A6A9D9E7-A17C-4E23-AF27-AB44C028A914}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="DropDownForm2" Owner="{AF318924-AF11-4BBB-A719-20A053182041}">
+				<Child Name="PopupControl" Owner="{10BCD70C-C197-4A93-8434-4E5FBC81B51A}">
+					<Child Name="MenuAgent" Owner="{9CA92FF9-1E2F-4EFB-BDC7-47760E72B502}">
+						<Child Name="Show" Owner="{BF676942-BECC-4122-9ACF-8C13BF4129B6}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="DropDownForm3" Owner="{A758BA83-814B-456E-BC81-ABFFB7E2F5F8}">
+				<Child Name="PopupControl" Owner="{5ED24B3D-CA79-4A0B-8BA1-38E491340FE4}">
+					<Child Name="Extras" Owner="{CC725C5F-6E7F-4A94-A524-B8314EE15D31}">
+						<Child Name="Restore" Owner="{5ECA7DA8-60FA-40FD-A45B-B0747445EAE7}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="DropDownForm4" Owner="{BB2259A4-EFF9-4865-9B02-A4A1BB0F9474}">
+				<Child Name="PopupControl" Owner="{3AED7559-0033-4E16-8818-AB3D79202C93}">
+					<Child Name="Restore" Owner="{C91AE144-FF9A-41DB-83AF-14327DFC8FB1}">
+						<Child Name="Default_settings" Owner="{5F097EFD-22B7-456E-8331-5865717A1C5B}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BoschMessageBox" Owner="{6835D41B-6512-445B-9FF2-6C2F0A230E53}">
+				<Child Name="ContainerControl" Owner="{8F3232E6-1D7F-4467-B7F4-715307D48721}">
+					<Child Name="buttonMiddle" Owner="{8D013E1A-0848-415C-ACBA-59D65ADABD94}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

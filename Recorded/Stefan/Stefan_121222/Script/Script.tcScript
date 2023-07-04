@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Shared">
+			<child name="EventHandlers" key="{B0DA6E60-4922-4112-A2EE-30C8815E0795}" path="Shared\EventHandlers.js" />
+			<child name="Helpers" key="{2E41C00E-D349-4C4A-BC9D-5D74E5FCE0A6}" path="Shared\Helpers.js" />
+		</folder>
+		<child name="TestBasicFunctions" key="{0AA993E1-6BAA-45CC-A786-4210BCA0F612}" path="TestBasicFunctions.js" />
+		<child name="TestRecording" key="{AA3A93F5-4F48-4D32-8CCC-B17F4A4C5C39}" path="TestRecording.js" />
+	</children>
+</Root>
