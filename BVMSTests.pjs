@@ -86,7 +86,7 @@
 		</data>
 	</variables>
 	<analysis key="{B43ADAF3-FA00-42AA-95A7-B6CE2E0FF70D}" />
-	<scc key="{F0D60D49-B342-4271-94E0-3E8C61A0E7D6}" name="Team Foundation Version Control Plugin">
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
 	</scc>
 </Root>
