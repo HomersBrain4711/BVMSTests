@@ -82,7 +82,7 @@ function StartVideoRecorder()
 {
   //Stop Video Recorder first, if it is already runnng
   StopVideoRecorder();
-  var videoDir = "c:\\_TestCompleteLogs\\VideoCaptures";
+  var videoDir = ProjectSuite.Path + "VideoCaptures";
   if(!aqFileSystem.Exists(videoDir))
   {
     aqFileSystem.CreateFolder(videoDir)
