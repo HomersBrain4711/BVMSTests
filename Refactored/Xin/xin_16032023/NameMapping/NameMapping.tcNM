@@ -108,7 +108,6 @@
 									</Child>
 									<Child Name="ConfigTabCtrl" Key="{926AFDEA-258D-47F5-90A7-2D05292FB5FF}">
 										<Image FileName="-1666658224" Left="8" Top="61" Right="1928" Bottom="1168" />
-										<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
 												<Value Value="ConfigTabCtrl" />
@@ -117,7 +116,6 @@
 										<Children>
 											<Child Name="tabControl" Key="{B6F84279-34F2-49FA-9D75-4E4969105A91}">
 												<Image FileName="-1666658224" Left="8" Top="114" Right="1928" Bottom="1168" />
-												<TypeInfo Item0="{7E491828-F719-442E-A904-14FD42712037}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="tabControl" />
@@ -126,7 +124,6 @@
 												<Children>
 													<Child Name="UltraTabPageControl" Key="{30A4A29D-9928-426D-8DEF-E8380A5BA4FF}">
 														<Image FileName="-1666658224" Left="8" Top="114" Right="1928" Bottom="1168" />
-														<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 														<Properties>
 															<Property Name="ClrFullClassName">
 																<Value Value="Infragistics.Win.UltraWinTabControl.UltraTabPageControl" />
@@ -141,7 +138,6 @@
 														<Children>
 															<Child Name="DeviceTreeConfigurationPage" Key="{A46102C8-9158-489B-B8FE-F6530B7013D7}">
 																<Image FileName="-1666658224" Left="8" Top="114" Right="1928" Bottom="1168" />
-																<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="DeviceTreeConfigurationPage" />
@@ -150,7 +146,6 @@
 																<Children>
 																	<Child Name="ConfigurationControl_Fill_Panel" Key="{61F83047-9131-403C-B76D-5735F1166239}">
 																		<Image FileName="-1666658224" Left="8" Top="158" Right="1928" Bottom="1168" />
-																		<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="ConfigurationControl_Fill_Panel" />
@@ -159,7 +154,6 @@
 																		<Children>
 																			<Child Name="panelProperties" Key="{3BCFB888-1DE2-446A-8B3A-8BA95DC56548}">
 																				<Image FileName="-1666658224" Left="316" Top="158" Right="1928" Bottom="1168" />
-																				<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																				<Properties>
 																					<Property Name="WinFormsControlName">
 																						<Value Value="panelProperties" />
@@ -168,7 +162,6 @@
 																				<Children>
 																					<Child Name="WorkstationConfig" Key="{D70DA7B7-CD5B-4A9B-AADC-55B207CC1C5B}">
 																						<Image FileName="-1666658224" Left="316" Top="158" Right="1928" Bottom="1168" />
-																						<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																						<Properties>
 																							<Property Name="WinFormsControlName">
 																								<Value Value="WorkstationConfig" />
@@ -177,7 +170,6 @@
 																						<Children>
 																							<Child Name="workstationTabControl" Key="{A6AE5A6C-B562-4E19-A4D1-450E8D422394}">
 																								<Image FileName="-1666658224" Left="326" Top="168" Right="1918" Bottom="1158" />
-																								<TypeInfo Item0="{7E491828-F719-442E-A904-14FD42712037}" />
 																								<Properties>
 																									<Property Name="WinFormsControlName">
 																										<Value Value="workstationTabControl" />
@@ -186,7 +178,6 @@
 																								<Children>
 																									<Child Name="ultraTabPageControl1" Key="{3B8D7AD2-1E6F-4335-8252-4807FBE75C20}">
 																										<Image FileName="-1666658224" Left="351" Top="216" Right="1893" Bottom="1133" />
-																										<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																										<Properties>
 																											<Property Name="WinFormsControlName">
 																												<Value Value="ultraTabPageControl1" />
@@ -195,7 +186,6 @@
 																										<Children>
 																											<Child Name="globalSettingsBox" Key="{5D1588FC-FC33-4AA4-9233-DAF8B4AA0300}">
 																												<Image FileName="-1666658224" Left="374" Top="240" Right="974" Bottom="639" />
-																												<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																												<Properties>
 																													<Property Name="WinFormsControlName">
 																														<Value Value="globalSettingsBox" />
@@ -204,7 +194,6 @@
 																												<Children>
 																													<Child Name="liveStreamComboBox" Key="{456EA4A8-F923-455D-B73D-2DF30CE1B28A}">
 																														<Image FileName="-1666658224" Left="717" Top="374" Right="971" Bottom="397" />
-																														<TypeInfo Item0="{AD8B6CA1-0191-4FB9-9182-209DE74F8BD7}" />
 																														<Properties>
 																															<Property Name="WinFormsControlName">
 																																<Value Value="liveStreamComboBox" />
@@ -213,7 +202,6 @@
 																														<Children>
 																															<Child Name="Editor_Edit_Area" Key="{967D4677-F2BC-4A26-A690-F568E7FA3D7E}">
 																																<Image FileName="-1666658224" Left="718" Top="375" Right="953" Bottom="396" />
-																																<TypeInfo Item0="{FA050157-3C19-49A1-B991-A5ECF7B153C3}" />
 																																<Properties>
 																																	<Property Name="FrameworkId">
 																																		<Value Value="WinForm" />
@@ -233,7 +221,6 @@
 																													</Child>
 																													<Child Name="liveStreamThreeStreamsCamerasComboEditor" Key="{8D1AB897-B8B7-4EF3-B0DE-85A87FE4F414}">
 																														<Image FileName="-1239562429" Left="716" Top="401" Right="970" Bottom="424" />
-																														<TypeInfo Item0="{AD8B6CA1-0191-4FB9-9182-209DE74F8BD7}" />
 																														<Properties>
 																															<Property Name="WinFormsControlName">
 																																<Value Value="liveStreamThreeStreamsCamerasComboEditor" />
@@ -242,7 +229,6 @@
 																														<Children>
 																															<Child Name="Editor_Edit_Area" Key="{95D08CC4-13C7-40F0-BFD7-0A4AB919D618}">
 																																<Image FileName="-1239562429" Left="717" Top="402" Right="952" Bottom="423" />
-																																<TypeInfo Item0="{FA050157-3C19-49A1-B991-A5ECF7B153C3}" />
 																																<Properties>
 																																	<Property Name="FrameworkId">
 																																		<Value Value="WinForm" />
@@ -262,7 +248,6 @@
 																													</Child>
 																													<Child Name="overrideRecordingSettingsCheckBox" Key="{45270534-8321-4AF5-AD69-17EE03AF4226}">
 																														<Image FileName="906550995" Left="382" Top="340" Right="934" Bottom="364" />
-																														<TypeInfo Item0="{A963746A-8541-4AC0-90C3-DFE62A654C55}" />
 																														<Properties>
 																															<Property Name="WinFormsControlName">
 																																<Value Value="overrideRecordingSettingsCheckBox" />
@@ -297,7 +282,6 @@
 																						<Children>
 																							<Child Name="Workstations" Key="{B5B0EE3E-DDDD-4741-A571-1E5A1D49B6C1}">
 																								<Image FileName="-1716695752" Left="20" Top="247" Right="136" Bottom="271" />
-																								<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																								<Properties>
 																									<Property Name="AutomationId">
 																										<Value Value="[Node] 0, [Node] 3" />
@@ -306,7 +290,6 @@
 																								<Children>
 																									<Child Name="Workstation_test_" Key="{E669DD0E-C50E-4CC5-9DDD-7875468B68A8}">
 																										<Image FileName="1472318443" Left="39" Top="271" Right="178" Bottom="295" />
-																										<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																										<Properties>
 																											<Property Name="AutomationId">
 																												<Value Value="[Node] 0, [Node] 3, [Node] 0" />
@@ -345,7 +328,6 @@
 																				<Children>
 																					<Child Name="Save_Changes" Key="{A1F921D3-141A-42C0-BAB6-FE294A66B4D0}">
 																						<Image FileName="-161826302" Left="2" Top="108" Right="42" Bottom="148" />
-																						<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -360,7 +342,6 @@
 																					</Child>
 																					<Child Name="Activate_working_copy_of_configuration" Key="{95C6A7CA-CC77-461F-B1E3-1758CE05F9D0}">
 																						<Image FileName="1445666295" Left="82" Top="108" Right="122" Bottom="148" />
-																						<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -462,7 +443,6 @@
 										<Children>
 											<Child Name="Image_pane_size_optimized" Key="{32BE51EB-EE16-4CED-8FC4-3E7CC0A8E433}">
 												<Image FileName="-397046052" Left="1" Top="37" Right="255" Bottom="55" />
-												<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 												<Properties>
 													<Property Name="FrameworkId">
 														<Value Value="WinForm" />
@@ -477,7 +457,6 @@
 											</Child>
 											<Child Name="Image_pane_size_optimized2" Key="{8AD07901-ED62-482F-B276-3DC83E85D282}">
 												<Image FileName="1787219412" Left="1" Top="55" Right="255" Bottom="73" />
-												<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 												<Properties>
 													<Property Name="FrameworkId">
 														<Value Value="WinForm" />
@@ -624,7 +603,6 @@
 												<Children>
 													<Child Name="networkAddress_EmbeddableTextBox" Key="{2B135502-975A-452B-9657-FF4A03FE7803}">
 														<Image FileName="522925018" Left="37" Top="107" Right="311" Bottom="120" />
-														<TypeInfo Item0="{A4870586-EB94-4BCC-8B10-6593F0827500}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="networkAddress_EmbeddableTextBox" />
@@ -703,7 +681,6 @@
 															</Child>
 															<Child Name="System" Key="{92C920F2-ED18-439D-93A9-0DE94A6087A2}">
 																<Image FileName="-448115117" Left="3" Top="37" Right="52" Bottom="57" />
-																<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																<Properties>
 																	<Property Name="FrameworkId">
 																		<Value Value="WinForm" />
@@ -1158,7 +1135,6 @@
 																						<Children>
 																							<Child Name="Show_more_Image_pane_rows" Key="{14954E13-BE7F-4F86-B262-E57F8A37A60D}">
 																								<Image FileName="1095450695" Left="1846" Top="64" Right="1876" Bottom="94" />
-																								<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -1177,38 +1153,18 @@
 																			</Child>
 																		</Children>
 																	</Child>
-																	<Child Name="PlaybackCameoSpace" Key="{14A0A228-DCCF-4A7E-B76E-6252DCC6BE9D}">
-																		<Image FileName="-1429134005" Left="399" Top="62" Right="1920" Bottom="913" />
+																	<Child Name="TogglePlaybackCameoSpace" Key="{F37449D6-01DD-489A-9782-489E2FB2938B}">
+																		<Image FileName="1664815030" Left="399" Top="62" Right="1920" Bottom="820" />
+																		<TypeInfo Item0="{DCFF0431-B62E-4E2D-895F-67ED70E42326}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
-																				<Value Value="PlaybackCameoSpace" />
+																				<Value Value="TogglePlaybackCameoSpace" />
 																			</Property>
 																		</Properties>
 																		<Children>
-																			<Child Name="CameoSpacePanel" Key="{1E21E5C0-5954-453C-A7E0-91810109A754}">
-																				<Image FileName="939874812" Left="399" Top="96" Right="1920" Bottom="913" />
-																				<Properties>
-																					<Property Name="WinFormsControlName">
-																						<Value Value="CameoSpacePanel" />
-																					</Property>
-																				</Properties>
-																				<Children>
-																					<Child Name="Cameo6" Key="{56516796-7D6A-468C-A48D-91B104D74BC0}">
-																						<Image FileName="-1495079781" Left="1161" Top="340" Right="1477" Bottom="577" />
-																						<TypeInfo Item0="{A963746A-8541-4AC0-90C3-DFE62A654C55}" />
-																						<Properties>
-																							<Property Name="ClrFullClassName">
-																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
-																							</Property>
-																							<Property Name="Index">
-																								<Value Value="8" Type="0" />
-																							</Property>
-																						</Properties>
-																					</Child>
-																				</Children>
-																			</Child>
-																			<Child Name="UltraToolbarsDockArea2" Key="{7C22289B-706F-4856-A915-26FA8C1203DA}">
-																				<Image FileName="-1292289326" Left="399" Top="62" Right="1920" Bottom="96" />
+																			<Child Name="UltraToolbarsDockArea" Key="{E4DE6002-ADCD-42AC-AD44-E940BC2FDEBC}">
+																				<Image FileName="1664815030" Left="399" Top="62" Right="1920" Bottom="96" />
+																				<TypeInfo Item0="{7F1F68E8-7B78-4CFD-9B20-CDF8E66B31AD}" />
 																				<Properties>
 																					<Property Name="ClrFullClassName">
 																						<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
@@ -1221,11 +1177,15 @@
 																					</Property>
 																				</Properties>
 																				<Children>
-																					<Child Name="Toolbar" Key="{940714B7-77EC-47F3-8BC7-07C757DA941C}">
-																						<Image FileName="-1292289326" Left="399" Top="62" Right="1920" Bottom="96" />
+																					<Child Name="Toolbar" Key="{226AB822-5ED7-4394-8B44-71A223587292}">
+																						<Image FileName="1664815030" Left="399" Top="62" Right="1920" Bottom="96" />
+																						<TypeInfo Item0="{EB66FD38-7523-49EA-A953-9AA3373DB280}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="0" Type="0" />
 																							</Property>
 																							<Property Name="LocalizedControlType">
 																								<Value Value="tool bar" />
@@ -1235,12 +1195,15 @@
 																							</Property>
 																						</Properties>
 																						<Children>
-																							<Child Name="Show_more_Image_pane_rows" Key="{CC410F64-FC78-44B2-8D3E-620384875F73}">
-																								<Image FileName="-1292289326" Left="1846" Top="64" Right="1876" Bottom="94" />
-																								<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
+																							<Child Name="Show_more_Image_pane_rows" Key="{3D265D02-8146-407D-8F6B-EA25CB364B76}">
+																								<Image FileName="1664815030" Left="1846" Top="64" Right="1876" Bottom="94" />
+																								<TypeInfo Item0="{F2BBBD35-05C3-4E19-927E-1E9EAB7E009E}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="0" Type="0" />
 																									</Property>
 																									<Property Name="LocalizedControlType">
 																										<Value Value="button" />
@@ -1251,6 +1214,29 @@
 																								</Properties>
 																							</Child>
 																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="CameoSpacePanel" Key="{6FB97561-C3D6-41AF-8518-8E596EFA30D8}">
+																				<Image FileName="843812909" Left="399" Top="96" Right="1920" Bottom="820" />
+																				<TypeInfo Item0="{DCFF0431-B62E-4E2D-895F-67ED70E42326}" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="CameoSpacePanel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Cameo8" Key="{DCE17B99-41DF-44B7-84BE-11F3F71B685D}">
+																						<Image FileName="-486971499" Left="1161" Top="340" Right="1477" Bottom="577" />
+																						<TypeInfo Item0="{DCFF0431-B62E-4E2D-895F-67ED70E42326}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="8" Type="0" />
+																							</Property>
+																						</Properties>
 																					</Child>
 																				</Children>
 																			</Child>
@@ -1300,7 +1286,6 @@
 																				<Children>
 																					<Child Name="Camera_1_5_" Key="{3CDA9267-0063-43E7-B56E-02B40BDE4CD6}">
 																						<Image FileName="-1354268528" Left="63" Top="120" Right="178" Bottom="144" />
-																						<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																						<Properties>
 																							<Property Name="AutomationId">
 																								<Value Value="[Node] 0, [Node] 0" />
@@ -1375,7 +1360,6 @@
 													</Child>
 													<Child Name="Options_" Key="{EBFD7BA4-F9F0-4D2C-896E-D731AD1ADAF2}">
 														<Image FileName="685207347" Left="1" Top="77" Right="128" Bottom="99" />
-														<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -1390,7 +1374,6 @@
 													</Child>
 													<Child Name="Options_2" Key="{5D721E5D-413C-4171-9169-F67118381F80}">
 														<Image FileName="685207347" Left="1" Top="77" Right="128" Bottom="99" />
-														<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -1421,7 +1404,6 @@
 												<Children>
 													<Child Name="Change_password_" Key="{F4A6293F-D2D5-4413-803D-C0DDA4A9262F}">
 														<Image FileName="878331664" Left="1" Top="33" Right="151" Bottom="55" />
-														<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -1452,7 +1434,6 @@
 												<Children>
 													<Child Name="Logoff" Key="{704A9C7E-86BC-4B3A-B40F-E8BB999BE7ED}">
 														<Image FileName="-428157142" Left="1" Top="65" Right="151" Bottom="87" />
-														<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -1467,7 +1448,6 @@
 													</Child>
 													<Child Name="Playback_mode" Key="{3536C1DE-826E-429A-AE7C-6A7660431F44}">
 														<Image FileName="479429930" Left="1" Top="1" Right="151" Bottom="23" />
-														<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -1482,7 +1462,6 @@
 													</Child>
 													<Child Name="Live_mode" Key="{DF9360B3-7237-4D97-AF2C-4CEF13490676}">
 														<Image FileName="1038422750" Left="1" Top="1" Right="151" Bottom="23" />
-														<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -1497,7 +1476,6 @@
 													</Child>
 													<Child Name="Exit" Key="{66718277-F7C8-4BA3-8D20-D40161684943}">
 														<Image FileName="-2115139529" Left="1" Top="87" Right="151" Bottom="109" />
-														<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -1592,7 +1570,6 @@
 											</Child>
 											<Child Name="buttonRight" Key="{244FFF6C-4663-4885-800A-1B20F1387035}">
 												<Image FileName="-48080272" Left="379" Top="118" Right="459" Bottom="141" />
-												<TypeInfo Item0="{17AD6CEE-0975-4A5C-AEF1-0D8169CFF16F}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="buttonRight" />
@@ -1624,7 +1601,6 @@
 										<Children>
 											<Child Name="ButtonOk" Key="{9F82AAA3-CA13-46F2-8422-F3D2C04C998D}" ExtendedFind="True">
 												<Image FileName="-512339367" Left="194" Top="402" Right="291" Bottom="434" />
-												<TypeInfo Item0="{E9EA3219-6C47-451D-8724-6A43F14D918F}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
@@ -1636,7 +1612,6 @@
 											</Child>
 											<Child Name="TitleMessage" Key="{366D62BA-F8EE-45BC-8FE7-39B011BBB9C2}" ExtendedFind="True">
 												<Image FileName="-400139172" Left="80" Top="44" Right="267" Bottom="61" />
-												<TypeInfo Item0="{B2CEF472-DF1A-4F74-AC06-2BA089D541F3}" />
 												<Properties>
 													<Property Name="WPFControlName">
 														<Value Value="TitleMessage" />
@@ -1645,7 +1620,6 @@
 											</Child>
 											<Child Name="PasswordBox" Key="{AE16A18C-1706-4313-AA64-CF64D1F7B9CB}" ExtendedFind="True">
 												<Image FileName="1206432639" Left="194" Top="245" Right="514" Bottom="270" />
-												<TypeInfo Item0="{129DC7D5-7116-4B70-BE90-336C3063435F}" />
 												<Properties>
 													<Property Name="WPFControlName">
 														<Value Value="PasswordBox" />
@@ -1654,7 +1628,6 @@
 											</Child>
 											<Child Name="StartupWindowView" Key="{2FAF357A-DD8D-4835-9182-9CDFA9A4BF94}" ExtendedFind="True">
 												<Image FileName="-1145316167" Left="0" Top="0" Right="641" Bottom="481" />
-												<TypeInfo Item0="{B2CEF472-DF1A-4F74-AC06-2BA089D541F3}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="Bosch.Vms.Frontend.OpClient.OpClientLogOn.Views.StartupWindowView" />
@@ -1670,7 +1643,6 @@
 							</Child>
 							<Child Name="OptionsForm" Key="{F7A572C9-97A1-46B4-95D3-D5451B3A45E7}">
 								<Image FileName="980278457" Left="0" Top="0" Right="747" Bottom="680" />
-								<TypeInfo Item0="{8DDF2F67-07BD-4846-A23C-746851EE5EEF}" />
 								<Properties>
 									<Property Name="WinFormsControlName">
 										<Value Value="OptionsForm" />
@@ -1679,7 +1651,6 @@
 								<Children>
 									<Child Name="ContainerControl" Key="{C9F349CD-8A93-4F12-8EE3-1BF4AD610EDD}">
 										<Image FileName="980278457" Left="4" Top="32" Right="743" Bottom="676" />
-										<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value Value="System.Windows.Forms.ContainerControl" />
@@ -1691,7 +1662,6 @@
 										<Children>
 											<Child Name="panel1" Key="{5BDABF85-76C6-4A83-868F-B399C898F3FC}">
 												<Image FileName="980278457" Left="4" Top="32" Right="734" Bottom="614" />
-												<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="panel1" />
@@ -1700,7 +1670,6 @@
 												<Children>
 													<Child Name="tabControlOptions" Key="{1A9EE4B3-CF98-4920-8CF0-DF613C7F2450}">
 														<Image FileName="980278457" Left="13" Top="41" Right="734" Bottom="605" />
-														<TypeInfo Item0="{7E491828-F719-442E-A904-14FD42712037}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="tabControlOptions" />
@@ -1709,7 +1678,6 @@
 														<Children>
 															<Child Name="ultraTabPageControlDisplay" Key="{A5B5AB06-6C3C-4239-9BE6-9345A6E8C348}">
 																<Image FileName="980278457" Left="124" Top="66" Right="709" Bottom="580" />
-																<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="ultraTabPageControlDisplay" />
@@ -1718,7 +1686,6 @@
 																<Children>
 																	<Child Name="FlowLayoutPanel" Key="{AD26A88B-918F-4140-98D7-048C98DCF325}">
 																		<Image FileName="980278457" Left="124" Top="66" Right="709" Bottom="580" />
-																		<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																		<Properties>
 																			<Property Name="ClrFullClassName">
 																				<Value Value="System.Windows.Forms.FlowLayoutPanel" />
@@ -1730,7 +1697,6 @@
 																		<Children>
 																			<Child Name="DisplayGpuDecodingOptions" Key="{A82C7188-97E9-4A47-8A0A-AEEE612970AB}">
 																				<Image FileName="980278457" Left="127" Top="410" Right="788" Bottom="465" />
-																				<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																				<Properties>
 																					<Property Name="WinFormsControlName">
 																						<Value Value="DisplayGpuDecodingOptions" />
@@ -1739,7 +1705,6 @@
 																				<Children>
 																					<Child Name="ultraGroupBoxPreferHardwareAcceleration" Key="{13C77E65-6CC2-452A-B63F-63C3F2916A53}">
 																						<Image FileName="980278457" Left="127" Top="410" Right="788" Bottom="465" />
-																						<TypeInfo Item0="{9B69770C-38F3-477D-8C73-F06FD5E83E92}" />
 																						<Properties>
 																							<Property Name="WinFormsControlName">
 																								<Value Value="ultraGroupBoxPreferHardwareAcceleration" />
@@ -1748,7 +1713,6 @@
 																						<Children>
 																							<Child Name="chkPreferHardwareAcceleration" Key="{64CA7D78-B8EC-4356-A2B8-139219E243CE}">
 																								<Image FileName="980278457" Left="141" Top="431" Right="310" Bottom="448" />
-																								<TypeInfo Item0="{D814D9A4-7840-4E70-8EE1-5D644ABE38F3}" />
 																								<Properties>
 																									<Property Name="WinFormsControlName">
 																										<Value Value="chkPreferHardwareAcceleration" />
@@ -1765,7 +1729,6 @@
 															</Child>
 															<Child Name="Display" Key="{96AE2AE4-FD58-476C-9541-6C3EFFF2EEE7}">
 																<Image FileName="-1216131133" Left="13" Top="82" Right="99" Bottom="122" />
-																<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																<Properties>
 																	<Property Name="FrameworkId">
 																		<Value Value="WinForm" />
@@ -1780,7 +1743,6 @@
 															</Child>
 															<Child Name="Display2" Key="{AB624860-0848-46ED-B65B-B6DB534E5482}">
 																<Image FileName="-1216131133" Left="13" Top="82" Right="99" Bottom="122" />
-																<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																<Properties>
 																	<Property Name="FrameworkId">
 																		<Value Value="WinForm" />
@@ -1807,7 +1769,6 @@
 												<Children>
 													<Child Name="btnOK" Key="{A504B616-75DA-475E-A86A-3BD91016390D}">
 														<Image FileName="-1124073901" Left="550" Top="631" Right="630" Bottom="654" />
-														<TypeInfo Item0="{17AD6CEE-0975-4A5C-AEF1-0D8169CFF16F}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="btnOK" />
@@ -1857,7 +1818,6 @@
 														<Children>
 															<Child Name="Editor_Edit_Area" Key="{2F6B2817-305E-4C35-8343-054F2B289794}">
 																<Image FileName="11718346" Left="191" Top="113" Right="323" Bottom="130" />
-																<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																<Properties>
 																	<Property Name="FrameworkId">
 																		<Value Value="WinForm" />
@@ -1872,7 +1832,6 @@
 															</Child>
 															<Child Name="newPassword1TextBox_EmbeddableTextBox" Key="{A54D0D23-0F0D-43E5-B800-608FCF41296F}">
 																<Image FileName="-875439863" Left="193" Top="115" Right="323" Bottom="128" />
-																<TypeInfo Item0="{A4870586-EB94-4BCC-8B10-6593F0827500}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="newPassword1TextBox_EmbeddableTextBox" />
@@ -1891,7 +1850,6 @@
 														<Children>
 															<Child Name="Editor_Edit_Area" Key="{DA9162B5-41E0-43A8-9DD9-B548E313930D}">
 																<Image FileName="264970914" Left="191" Top="145" Right="323" Bottom="162" />
-																<TypeInfo Item0="{1B0FE3AD-6458-4C45-9C16-490C550E2765}" />
 																<Properties>
 																	<Property Name="FrameworkId">
 																		<Value Value="WinForm" />
@@ -1906,7 +1864,6 @@
 															</Child>
 															<Child Name="newPassword2TextBox_EmbeddableTextBox" Key="{BE63D375-CC6A-409F-8762-BB484D6E0854}">
 																<Image FileName="980372360" Left="193" Top="147" Right="323" Bottom="160" />
-																<TypeInfo Item0="{A4870586-EB94-4BCC-8B10-6593F0827500}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="newPassword2TextBox_EmbeddableTextBox" />
@@ -1919,7 +1876,6 @@
 											</Child>
 											<Child Name="okButton" Key="{91CE7906-0879-4D82-9A81-B3FAC12F9813}">
 												<Image FileName="611900300" Left="172" Top="179" Right="252" Bottom="202" />
-												<TypeInfo Item0="{17AD6CEE-0975-4A5C-AEF1-0D8169CFF16F}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="okButton" />
@@ -2079,14 +2035,14 @@
 										</Child>
 									</Child>
 								</Child>
-								<Child Name="PlaybackCameoSpace" Owner="{14A0A228-DCCF-4A7E-B76E-6252DCC6BE9D}">
-									<Child Name="CameoSpacePanel" Owner="{1E21E5C0-5954-453C-A7E0-91810109A754}">
-										<Child Name="Cameo6" Owner="{56516796-7D6A-468C-A48D-91B104D74BC0}" />
-									</Child>
-									<Child Name="UltraToolbarsDockArea2" Owner="{7C22289B-706F-4856-A915-26FA8C1203DA}">
-										<Child Name="Toolbar" Owner="{940714B7-77EC-47F3-8BC7-07C757DA941C}">
-											<Child Name="Show_more_Image_pane_rows" Owner="{CC410F64-FC78-44B2-8D3E-620384875F73}" />
+								<Child Name="TogglePlaybackCameoSpace" Owner="{F37449D6-01DD-489A-9782-489E2FB2938B}">
+									<Child Name="UltraToolbarsDockArea" Owner="{E4DE6002-ADCD-42AC-AD44-E940BC2FDEBC}">
+										<Child Name="Toolbar" Owner="{226AB822-5ED7-4394-8B44-71A223587292}">
+											<Child Name="Show_more_Image_pane_rows" Owner="{3D265D02-8146-407D-8F6B-EA25CB364B76}" />
 										</Child>
+									</Child>
+									<Child Name="CameoSpacePanel" Owner="{6FB97561-C3D6-41AF-8518-8E596EFA30D8}">
+										<Child Name="Cameo8" Owner="{DCE17B99-41DF-44B7-84BE-11F3F71B685D}" />
 									</Child>
 								</Child>
 							</Child>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Images>
+		<Image File="20434734.png" Checksum="1664815030" />
 		<Image File="22475687.png" Checksum="1472318443" />
+		<Image File="22572343.png" Checksum="843812909" />
+		<Image File="22705703.png" Checksum="-486971499" />
 		<Image File="2507546.png" Checksum="1095450695" />
-		<Image File="2740250.png" Checksum="-1292289326" />
-		<Image File="29126484.png" Checksum="-1495079781" />
 		<Image File="32852000.png" Checksum="-232196739" />
 		<Image File="32852921.png" Checksum="2119764794" />
 		<Image File="34087578.png" Checksum="-1867946410" />
@@ -59,8 +60,6 @@
 		<Image File="498653984.png" Checksum="-1354268528" />
 		<Image File="498947437.png" Checksum="-512339367" />
 		<Image File="499498640.png" Checksum="1852835637" />
-		<Image File="499499921.png" Checksum="-1429134005" />
-		<Image File="499500656.png" Checksum="939874812" />
 		<Image File="500756468.png" Checksum="-1666658224" />
 		<Image File="500775843.png" Checksum="-1239562429" />
 		<Image File="500807578.png" Checksum="-1716695752" />

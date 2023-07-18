@@ -111,10 +111,10 @@ function TC109222_Flexible_Cameo_Ratios_Resizing_Cameos()
   //playback mode
   containerControl.UltraToolbarsDockArea.Toolbar.System.Click();
   operatorClient.DropDownForm3.PopupControl.System2.Playback_mode.Click();
-  let playbackCameoSpace = cameoSpace.PlaybackCameoSpace;
-  buttonIncreaseGranularity = playbackCameoSpace.UltraToolbarsDockArea2.Toolbar.Show_more_Image_pane_rows;
+  let playbackCameoSpace = cameoSpace.TogglePlaybackCameoSpace;
+  buttonIncreaseGranularity = playbackCameoSpace.UltraToolbarsDockArea.Toolbar.Show_more_Image_pane_rows;
   buttonIncreaseGranularity.Click()
-  cameo = playbackCameoSpace.CameoSpacePanel.Cameo6;
+  cameo = playbackCameoSpace.CameoSpacePanel.Cameo8;
   cameo.Click();
   ResizeAndVerifyCameo(cameo);
   buttonIncreaseGranularity.Click();
