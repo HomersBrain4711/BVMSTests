@@ -251,9 +251,6 @@
 															<Property Name="ClrFullClassName">
 																<Value Value="Infragistics.Win.UltraWinTabControl.UltraTabPageControl" />
 															</Property>
-															<Property Name="WndCaption">
-																<Value Value="" />
-															</Property>
 															<Property Name="Index">
 																<Value Value="8" Type="0" />
 															</Property>
@@ -564,8 +561,6 @@
 										</Children>
 									</Child>
 									<Child Name="Configuration_Client_127_0_0_1_User_admin_" Key="{3E3C416F-6346-481E-95D2-8E547D0FF529}">
-										<Image FileName="-535857387" Left="8" Top="8" Right="1928" Bottom="31" />
-										<TypeInfo Item0="{C6A1E399-855D-46BF-99F2-F60C82CE11DE}" />
 										<Properties>
 											<Property Name="FrameworkId">
 												<Value Value="WinForm" />
@@ -1405,40 +1400,103 @@
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="StyleableWindow" Key="{7E23E9F0-E89A-4589-85D5-5460D409687E}">
-										<Image FileName="-537082783" Left="0" Top="0" Right="641" Bottom="481" />
+									<Child Name="StartupWindowView" Key="{DF887B6A-977C-42F6-9466-9B926F452531}">
+										<Image FileName="-1440990307" Left="0" Top="0" Right="800" Bottom="600" />
+										<TypeInfo Item0="{A30713AD-E73F-4E49-BE08-446260E175EB}" />
 										<Properties>
-											<Property Name="ClrFullClassName">
-												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											<Property Name="FrameworkId">
+												<Value Value="WPF" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="StartupWindowView" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="custom" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="StartupWindowView" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="UserNameBox" Key="{775A4D53-D520-4089-B2A4-79211EB27F4A}" ExtendedFind="True">
-												<Image FileName="-537082783" Left="194" Top="213" Right="514" Bottom="238" />
+											<Child Name="LogonView" Key="{2ED9C2B8-F667-495E-8D69-633CC41FFD78}">
+												<Image FileName="-1440990307" Left="34" Top="242" Right="767" Bottom="552" />
+												<TypeInfo Item0="{A30713AD-E73F-4E49-BE08-446260E175EB}" />
 												<Properties>
-													<Property Name="WPFControlName">
-														<Value Value="UserNameBox" />
+													<Property Name="FrameworkId">
+														<Value Value="WPF" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="LogonView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="custom" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="LogonView" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
 													</Property>
 												</Properties>
-											</Child>
-											<Child Name="PasswordBox" Key="{2CE1BDF8-3BDC-4AA5-A0B9-DFF537FB5423}" ExtendedFind="True">
-												<Image FileName="2046902539" Left="194" Top="245" Right="514" Bottom="270" />
-												<Properties>
-													<Property Name="WPFControlName">
-														<Value Value="PasswordBox" />
-													</Property>
-												</Properties>
-											</Child>
-											<Child Name="ButtonOk" Key="{9E6D65E2-BDBC-4562-B714-A168A074BEAB}" ExtendedFind="True">
-												<Image FileName="-1444093793" Left="194" Top="402" Right="291" Bottom="434" />
-												<Properties>
-													<Property Name="ClrFullClassName">
-														<Value Value="System.Windows.Controls.Button" />
-													</Property>
-													<Property Name="WPFControlText">
-														<Value Value="OK" />
-													</Property>
-												</Properties>
+												<Children>
+													<Child Name="ButtonOK" Key="{D01A3F46-AE00-486E-AD94-4180DB5B0E3A}">
+														<Image FileName="-1440990307" Left="243" Top="503" Right="363" Bottom="542" />
+														<TypeInfo Item0="{A30713AD-E73F-4E49-BE08-446260E175EB}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WPF" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="OK" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="UserNameBox" Key="{7FA1F21B-72EE-4961-8E4C-CD0196158DD0}">
+														<Image FileName="-1440990307" Left="243" Top="267" Right="642" Bottom="297" />
+														<TypeInfo Item0="{B2A4FD29-C0C8-4217-8F9A-8094C50EA66E}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WPF" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="TextBox" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="edit" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="UserNameBox" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="PasswordBox" Key="{2B10BABF-7F5A-49D1-876B-908EA621A6B3}">
+														<Image FileName="-1440990307" Left="243" Top="307" Right="642" Bottom="337" />
+														<TypeInfo Item0="{B2A4FD29-C0C8-4217-8F9A-8094C50EA66E}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="WPF" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="PasswordBox" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="edit" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="PasswordBox" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -1630,10 +1688,12 @@
 				</Child>
 			</Child>
 			<Child Name="HwndSource_StyleableWindow" Owner="{0F52B2EB-EBBD-498D-AF50-2D061EF9E813}">
-				<Child Name="StyleableWindow" Owner="{7E23E9F0-E89A-4589-85D5-5460D409687E}">
-					<Child Name="UserNameBox" Owner="{775A4D53-D520-4089-B2A4-79211EB27F4A}" />
-					<Child Name="PasswordBox" Owner="{2CE1BDF8-3BDC-4AA5-A0B9-DFF537FB5423}" />
-					<Child Name="ButtonOk" Owner="{9E6D65E2-BDBC-4562-B714-A168A074BEAB}" />
+				<Child Name="StartupWindowView" Owner="{DF887B6A-977C-42F6-9466-9B926F452531}">
+					<Child Name="LogonView" Owner="{2ED9C2B8-F667-495E-8D69-633CC41FFD78}">
+						<Child Name="ButtonOK" Owner="{D01A3F46-AE00-486E-AD94-4180DB5B0E3A}" />
+						<Child Name="UserNameBox" Owner="{7FA1F21B-72EE-4961-8E4C-CD0196158DD0}" />
+						<Child Name="PasswordBox" Owner="{2B10BABF-7F5A-49D1-876B-908EA621A6B3}" />
+					</Child>
 				</Child>
 			</Child>
 		</Child>
