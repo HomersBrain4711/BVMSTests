@@ -19,14 +19,17 @@
 	<variables key="{D16C021B-D4DE-47B8-A1FE-9CBB4EB6773F}">
 		<data Version="4">
 			<Items>
-				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310036003300440031004600340044003800420033004600340039003400390041004400460046003300350030003900380043004600360035004200450041004600" />
+				<Variable Name="Password" Type="String" Local="False">
+					<DefValue StrValue="MySuperPassword" />
+				</Variable>
+				<Variable Name="User" Type="String" Local="False">
+					<DefValue StrValue="MySuperUser" />
 				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{891C815B-4923-4F45-BE94-6FEBDDD59D3C}">
-		<settingsVersion value="15.43" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

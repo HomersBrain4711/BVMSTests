@@ -14,16 +14,16 @@ function TC399970()
   wnd.ClickR();
   ultraTree.PopupMenu.Click("New user");
   wnd.New_user.Click();
-  ultraTree.ultraTreeLocalGroups_LabelEditNode.SetText("MySuperuser");
+  ultraTree.ultraTreeLocalGroups_LabelEditNode.SetText(Project.Variables.User);
   let ultraGroupBox = panel2.rightpaneDefault.UserTabControl.ultraTabControl1.ultraTabPageControl1.ultraGroupBox2;
   ultraGroupBox.checkBoxPasswordHasToBeChanged.Click();
   ultraGroupBox.Click();
   let ultraTextEditor = ultraGroupBox.textEditorPassword;
   ultraTextEditor.Editor_Edit_Area.Click();
-  ultraTextEditor.textEditorPassword_EmbeddableTextBox.SetText(Project.Variables.Password1);
+  ultraTextEditor.textEditorPassword_EmbeddableTextBox.SetText(Project.Variables.Password);
   ultraTextEditor = ultraGroupBox.textEditorConfirmPassword;
   ultraTextEditor.Editor_Edit_Area.Click();
-  ultraTextEditor.textEditorConfirmPassword_EmbeddableTextBox.SetText(Project.Variables.Password1);
+  ultraTextEditor.textEditorConfirmPassword_EmbeddableTextBox.SetText(Project.Variables.Password);
   ultraGroupBox.buttonApply.Click();
   configClient.BoschMessageBox.ContainerControl.buttonRight.ClickButton();
   wnd = userAccessControl.zConfigurationControl_Toolbars_Dock_Area_Top.configBar;
@@ -36,20 +36,18 @@ function TC399970()
   TestedApps.OperatorClientWithoutAutoLogon.Run();
   let operatorClient = Aliases.OperatorClient;
   let logonView = operatorClient.HwndSource_StyleableWindow.StartupWindowView.LogonView;
-  logonView.UserNameBox.SetText("MySuperUser");
-  let passwordBox = logonView.PasswordBox;
-  passwordBox.Click();
-  passwordBox.SetText(Project.Variables.Password1);
-  logonView.ButtonOk.ClickButton();
+  logonView.UserNameBox.SetValue(Project.Variables.User);
+  logonView.PasswordBox.SetValue(Project.Variables.Password);
+  logonView.ButtonOk.Click();
   aqObject.CheckProperty(Aliases.OperatorClient.Control, "WndCaption", cmpContains, "Operator Client", false);
   operatorClient.Control.Button2.ClickButton();
   TestedApps.ConfigClientWithoutAutoLogon.Run();
   let panel = configClient.OnSiteClientLoginForm.login;
   let ultraButton = panel.btnOK;
-  panel.user.user_EmbeddableTextBox.SetText("MySuperUser");
+  panel.user.user_EmbeddableTextBox.SetText(Project.Variables.User);
   ultraTextEditor = panel.password;
   ultraTextEditor.Editor_Edit_Area.Click();
-  ultraTextEditor.password_EmbeddableTextBox.SetText(Project.Variables.Password1);
+  ultraTextEditor.password_EmbeddableTextBox.SetText(Project.Variables.Password);
   ultraButton.ClickButton();
   aqObject.CheckProperty(Aliases.ConfigClient.ConfigClientForm.Configuration_Client_127_0_0_1_User_MySuperUser_.System_Menu_Bar.System, "Enabled", cmpEqual, true);
   //cleanup
@@ -64,8 +62,8 @@ function TC399970()
   aqObject.CheckProperty(Aliases.ConfigClient.ConfigClientForm, "WndCaption", cmpContains, "Configuration Client", false);
   Helpers.ConfigClient_Close();
   TestedApps.OperatorClientWithoutAutoLogon.Run();
-  styleableWindow.UserNameBox.SetText("admin");
-  styleableWindow.ButtonOk.ClickButton();
+  logonView.UserNameBox.SetValue("admin");
+  logonView.ButtonOk.Click();
   aqObject.CheckProperty(Aliases.OperatorClient.Control, "WndCaption", cmpContains, "Operator Client", false);
   Helpers.OperatorClient_Close();
 
