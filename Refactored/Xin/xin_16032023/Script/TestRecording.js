@@ -181,9 +181,9 @@ function TC165705_Default_Setting_of_Hardware_Acceleration()
   aqObject.CheckProperty(Aliases.OperatorClient.OptionsForm.ContainerControl.panel1.tabControlOptions.ultraTabPageControlDisplay.FlowLayoutPanel.DisplayGpuDecodingOptions.ultraGroupBoxPreferHardwareAcceleration.chkPreferHardwareAcceleration, "ToggleState", cmpEqual, "1");
   ultraTabControl.ultraTabPageControlDisplay.FlowLayoutPanel.DisplayGpuDecodingOptions.ultraGroupBoxPreferHardwareAcceleration.chkPreferHardwareAcceleration.Click();
   aqObject.CheckProperty(Aliases.OperatorClient.OptionsForm.ContainerControl.panel1.tabControlOptions.ultraTabPageControlDisplay.FlowLayoutPanel.DisplayGpuDecodingOptions.ultraGroupBoxPreferHardwareAcceleration.chkPreferHardwareAcceleration, "ToggleState", cmpEqual, 0);
-
-  let ultraButton = containerControl.panel2.btnOK;
-  ultraButton.ClickButton();
+  //let ultraButton = containerControl.panel2.btnOK;
+  //ultraButton.ClickButton();
+  containerControl.Keys("[Enter]");
   Helpers.OperatorClient_Close();
 
   TestedApps.OperatorClient.Run();
@@ -193,7 +193,8 @@ function TC165705_Default_Setting_of_Hardware_Acceleration()
 
   aqObject.CheckProperty(Aliases.OperatorClient.OptionsForm.ContainerControl.panel1.tabControlOptions.ultraTabPageControlDisplay.FlowLayoutPanel.DisplayGpuDecodingOptions.ultraGroupBoxPreferHardwareAcceleration.chkPreferHardwareAcceleration, "ToggleState", cmpEqual, 0);
 
-  ultraButton.ClickButton();
+  //ultraButton.ClickButton();
+  containerControl.Keys("[Enter]");
   Helpers.OperatorClient_RestoreDefaultSettings();
   Helpers.OperatorClient_Close();
 }
