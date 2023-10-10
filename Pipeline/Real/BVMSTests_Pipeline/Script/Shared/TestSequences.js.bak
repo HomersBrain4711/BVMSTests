@@ -1,26 +1,150 @@
 ﻿//USEUNIT Helpers
-function TestSequence()
+function TC56342_StartSequence()
 {
-  //CreateSequence();
-  //TestedApps.OperatorClient.Run();
-  SelectSequenceByDragAndDrop();
-  VerifySequence();
-  CloseSequence();
+  CreateSequence();
+  TestedApps.OperatorClient.Run();
+  Helpers.OperatorClient_WaitForReady();
   SelectSequenceByContextMenu();
+  //first sequence run sometimes causes verification issues, so let the first sequence run pass by
+  aqUtils.Delay(3000);
   VerifySequence();
   CloseSequence();
   SelectSequenceByDoubleClick();
+  //first sequence run sometimes causes verification issues, so let the first sequence run pass by
+  aqUtils.Delay(3000);
+  VerifySequence();
+  CloseSequence();
+  SelectSequenceByDragAndDrop();
+  //first sequence run sometimes causes verification issues, so let the first sequence run pass by
+  aqUtils.Delay(3000);
   VerifySequence();
   CloseSequence();
   Helpers.OperatorClient_RestoreDefaultSettings();
+  //Helpers.OperatorClient_Close();
+  //Helpers.ConfigClient_RestoreConfig();
+  //Helpers.ConfigClient_Close();
+}
+
+function TC56368_TestSequence_Pause()
+{
+  SelectSequenceByContextMenu();
+  aqUtils.Delay(1000);
+  let Cameo1 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo1;
+  let Cameo2 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo4;
+  let Cameo3 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo7;
+  var Cameo1_initialCaption = Cameo1.WndCaption;
+  var Cameo2_initialCaption = Cameo2.WndCaption;
+  var Cameo3_initialCaption = Cameo3.WndCaption;
+  
+  //click pause button
+  Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar.Click(104, 13);
+  
+  //wait longer than dwell time of one sequence step, to assure the sequence is paused
+  aqUtils.Delay(5000);
+
+  aqObject.CheckProperty(Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo1, "WndCaption", cmpEqual, Cameo1_initialCaption);
+  aqObject.CheckProperty(Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo4, "WndCaption", cmpEqual, Cameo2_initialCaption);
+  aqObject.CheckProperty(Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo7, "WndCaption", cmpEqual, Cameo3_initialCaption);
+
+  Helpers.OperatorClient_RestoreDefaultSettings();
+
   Helpers.OperatorClient_Close();
   Helpers.ConfigClient_RestoreConfig();
   Helpers.ConfigClient_Close();
+
+}
+
+function TC56369_TestSequence_ForwardBackward()
+{
+  SelectSequenceByContextMenu();
+  let Cameo1 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo1;
+  let Cameo2 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo4;
+  let Cameo3 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo7;
+
+  let trickPlayBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
+  
+  
+  //backward
+  trickPlayBar.Click(74, 9);
+  WaitForSequenceStep(3);
+  VerifySequenceStep(3);
+  VerifySequenceStep(2);
+  VerifySequenceStep(1);
+  VerifySequenceStep(3);
+  VerifySequenceStep(2);
+  VerifySequenceStep(1);
+
+  //forward
+  trickPlayBar.Click(127, 12);
+  WaitForSequenceStep(1);
+  VerifySequenceStep(1);
+  VerifySequenceStep(2);
+  VerifySequenceStep(3);
+  VerifySequenceStep(1);
+  VerifySequenceStep(2);
+  VerifySequenceStep(3);
+  Helpers.OperatorClient_RestoreDefaultSettings();
+  
+}
+
+function TC56371_TestSequence_StepForward()
+{
+  var sequenceNavigationBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
+  SelectSequenceByContextMenu();
+  //click Pause
+  sequenceNavigationBar.Click(157, 12);
+  var currentSequenceStep = FindSequenceStep();
+  //verify, Sequence is paused
+  aqUtils.Delay(5000);
+  VerifySequenceStep(currentSequenceStep);
+
+  for(var i = 0; i < 6; i++)
+  {
+    currentSequenceStep = FindSequenceStep();
+    //click StepForward
+    sequenceNavigationBar.Click(157, 12);
+    var nextSequenceStep = GetNextSequenceStep(currentSequenceStep, true);
+    //verify, next sequence step is shown
+    VerifySequenceStep(nextSequenceStep);
+    //verify, sequence is paused
+    aqUtils.Delay(5000);
+    VerifySequenceStep(nextSequenceStep);
+  }
+  CloseSequence();
+  Helpers.OperatorClient_RestoreDefaultSettings();
+}
+
+function TC56370_TestSequence_StepBackward()
+{
+  var sequenceNavigationBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
+  SelectSequenceByContextMenu();
+  //click Pause
+  sequenceNavigationBar.Click(157, 12);
+  var currentSequenceStep = FindSequenceStep();
+  //verify, Sequence is paused
+  aqUtils.Delay(5000);
+  VerifySequenceStep(currentSequenceStep);
+
+  for(var i = 0; i < 6; i++)
+  {
+    currentSequenceStep = FindSequenceStep();
+    //click StepBackward
+    sequenceNavigationBar.Click(48, 10);
+    var nextSequenceStep = GetNextSequenceStep(currentSequenceStep, false);
+    //verify, next sequence step is shown
+    VerifySequenceStep(nextSequenceStep);
+    //verify, sequence is paused
+    aqUtils.Delay(5000);
+    VerifySequenceStep(nextSequenceStep);
+  }
+  CloseSequence();
+  Helpers.OperatorClient_RestoreDefaultSettings();
 }
 
 function CreateSequence()
 {
   TestedApps.ConfigClient.Run();
+  Helpers.ConfigClient_WaitForReady();
   //TestedApps.ConfigClient1.Run(1, true);
   let configClient = Aliases.ConfigClient;
   //configClient.OnSiteClientLoginForm.login.btnOK.ClickButton();
@@ -84,103 +208,163 @@ function SelectSequenceByDoubleClick()
   let operatorClient = Aliases.OperatorClient;
   operatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow.LogicalTree.LogicalTree.Logical_Tree.MySequence_1_.DblClick();
 }
+
 function SelectSequenceByDragAndDrop()
 {
   let operatorClient = Aliases.OperatorClient;
   let cameo1 = operatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo1;
   let sequenceInTree = operatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow.LogicalTree.LogicalTree.Logical_Tree.MySequence_1_;
-  DragAndDrop3(sequenceInTree, cameo1)
-}
-
-function DragAndDrop3(startObject, destinationObject) {
-    var startPoint, targetPoint, dragX, dragY;
-    // Drag from the center of object A to the center of object B
-
-    startPoint = startObject.WindowToScreen(startObject.Width/2, startObject.Height/2);
-    targetPoint = destinationObject.WindowToScreen(destinationObject.Width/2, destinationObject.Height/2);
-
-    dragX = targetPoint.X - startPoint.X;
-    dragY = targetPoint.Y - startPoint.Y;
-
-    startObject.Drag(-1, -1, dragX, dragY); 
-}
-function getXPosition(object)
-{
-  return object.WindowToScreen(object.Width/2, 10).X;
-}
-
-function getYPosition(object)
-{
-  return object.WindowToScreen(object.Height/2, 10).Y;
-}
-
-function DragAndDrop2(ReqObjectToMove, DestControl)
-{
-  var XPos1 ,YPos1 ,XPos2 ,YPos2;
-  XPos1 = ReqObjectToMove.Left+ReqObjectToMove.Width/2
-  YPos1 = ReqObjectToMove.Top+ReqObjectToMove.Height/2
-  XPos2 = DestControl.Left+DestControl.Width/2
-  YPos2 = DestControl.Top+DestControl.Height/2
-  ReqObjectToMove.Drag(XPos1, YPos1, XPos2, YPos2)
-}
-
-
-function DragAndDrop(fromObject, toObject)
-{  
-  var fromX = getXPosition(fromObject);
-  var fromY = getYPosition(fromObject);
-  var toX = getXPosition(toObject);
-  var toY = getYPosition(toObject);
-  fromObject.Drag(10,10, toX-fromX, toY-fromY);
+  Helpers.DragAndDrop(sequenceInTree, cameo1);
 }
 
 function VerifySequence(forward = true)
 {
   if(forward == true)
   {
+    WaitForSequenceStep(1);
     for(step = 1; step <=3; step++)
     {
       VerifySequenceStep(step);
       // wait a bit longer than configured sequence dwelltime (2 seconds) for the next step
-      aqUtils.Delay(2100);
+      //aqUtils.Delay(2100);
     }
   }
   else
   {
+    WaitForSequenceStep(3);
     for(step = 3; step >=1; step--)
     {
       VerifySequenceStep(step);
       // wait a bit longer than configured sequence dwelltime (2 seconds) for the next step
-      aqUtils.Delay(2100);
+      //aqUtils.Delay(2100);
     }
     
   }
 }
 
 
-function VerifySequenceStep(step)
+function VerifySequenceStep(step, timeout = 2100)
 {
+  //remember configured autowait timeout
+  let timeout_org = Options.Run.Timeout;
+  try
+  {
+    //set autowait timeout to dwell time of Sequence
+    Options.Run.Timeout = timeout;
+
+    let Cameo1 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo1;
+    let Cameo2 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo4;
+    let Cameo3 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo7;
+    Cameo1.Refresh();
+    Cameo2.Refresh();
+    Cameo3.Refresh();
+    if(step == 1)
+    {
+      //aqObject.CompareProperty(Cameo1.WndCaption, cmpEqual, "Camera 1", true, lmError);
+      aqObject.CheckProperty(Cameo1, "WndCaption", cmpContains, "Camera 1", false);
+      aqObject.CheckProperty(Cameo2, "WndCaption", cmpContains, "Camera 2", false);
+      aqObject.CheckProperty(Cameo3, "WndCaption", cmpContains, "Camera 3", false);
+    }
+    if(step == 2)
+    {
+      aqObject.CheckProperty(Cameo1, "WndCaption", cmpContains, "Camera 2", false);
+      aqObject.CheckProperty(Cameo2, "WndCaption", cmpContains, "Camera 3", false);
+      aqObject.CheckProperty(Cameo3, "WndCaption", cmpContains, "Camera 4", false);
+    }
+    if(step == 3)
+    {
+      aqObject.CheckProperty(Cameo1, "WndCaption", cmpContains, "Camera 3", false);
+      aqObject.CheckProperty(Cameo2, "WndCaption", cmpContains, "Camera 4", false);
+      aqObject.CheckProperty(Cameo3, "WndCaption", cmpContains, "Camera 1", false);
+    }
+  }
+    finally
+    {
+      //resore autowait timeout to original value
+      Options.Run.Timeout = timeout_org;
+    }
+}
+function GetNextSequenceStep(currentStep, forward = true)
+{
+  var nextSequenceStep = -1;
+  if(forward)
+  {
+    switch(currentStep)
+    {
+      case 1:
+        nextSequenceStep = 2;
+        break;
+      case 2:
+        nextSequenceStep = 3;
+        break;
+      case 3:
+        nextSequenceStep = 1;
+        break;
+      default:
+        nextSequenceStep = -1;
+        break;
+    }
+  }
+  else
+  {
+    switch(currentStep)
+    {
+      case 1:
+        nextSequenceStep = 3;
+        break;
+      case 2:
+        nextSequenceStep = 1;
+        break;
+      case 3:
+        nextSequenceStep = 2;
+        break;
+      default:
+        nextSequenceStep = -1;
+        break;
+    }
+    
+  }
+  return nextSequenceStep;
+}
+
+function FindSequenceStep()
+{
+  var step = -1;
   let Cameo1 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo1;
   let Cameo2 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo4;
   let Cameo3 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo7;
-  if(step == 1)
+  Cameo1.Refresh();
+  Cameo2.Refresh();
+  Cameo3.Refresh();
+  if((Cameo1.WndCaption.includes("Camera 1")) && (Cameo2.WndCaption.includes("Camera 2")) && (Cameo3.WndCaption.includes("Camera 3")))
   {
-    aqObject.CheckProperty(Cameo1, "WndCaption", cmpContains, "Camera 1", false);
-    aqObject.CheckProperty(Cameo2, "WndCaption", cmpContains, "Camera 2", false);
-    aqObject.CheckProperty(Cameo3, "WndCaption", cmpContains, "Camera 3", false);
+    step = 1;
   }
-  if(step == 2)
+  if((Cameo1.WndCaption.includes("Camera 2")) && (Cameo2.WndCaption.includes("Camera 3")) && (Cameo3.WndCaption.includes("Camera 4")))
   {
-    aqObject.CheckProperty(Cameo1, "WndCaption", cmpContains, "Camera 2", false);
-    aqObject.CheckProperty(Cameo2, "WndCaption", cmpContains, "Camera 3", false);
-    aqObject.CheckProperty(Cameo3, "WndCaption", cmpContains, "Camera 4", false);
+    step = 2;
   }
-  if(step == 3)
+  if((Cameo1.WndCaption.includes("Camera 3")) && (Cameo2.WndCaption.includes("Camera 4")) && (Cameo3.WndCaption.includes("Camera 1")))
   {
-    aqObject.CheckProperty(Cameo1, "WndCaption", cmpContains, "Camera 3", false);
-    aqObject.CheckProperty(Cameo2, "WndCaption", cmpContains, "Camera 4", false);
-    aqObject.CheckProperty(Cameo3, "WndCaption", cmpContains, "Camera 1", false);
+    step = 3;
   }
+  
+  return step;
+}
+
+function WaitForSequenceStep(step)
+{
+  var found = false;
+  for(var i = 0; i < 200; i++)
+  {
+    if(FindSequenceStep() == step)
+    {
+      found = true;
+      break;
+    }
+    aqUtils.Delay(100);
+  }
+  return found;
 }
 
 function CloseSequence()
@@ -190,3 +374,4 @@ function CloseSequence()
   cameoSpacePanel.Cameo4.Close();
   cameoSpacePanel.Cameo7.Close();
 }
+

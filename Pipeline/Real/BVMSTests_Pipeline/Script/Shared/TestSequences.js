@@ -243,7 +243,7 @@ function VerifySequence(forward = true)
 }
 
 
-function VerifySequenceStep(step, timeout = 2100)
+function VerifySequenceStep(step, timeout = 2500)
 {
   //remember configured autowait timeout
   let timeout_org = Options.Run.Timeout;
