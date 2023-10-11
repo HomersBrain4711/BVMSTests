@@ -65,7 +65,7 @@ function TC56369_TestSequence_ForwardBackward()
   
   
   //backward
-  trickPlayBar.Click(74, 9);
+  trickPlayBar.Click(74, 12);
   WaitForSequenceStep(3);
   VerifySequenceStep(3);
   VerifySequenceStep(2);
