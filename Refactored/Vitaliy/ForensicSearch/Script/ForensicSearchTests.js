@@ -80,6 +80,7 @@ function CreateConfig(void_param)
 {
   //Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow7.ForensicSearchControl.scrollablePanel.VerticalScrollProperties.set_Value(100);
   let panel = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow7.ForensicSearchControl.scrollablePanel.UltraPanelClientAreaUnsafe.panelActiveXPlaceholder.Panel;
+  Helpers.WaitControlReady(panel, 10000);
   panel.SubPanel1.Button1.ClickButton();
   panel.SubPanel2.Button2.ClickButton();
   panel.SubPanel3.Button3.ClickButton();
