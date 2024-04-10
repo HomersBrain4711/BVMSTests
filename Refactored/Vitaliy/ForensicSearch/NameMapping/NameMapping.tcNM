@@ -342,7 +342,6 @@
 															</Child>
 															<Child Name="System" Key="{AFB6789C-B08E-4666-929C-B55C60538E9C}">
 																<Image FileName="54242667" Left="9" Top="53" Right="58" Bottom="73" />
-																<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 																<Properties>
 																	<Property Name="FrameworkId">
 																		<Value Value="WinForm" />
@@ -771,7 +770,6 @@
 																	</Child>
 																	<Child Name="TogglePlaybackCameoSpace" Key="{4B149C74-1D66-438E-89C4-D7995220BB14}">
 																		<Image FileName="1260189272" Left="797" Top="62" Right="3836" Bottom="1656" />
-																		<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="TogglePlaybackCameoSpace" />
@@ -780,7 +778,6 @@
 																		<Children>
 																			<Child Name="CameoSpacePanel" Key="{02DBA86A-E3E4-489B-934C-9FEC98777338}">
 																				<Image FileName="1260189272" Left="797" Top="96" Right="3836" Bottom="1656" />
-																				<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																				<Properties>
 																					<Property Name="WinFormsControlName">
 																						<Value Value="CameoSpacePanel" />
@@ -789,7 +786,6 @@
 																				<Children>
 																					<Child Name="Cameo_0_0" Key="{4D0C9795-5288-4BE0-90F4-1AC9D67E3CFB}">
 																						<Image FileName="-1961014280" Left="868" Top="106" Right="1780" Bottom="619" />
-																						<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -834,7 +830,6 @@
 																												<Children>
 																													<Child Name="ImageDecoderControl" Key="{A3088BFF-2464-43EF-AB9F-FC05CBE4C47D}">
 																														<Image FileName="379842051" Left="697" Top="120" Right="1545" Bottom="597" />
-																														<TypeInfo Item0="{F65702FE-4998-486C-81D8-1A30F196E439}" />
 																														<Properties>
 																															<Property Name="ClrFullClassName">
 																																<Value Value="Bosch.Vms.Client.OpClient.VideoComp.ImageDecoderControl" />
@@ -852,7 +847,6 @@
 																							</Child>
 																							<Child Name="Close" Key="{56E82B89-E3E9-46ED-BB49-670279F11A3E}">
 																								<Image FileName="58163513" Left="1031" Top="114" Right="1042" Bottom="123" />
-																								<TypeInfo Item0="{16AFC715-03E7-4E65-9DDA-D485C200AD76}" />
 																								<Properties>
 																									<Property Name="ClassName">
 																										<Value Value="CameoTool" />
@@ -864,7 +858,6 @@
 																							</Child>
 																							<Child Name="ForensicSearch" Key="{3B9F0472-CE3D-4B42-8128-8F3D6DC26E47}">
 																								<Image FileName="1474358271" Left="410" Top="130" Right="436" Bottom="154" />
-																								<TypeInfo Item0="{16AFC715-03E7-4E65-9DDA-D485C200AD76}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="0" Type="0" />
@@ -884,7 +877,6 @@
 																					</Child>
 																					<Child Name="Cameo_1" Key="{DABCA235-ACDF-4DE4-8221-05CD79FF85D7}">
 																						<Image FileName="857902400" Left="399" Top="130" Right="943" Bottom="436" />
-																						<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -904,7 +896,6 @@
 													</Child>
 													<Child Name="DockableWindow2" Key="{61164250-C482-4F17-A099-EE56BFE32AEB}">
 														<Image FileName="-702427441" Left="66" Top="93" Right="792" Bottom="2100" />
-														<TypeInfo Item0="{F7DF149D-2340-4E9F-B5D2-F391D5C935F0}" />
 														<Properties>
 															<Property Name="ClrFullClassName">
 																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
@@ -919,7 +910,6 @@
 														<Children>
 															<Child Name="LogicalTree" Key="{5FE99DAE-65A4-499F-8B98-A610338554CB}">
 																<Image FileName="-702427441" Left="66" Top="93" Right="792" Bottom="2100" />
-																<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="LogicalTree" />
@@ -928,7 +918,6 @@
 																<Children>
 																	<Child Name="UltraToolbarsDockArea" Key="{F28027B8-4564-428B-9254-89BFD12092D6}">
 																		<Image FileName="-702427441" Left="66" Top="93" Right="792" Bottom="144" />
-																		<TypeInfo Item0="{CED5A0E2-5F7C-411F-B598-537AB570F348}" />
 																		<Properties>
 																			<Property Name="ClrFullClassName">
 																				<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
@@ -943,7 +932,6 @@
 																		<Children>
 																			<Child Name="Toolbar" Key="{B4EF3156-7D49-4EF5-A4B3-43206E7AC621}">
 																				<Image FileName="-702427441" Left="66" Top="93" Right="792" Bottom="144" />
-																				<TypeInfo Item0="{77E1E123-2BEF-46E4-9F0D-807C07A241BF}" />
 																				<Properties>
 																					<Property Name="FrameworkId">
 																						<Value Value="WinForm" />
@@ -961,7 +949,6 @@
 																				<Children>
 																					<Child Name="Live_Mode_Active" Key="{FC88C546-787B-4F1B-BC3B-2B9D05667737}">
 																						<Image FileName="1037243912" Left="71" Top="96" Right="131" Bottom="141" />
-																						<TypeInfo Item0="{5F774FA6-07AE-4FB8-B3AF-342F2D3BE317}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -979,7 +966,6 @@
 																					</Child>
 																					<Child Name="Switch_to_Playback_Mode" Key="{EBB046E5-DD38-406B-82CE-6AAA5D87684E}">
 																						<Image FileName="1037243912" Left="135" Top="96" Right="195" Bottom="141" />
-																						<TypeInfo Item0="{5F774FA6-07AE-4FB8-B3AF-342F2D3BE317}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -997,7 +983,6 @@
 																					</Child>
 																					<Child Name="Mute_System" Key="{EE4B509B-A336-47FC-9EB7-C51C2CE5E208}">
 																						<Image FileName="2123169360" Left="209" Top="96" Right="254" Bottom="141" />
-																						<TypeInfo Item0="{5F774FA6-07AE-4FB8-B3AF-342F2D3BE317}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -1015,7 +1000,6 @@
 																					</Child>
 																					<Child Name="MainMenu_Toolbar_Tools_Tool_VolumeSlider_Index_3_" Key="{90575576-001E-4354-B3E0-5D726E15AD89}">
 																						<Image FileName="-1603423423" Left="258" Top="101" Right="359" Bottom="137" />
-																						<TypeInfo Item0="{5F774FA6-07AE-4FB8-B3AF-342F2D3BE317}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -1033,7 +1017,6 @@
 																					</Child>
 																					<Child Name="Disconnect_from_All_Sites" Key="{55F0AF3C-5ABF-467D-B927-C8D5E42C581A}">
 																						<Image FileName="2123169360" Left="363" Top="96" Right="408" Bottom="141" />
-																						<TypeInfo Item0="{5F774FA6-07AE-4FB8-B3AF-342F2D3BE317}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -1051,7 +1034,6 @@
 																					</Child>
 																					<Child Name="Shows_content_of_the_StateImageProvider" Key="{CBB3C431-00E9-449C-AC3C-DCC55A394734}">
 																						<Image FileName="-107312584" Left="413" Top="96" Right="458" Bottom="141" />
-																						<TypeInfo Item0="{5F774FA6-07AE-4FB8-B3AF-342F2D3BE317}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -1109,7 +1091,6 @@
 																						<Children>
 																							<Child Name="Camera_3_1_2_3_6_3_" Key="{6132F59C-E554-4CD3-A566-E48FFEB3A5F1}">
 																								<Image FileName="-829798301" Left="82" Top="192" Right="243" Bottom="216" />
-																								<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -1155,7 +1136,6 @@
 																<Children>
 																	<Child Name="guiTree" Key="{07D9CBE3-1BE1-478B-8356-87AD4C83E649}">
 																		<Image FileName="683837483" Left="72" Top="144" Right="584" Bottom="1343" />
-																		<TypeInfo Item0="{33FFB34B-486B-449F-B088-A7E59195A540}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="guiTree" />
@@ -1164,7 +1144,6 @@
 																		<Children>
 																			<Child Name="Exports" Key="{83003E7C-ADDF-4E51-AAA0-FE4721549A51}">
 																				<Image FileName="-2025478780" Left="49" Top="97" Right="138" Bottom="121" />
-																				<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 																				<Properties>
 																					<Property Name="FrameworkId">
 																						<Value Value="WinForm" />
@@ -1193,7 +1172,6 @@
 																						<Children>
 																							<Child Name="Sample_Track_1" Key="{450E52B3-BA39-44EA-88A1-24A9872855C2}">
 																								<Image FileName="-1889395575" Left="83" Top="145" Right="212" Bottom="169" />
-																								<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -1270,7 +1248,6 @@
 														<Children>
 															<Child Name="ForensicSearchControl" Key="{4E82499A-3D80-4FA9-B2FF-0442E350A4D0}">
 																<Image FileName="506614245" Left="44" Top="62" Right="528" Bottom="1400" />
-																<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="ForensicSearchControl" />
@@ -1279,7 +1256,6 @@
 																<Children>
 																	<Child Name="scrollablePanel" Key="{57919300-F236-4252-8992-E72AA267728B}">
 																		<Image FileName="506614245" Left="44" Top="96" Right="528" Bottom="1340" />
-																		<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="scrollablePanel" />
@@ -1288,7 +1264,6 @@
 																		<Children>
 																			<Child Name="UltraPanelClientAreaUnsafe" Key="{BECC6255-19C1-4A25-8D6B-9A064E418A2F}">
 																				<Image FileName="506614245" Left="44" Top="96" Right="528" Bottom="1340" />
-																				<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																				<Properties>
 																					<Property Name="ClrFullClassName">
 																						<Value Value="Infragistics.Win.Misc.UltraPanelClientAreaUnsafe" />
@@ -1300,7 +1275,6 @@
 																				<Children>
 																					<Child Name="panelWpfPlaceholder" Key="{6D97AEFD-6C38-4391-A1AA-7A207C7F023D}">
 																						<Image FileName="506614245" Left="44" Top="96" Right="528" Bottom="310" />
-																						<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																						<Properties>
 																							<Property Name="WinFormsControlName">
 																								<Value Value="panelWpfPlaceholder" />
@@ -1309,7 +1283,6 @@
 																						<Children>
 																							<Child Name="StyleableElementHost" Key="{66D016D9-75B4-47E7-88F8-606617ADC6FC}">
 																								<Image FileName="506614245" Left="44" Top="96" Right="528" Bottom="310" />
-																								<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																								<Properties>
 																									<Property Name="ClrFullClassName">
 																										<Value Value="Bosch.Frontend.Framework.Support.Wpf.StyleableElementHost" />
@@ -1321,7 +1294,6 @@
 																								<Children>
 																									<Child Name="HwndSource_AdornerDecorator" Key="{71A53DF6-A2B9-4D30-AA33-5DFF6B83DB7C}">
 																										<Image FileName="506614245" Left="44" Top="96" Right="528" Bottom="310" />
-																										<TypeInfo Item0="{322761FA-37A4-4B5A-8D7B-D41AE014CFEA}" />
 																										<Properties>
 																											<Property Name="RootVisual.ClrClassName">
 																												<Value Value="AdornerDecorator" />
@@ -1333,7 +1305,6 @@
 																										<Children>
 																											<Child Name="AdornerDecorator" Key="{D1CC904A-9131-4197-8095-2EF3ACB251AD}">
 																												<Image FileName="506614245" Left="44" Top="96" Right="529" Bottom="311" />
-																												<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																												<Properties>
 																													<Property Name="ClrFullClassName">
 																														<Value Value="System.Windows.Documents.AdornerDecorator" />
@@ -1342,7 +1313,6 @@
 																												<Children>
 																													<Child Name="ComboboxSearchMode" Key="{6448538B-1D1C-4507-BF4E-6D111D8FDFA6}" ExtendedFind="True">
 																														<Image FileName="506614245" Left="60" Top="134" Right="348" Bottom="154" />
-																														<TypeInfo Item0="{B1E89C0F-1BD6-4430-A731-80938C10EE19}" />
 																														<Properties>
 																															<Property Name="ClrFullClassName">
 																																<Value Value="System.Windows.Controls.ComboBox" />
@@ -1354,7 +1324,6 @@
 																													</Child>
 																													<Child Name="ComboboxType" Key="{08CAAD6E-B6AF-4AE0-9260-41E1DB08CCB2}" ExtendedFind="True">
 																														<Image FileName="16482863" Left="60" Top="244" Right="348" Bottom="265" />
-																														<TypeInfo Item0="{B1E89C0F-1BD6-4430-A731-80938C10EE19}" />
 																														<Properties>
 																															<Property Name="ClrFullClassName">
 																																<Value Value="System.Windows.Controls.ComboBox" />
@@ -1366,7 +1335,6 @@
 																													</Child>
 																													<Child Name="PresetsComboBox" Key="{0261E266-3EF8-4E6F-B326-B6C5D1CD1FB3}" ExtendedFind="True">
 																														<Image FileName="1326302955" Left="60" Top="189" Right="348" Bottom="210" />
-																														<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 																														<Properties>
 																															<Property Name="WPFControlName">
 																																<Value Value="PresetsComboBox" />
@@ -1402,7 +1370,6 @@
 																								<Children>
 																									<Child Name="SubPanel2" Key="{7F8ABE34-11CE-489E-9085-3331616799D2}">
 																										<Image FileName="-1048223895" Left="48" Top="310" Right="363" Bottom="880" />
-																										<TypeInfo Item0="{3C84C2DF-C08E-4E28-95E7-30870D412FE9}" />
 																										<Properties>
 																											<Property Name="FrameworkId">
 																												<Value Value="Win32" />
@@ -1423,7 +1390,6 @@
 																										<Children>
 																											<Child Name="Button1" Key="{6943D68C-F954-42AF-8FF8-83FD2490509E}">
 																												<Image FileName="-636374630" Left="60" Top="844" Right="123" Bottom="868" />
-																												<TypeInfo Item0="{EF9171AF-104D-46EA-8466-3A972A7D8576}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="Win32" />
@@ -1447,7 +1413,6 @@
 																											</Child>
 																											<Child Name="Button2" Key="{E6777117-414C-4E2C-BFF8-D0CE6757BC8C}">
 																												<Image FileName="397829603" Left="135" Top="844" Right="198" Bottom="868" />
-																												<TypeInfo Item0="{EF9171AF-104D-46EA-8466-3A972A7D8576}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="Win32" />
@@ -1471,7 +1436,6 @@
 																											</Child>
 																											<Child Name="Button3" Key="{7BF23675-79E8-4C70-B1EF-5CF12FBED32F}">
 																												<Image FileName="1885772550" Left="210" Top="844" Right="273" Bottom="868" />
-																												<TypeInfo Item0="{EF9171AF-104D-46EA-8466-3A972A7D8576}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="Win32" />
@@ -1495,7 +1459,6 @@
 																											</Child>
 																											<Child Name="Button4" Key="{0A6369C6-5C05-499A-B933-08EBEB2681B5}">
 																												<Image FileName="-1846937581" Left="285" Top="844" Right="348" Bottom="868" />
-																												<TypeInfo Item0="{EF9171AF-104D-46EA-8466-3A972A7D8576}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="Win32" />
@@ -1521,7 +1484,6 @@
 																									</Child>
 																									<Child Name="SubPanel1" Key="{A18B7CE3-6FB1-46DE-A271-8BAC9D69CA65}">
 																										<Image FileName="-251454477" Left="48" Top="310" Right="363" Bottom="880" />
-																										<TypeInfo Item0="{3C84C2DF-C08E-4E28-95E7-30870D412FE9}" />
 																										<Properties>
 																											<Property Name="FrameworkId">
 																												<Value Value="Win32" />
@@ -1545,7 +1507,6 @@
 																										<Children>
 																											<Child Name="Button1" Key="{D5B56F44-1747-45B7-BC7B-1EBF486FA2B9}">
 																												<Image FileName="-251454477" Left="75" Top="844" Right="159" Bottom="868" />
-																												<TypeInfo Item0="{EF9171AF-104D-46EA-8466-3A972A7D8576}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="Win32" />
@@ -1571,7 +1532,6 @@
 																									</Child>
 																									<Child Name="SubPanel3" Key="{2FD7A0F6-A949-4CE2-9F4D-08823C4A8BFA}">
 																										<Image FileName="1087956071" Left="48" Top="310" Right="363" Bottom="880" />
-																										<TypeInfo Item0="{3C84C2DF-C08E-4E28-95E7-30870D412FE9}" />
 																										<Properties>
 																											<Property Name="FrameworkId">
 																												<Value Value="Win32" />
@@ -1592,7 +1552,6 @@
 																										<Children>
 																											<Child Name="Button3" Key="{A4CB9E40-F336-4F2E-9F86-3FEEE6CBB543}">
 																												<Image FileName="1087956071" Left="210" Top="844" Right="273" Bottom="868" />
-																												<TypeInfo Item0="{EF9171AF-104D-46EA-8466-3A972A7D8576}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="Win32" />
@@ -1626,7 +1585,6 @@
 																	</Child>
 																	<Child Name="panelBottomWpfPlaceholder" Key="{6CEB959B-AEC6-4E75-BF70-E001083E19D4}">
 																		<Image FileName="-900887231" Left="44" Top="1340" Right="528" Bottom="1400" />
-																		<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="panelBottomWpfPlaceholder" />
@@ -1635,7 +1593,6 @@
 																		<Children>
 																			<Child Name="StyleableElementHost" Key="{9F27D544-CC88-41FE-8440-AC827925BA09}">
 																				<Image FileName="-900887231" Left="44" Top="1340" Right="528" Bottom="1400" />
-																				<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																				<Properties>
 																					<Property Name="ClrFullClassName">
 																						<Value Value="Bosch.Frontend.Framework.Support.Wpf.StyleableElementHost" />
@@ -1647,7 +1604,6 @@
 																				<Children>
 																					<Child Name="HwndSource_AdornerDecorator" Key="{42BE5F19-D0D7-46EF-92D8-B12A412349DD}">
 																						<Image FileName="-900887231" Left="44" Top="1340" Right="528" Bottom="1400" />
-																						<TypeInfo Item0="{322761FA-37A4-4B5A-8D7B-D41AE014CFEA}" />
 																						<Properties>
 																							<Property Name="RootVisual.ClrClassName">
 																								<Value Value="AdornerDecorator" />
@@ -1659,7 +1615,6 @@
 																						<Children>
 																							<Child Name="AdornerDecorator" Key="{46C351E8-1BFB-45B3-9258-8210A673CD93}">
 																								<Image FileName="-900887231" Left="44" Top="1340" Right="529" Bottom="1401" />
-																								<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																								<Properties>
 																									<Property Name="ClrFullClassName">
 																										<Value Value="System.Windows.Documents.AdornerDecorator" />
@@ -1668,7 +1623,6 @@
 																								<Children>
 																									<Child Name="Search" Key="{19DF1DCE-6889-4E46-B443-B38433D48BBB}" ExtendedFind="True">
 																										<Image FileName="-900887231" Left="278" Top="1360" Right="343" Bottom="1382" />
-																										<TypeInfo Item0="{F27AD0B8-7D63-4147-9192-F0254769476C}" />
 																										<Properties>
 																											<Property Name="WPFControlName">
 																												<Value Value="Search" />
@@ -1689,7 +1643,6 @@
 													</Child>
 													<Child Name="DockableWindow8" Key="{CB7309EA-351A-403D-9A31-C568299407F9}">
 														<Image FileName="-1053330637" Left="436" Top="1099" Right="2556" Bottom="1396" />
-														<TypeInfo Item0="{F7DF149D-2340-4E9F-B5D2-F391D5C935F0}" />
 														<Properties>
 															<Property Name="ClrFullClassName">
 																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
@@ -1704,7 +1657,6 @@
 														<Children>
 															<Child Name="TimelineControl" Key="{0B1A60CF-34B3-45F1-9C0E-BB0D433DE6F5}">
 																<Image FileName="-1053330637" Left="436" Top="1099" Right="2556" Bottom="1396" />
-																<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="TimelineControl" />
@@ -1713,7 +1665,6 @@
 																<Children>
 																	<Child Name="UltraToolbarsDockArea" Key="{F36D2A31-C525-4778-A2D6-06DDF1D92B6A}">
 																		<Image FileName="-1053330637" Left="436" Top="1099" Right="2556" Bottom="1134" />
-																		<TypeInfo Item0="{CED5A0E2-5F7C-411F-B598-537AB570F348}" />
 																		<Properties>
 																			<Property Name="ClrFullClassName">
 																				<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
@@ -1728,7 +1679,6 @@
 																		<Children>
 																			<Child Name="PlaybackPlayerControl" Key="{86438A9B-FC96-444C-B979-DFB334DA254C}">
 																				<Image FileName="-1053330637" Left="795" Top="1103" Right="998" Bottom="1129" />
-																				<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																				<Properties>
 																					<Property Name="WinFormsControlName">
 																						<Value Value="PlaybackPlayerControl" />
@@ -1739,7 +1689,6 @@
 																	</Child>
 																	<Child Name="StyleableElementHost" Key="{BF8C404D-9C08-4100-A8D1-44F8B671C70D}">
 																		<Image FileName="1843740507" Left="436" Top="964" Right="1804" Bottom="1177" />
-																		<TypeInfo Item0="{D6A09343-E5B7-47E1-BF17-4DA146A40CBF}" />
 																		<Properties>
 																			<Property Name="ClrFullClassName">
 																				<Value Value="Bosch.Frontend.Framework.Support.Wpf.StyleableElementHost" />
@@ -1754,7 +1703,6 @@
 																		<Children>
 																			<Child Name="HwndSource_AdornerDecorator" Key="{E5F3A56D-826D-4BC3-878E-BC382826FC87}">
 																				<Image FileName="1843740507" Left="436" Top="964" Right="1804" Bottom="1177" />
-																				<TypeInfo Item0="{322761FA-37A4-4B5A-8D7B-D41AE014CFEA}" />
 																				<Properties>
 																					<Property Name="RootVisual.ClrClassName">
 																						<Value Value="AdornerDecorator" />
@@ -1766,7 +1714,6 @@
 																				<Children>
 																					<Child Name="AdornerDecorator" Key="{942755F7-DE55-4642-81C0-89D5F9FD31F2}">
 																						<Image FileName="1843740507" Left="436" Top="964" Right="1805" Bottom="1178" />
-																						<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="System.Windows.Documents.AdornerDecorator" />
@@ -1775,7 +1722,6 @@
 																						<Children>
 																							<Child Name="Timeline" Key="{428404CA-93FF-45A5-AD5E-1D181B80548E}" ExtendedFind="True">
 																								<Image FileName="1843740507" Left="436" Top="964" Right="1805" Bottom="1178" />
-																								<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																								<Properties>
 																									<Property Name="WPFControlName">
 																										<Value Value="Timeline" />
@@ -1806,7 +1752,6 @@
 																												<Children>
 																													<Child Name="Path" Key="{CFB63BB2-AE5C-4F8A-B3B8-BCD6A505964A}" ExtendedFind="True">
 																														<Image FileName="290210545" Left="801" Top="1164" Right="822" Bottom="1178" />
-																														<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																														<Properties>
 																															<Property Name="ClrFullClassName">
 																																<Value Value="System.Windows.Shapes.Path" />
@@ -1817,7 +1762,6 @@
 																											</Child>
 																											<Child Name="TimelineSelectionLeft" Key="{D5EDB1BF-E430-4650-A456-602648F65901}" ExtendedFind="True">
 																												<Image FileName="-1541915458" Left="1227" Top="1164" Right="1248" Bottom="1178" />
-																												<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																												<Properties>
 																													<Property Name="ClrFullClassName">
 																														<Value Value="System.Windows.Controls.ContentControl" />
@@ -1832,7 +1776,6 @@
 																												<Children>
 																													<Child Name="Path" Key="{28969419-283D-427F-9B9F-442E8272200E}" ExtendedFind="True">
 																														<Image FileName="844858021" Left="1227" Top="1164" Right="1248" Bottom="1178" />
-																														<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																														<Properties>
 																															<Property Name="ClrFullClassName">
 																																<Value Value="System.Windows.Shapes.Path" />
@@ -1845,7 +1788,6 @@
 																									</Child>
 																									<Child Name="ArchiveList" Key="{645241D1-A6BB-4E55-9B4F-308B048726FD}" ExtendedFind="True">
 																										<Image FileName="-1932669778" Left="436" Top="1013" Right="687" Bottom="1178" />
-																										<TypeInfo Item0="{CF444C78-238C-415C-818D-35AF726D0499}" />
 																										<Properties>
 																											<Property Name="ClrFullClassName">
 																												<Value Value="System.Windows.Controls.ListBox" />
@@ -1854,7 +1796,6 @@
 																										<Children>
 																											<Child Name="Archive2" Key="{ABE52CDA-05FB-4DB4-8525-5A0090706A39}" ExtendedFind="True">
 																												<Image FileName="188596704" Left="436" Top="1037" Right="687" Bottom="1062" />
-																												<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																												<Properties>
 																													<Property Name="ClrFullClassName">
 																														<Value Value="System.Windows.Controls.ListBoxItem" />
@@ -1866,7 +1807,6 @@
 																											</Child>
 																											<Child Name="Archive1" Key="{DF6F86F4-D42D-4666-81DE-306A2346E55F}" ExtendedFind="True">
 																												<Image FileName="188596704" Left="436" Top="1013" Right="687" Bottom="1038" />
-																												<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																												<Properties>
 																													<Property Name="ClrFullClassName">
 																														<Value Value="System.Windows.Controls.ListBoxItem" />
@@ -1878,7 +1818,6 @@
 																												<Children>
 																													<Child Name="Textblock" Key="{F37FEF94-D8D4-49E5-AEB8-912B980018EE}" ExtendedFind="True">
 																														<Image FileName="143211504" Left="440" Top="1019" Right="637" Bottom="1032" />
-																														<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																														<Properties>
 																															<Property Name="ClrFullClassName">
 																																<Value Value="System.Windows.Controls.TextBlock" />
@@ -1887,7 +1826,6 @@
 																													</Child>
 																													<Child Name="ForensicSearchData" Key="{63D7CA7F-C45B-419A-BA7F-9F5F29D2D133}" ExtendedFind="True">
 																														<Image FileName="328754260" Left="640" Top="1016" Right="661" Bottom="1035" />
-																														<TypeInfo Item0="{DC8CE91B-E8E8-4AD9-A6CD-C3D077D3337B}" />
 																														<Properties>
 																															<Property Name="WPFControlName">
 																																<Value Value="ForensicSearchData" />
@@ -1986,7 +1924,6 @@
 												<Children>
 													<Child Name="Load_Export" Key="{00EF81B5-8677-494F-A191-A6956529C7A3}">
 														<Image FileName="2144016484" Left="2" Top="2" Right="120" Bottom="26" />
-														<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -2176,7 +2113,6 @@
 																<Children>
 																	<Child Name="Namespace_Tree_Control" Key="{EE3B8C20-FA75-49FE-9CBD-D7E711CCBD35}">
 																		<Image FileName="1724267263" Left="12" Top="146" Right="491" Bottom="1249" />
-																		<TypeInfo Item0="{33FFB34B-486B-449F-B088-A7E59195A540}" />
 																		<Properties>
 																			<Property Name="FrameworkId">
 																				<Value Value="Win32" />
@@ -2199,7 +2135,6 @@
 															</Child>
 															<Child Name="Shell_Folder_View" Key="{EF8E5B5F-7013-4F81-9C10-3370F353DF5F}" ExtendedFind="True">
 																<Image FileName="496738849" Left="497" Top="146" Right="2449" Bottom="1249" />
-																<TypeInfo Item0="{F65702FE-4998-486C-81D8-1A30F196E439}" />
 																<Properties>
 																	<Property Name="WndClass">
 																		<Value Value="SHELLDLL_DefView" />
@@ -2257,7 +2192,6 @@
 												<Children>
 													<Child Name="Edit" Key="{9191FFAC-9152-472B-BAAA-FD8752FD3E1E}">
 														<Image FileName="1130820182" Left="201" Top="846" Right="1395" Bottom="861" />
-														<TypeInfo Item0="{0B7774C8-59E4-40E0-9B28-1AFE9EB2233A}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="Win32" />
@@ -2278,7 +2212,6 @@
 													</Child>
 													<Child Name="File_name_" Key="{AE63DE31-C2ED-48F3-A4AD-E721CD003C5E}">
 														<Image FileName="-772936989" Left="201" Top="846" Right="1395" Bottom="861" />
-														<TypeInfo Item0="{0B7774C8-59E4-40E0-9B28-1AFE9EB2233A}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="Win32" />
@@ -2303,7 +2236,6 @@
 									</Child>
 									<Child Name="Open" Key="{589D8FDD-6AE3-4EB8-86C1-F99CF7DF314D}">
 										<Image FileName="-857790494" Left="1427" Top="870" Right="1515" Bottom="896" />
-										<TypeInfo Item0="{DC665ECB-6C41-47D6-8A23-6C8F613140E7}" />
 										<Properties>
 											<Property Name="FrameworkId">
 												<Value Value="Win32" />
@@ -2326,7 +2258,6 @@
 							</Child>
 							<Child Name="dlgOpen" Key="{9E92EA7B-4801-482C-AE55-4EFD4CA36A6B}">
 								<Image FileName="-1374520344" Left="0" Top="0" Right="1640" Bottom="916" />
-								<TypeInfo Item0="{E3A35807-E794-40B9-B550-0FA9A754FDA2}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="#32770" />
@@ -2338,7 +2269,6 @@
 								<Children>
 									<Child Name="cbxFileName" Key="{AEFCBC57-D001-49CC-8A3E-B84772BFB103}">
 										<Image FileName="-1374520344" Left="197" Top="841" Right="1415" Bottom="865" />
-										<TypeInfo Item0="{37F1FCF4-5E73-423E-AE7F-43E554FBFAE0}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="ComboBoxEx32" />
@@ -2347,7 +2277,6 @@
 										<Children>
 											<Child Name="ComboBox" Key="{7830235D-BBB8-4185-906E-CD9DD48578E4}">
 												<Image FileName="-1374520344" Left="197" Top="841" Right="1415" Bottom="865" />
-												<TypeInfo Item0="{37F1FCF4-5E73-423E-AE7F-43E554FBFAE0}" />
 												<Properties>
 													<Property Name="WndClass">
 														<Value Value="ComboBox" />
@@ -2356,7 +2285,6 @@
 												<Children>
 													<Child Name="Edit" Key="{CAB76CBC-985C-477F-9270-0D37F324C7D7}">
 														<Image FileName="-1374520344" Left="201" Top="846" Right="1395" Bottom="861" />
-														<TypeInfo Item0="{42DA803B-CB97-47EF-BF9E-54BA302E91BE}" />
 														<Properties>
 															<Property Name="WndClass">
 																<Value Value="Edit" />
@@ -2371,7 +2299,6 @@
 							</Child>
 							<Child Name="Item" Key="{0B007CD0-D78B-44FD-AE07-8C9A82F2BE27}">
 								<Image FileName="-274906989" Left="0" Top="0" Right="287" Bottom="117" />
-								<TypeInfo Item0="{0F8A901A-CCFF-4EA9-9249-10760690ED13}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="HwndWrapper[OperatorClient.exe;GUI Thread;a12783b8-d622-4e32-99bf-41b3b660802d]" />
@@ -2410,7 +2337,6 @@
 												<Children>
 													<Child Name="PresetName" Key="{C7374788-AE6B-46B7-8E4E-1FC08D803A63}" ExtendedFind="True">
 														<Image FileName="1698358700" Left="9" Top="34" Right="263" Bottom="47" />
-														<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 														<Properties>
 															<Property Name="WPFControlName">
 																<Value Value="PresetName" />
@@ -2418,6 +2344,70 @@
 														</Properties>
 													</Child>
 												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Operator_Client" Key="{AA52D796-854E-4502-B10E-3C30C081DFF1}">
+								<Image FileName="-1620258751" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{7C5E02F0-B7F5-4B31-8ED3-D945E175741A}" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="WPF" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Window" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="window" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Operator_Client" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="CloseDialogView" Key="{920262CF-9737-41FD-832C-EC4A5692E371}">
+										<Image FileName="-1620258751" Left="4" Top="34" Right="304" Bottom="190" />
+										<TypeInfo Item0="{44AE690B-1340-488B-B055-78D5EFDFA2F1}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="WPF" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="CloseDialogView" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="custom" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="CloseDialogView" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Yes" Key="{C7083CE1-04B1-44D0-BD36-D05217AF50AA}">
+												<Image FileName="-1620258751" Left="82" Top="146" Right="146" Bottom="174" />
+												<TypeInfo Item0="{44AE690B-1340-488B-B055-78D5EFDFA2F1}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="WPF" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Yes" />
+													</Property>
+												</Properties>
 											</Child>
 										</Children>
 									</Child>
@@ -2509,7 +2499,6 @@
 														</Properties>
 														<Children>
 															<Child Name="OpClient_1_running_window" Key="{5499B014-CF8B-4FD4-9486-1CD71F80F42A}">
-																<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 																<Properties>
 																	<Property Name="LocalizedControlType">
 																		<Value Value="button" />
@@ -2521,7 +2510,6 @@
 															</Child>
 															<Child Name="Microsoft_Teams_classic_1_running_window" Key="{ACFDEA92-0A03-4BA0-8BE7-03B559F97395}">
 																<Image FileName="2069052711" Left="833" Top="0" Right="882" Bottom="40" />
-																<TypeInfo Item0="{28ADF2DA-1A28-40A8-BE4A-5344CAF1ABEA}" />
 																<Properties>
 																	<Property Name="LocalizedControlType">
 																		<Value Value="button" />
@@ -2549,7 +2537,6 @@
 						</Properties>
 						<Children>
 							<Child Name="PI_9_Teambreakout_DIP_SW_SysMgt_Team_day_1_Microsoft_Teams_classic_Main_Window" Key="{E57F92D1-1A8A-483F-A588-F6F21A30D972}">
-								<TypeInfo Item0="{7E5982B3-030B-4CDF-A19D-4FC2424791C8}" />
 								<Properties>
 									<Property Name="FrameworkId">
 										<Value Value="Win32" />
@@ -2984,6 +2971,11 @@
 					<Child Name="ComboboxitemAutoSaved" Owner="{DDA9D600-33A8-4691-8DFE-52E52D01F909}">
 						<Child Name="PresetName" Owner="{C7374788-AE6B-46B7-8E4E-1FC08D803A63}" />
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="Operator_Client" Owner="{AA52D796-854E-4502-B10E-3C30C081DFF1}">
+				<Child Name="CloseDialogView" Owner="{920262CF-9737-41FD-832C-EC4A5692E371}">
+					<Child Name="Yes" Owner="{C7083CE1-04B1-44D0-BD36-D05217AF50AA}" />
 				</Child>
 			</Child>
 		</Child>

@@ -404,7 +404,6 @@
 																				<Children>
 																					<Child Name="GranularitySlider" Key="{371E0BCF-A6EA-4402-86D6-66D38DA338B8}">
 																						<Image FileName="-232196739" Left="1756" Top="67" Right="1843" Bottom="91" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="WinFormsControlName">
 																								<Value Value="GranularitySlider" />
@@ -423,7 +422,6 @@
 																				<Children>
 																					<Child Name="Cameo1" Key="{AB925948-A131-41B2-AFF5-BA2185EE3C08}">
 																						<Image FileName="-1867946410" Left="591" Top="102" Right="779" Bottom="243" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -435,7 +433,6 @@
 																					</Child>
 																					<Child Name="Cameo2" Key="{6E100612-3682-47A6-91F0-CE9654655C34}">
 																						<Image FileName="161574429" Left="591" Top="245" Right="779" Bottom="386" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -447,7 +444,6 @@
 																					</Child>
 																					<Child Name="Cameo3" Key="{38C3EF47-D356-4197-8542-EB4DE02502FC}">
 																						<Image FileName="-947805601" Left="591" Top="388" Right="779" Bottom="529" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -459,7 +455,6 @@
 																					</Child>
 																					<Child Name="Cameo4" Key="{93A32DB6-C267-4613-89FB-FC982FEC4F9A}">
 																						<Image FileName="570540689" Left="591" Top="531" Right="779" Bottom="672" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -471,7 +466,6 @@
 																					</Child>
 																					<Child Name="Cameo5" Key="{AF9BE0F4-7DE2-4512-AF06-2775C8115A1C}">
 																						<Image FileName="1536127482" Left="591" Top="674" Right="779" Bottom="815" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -483,7 +477,6 @@
 																					</Child>
 																					<Child Name="Cameo6" Key="{735C1173-FF36-4EB3-B461-4B50FA528979}">
 																						<Image FileName="822526123" Left="781" Top="102" Right="969" Bottom="243" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -495,7 +488,6 @@
 																					</Child>
 																					<Child Name="Cameo7" Key="{3952000C-E945-4156-8F0E-C79E0FCC0F4D}">
 																						<Image FileName="-1445526380" Left="781" Top="245" Right="969" Bottom="386" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -507,7 +499,6 @@
 																					</Child>
 																					<Child Name="Cameo8" Key="{8F2A6255-163C-4F46-9B9C-D86C233C64A3}">
 																						<Image FileName="319733874" Left="781" Top="388" Right="969" Bottom="529" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -519,7 +510,6 @@
 																					</Child>
 																					<Child Name="Cameo9" Key="{E5885F7E-3D38-4C07-8BC9-32A90F08C019}">
 																						<Image FileName="2026847095" Left="781" Top="531" Right="969" Bottom="672" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -531,7 +521,6 @@
 																					</Child>
 																					<Child Name="Cameo10" Key="{415ECCAC-BA83-441A-94A6-12F7C774E058}">
 																						<Image FileName="-215679313" Left="781" Top="674" Right="969" Bottom="815" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -543,7 +532,6 @@
 																					</Child>
 																					<Child Name="Cameo11" Key="{752BEE1C-D3A9-4084-818D-67EAEF8FA597}">
 																						<Image FileName="110563797" Left="971" Top="102" Right="1159" Bottom="243" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -555,7 +543,6 @@
 																					</Child>
 																					<Child Name="Cameo12" Key="{76C0C7EA-69A1-42F2-BB6F-EDCD5EBD25CE}">
 																						<Image FileName="1243677042" Left="971" Top="245" Right="1159" Bottom="386" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -567,7 +554,6 @@
 																					</Child>
 																					<Child Name="Cameo13" Key="{1DE55747-38AF-438C-A757-64FAC13FA3C5}">
 																						<Image FileName="2060379299" Left="971" Top="388" Right="1159" Bottom="529" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -579,7 +565,6 @@
 																					</Child>
 																					<Child Name="Cameo14" Key="{B27AED62-92F9-4483-8CC4-32640DD638F5}">
 																						<Image FileName="-672074978" Left="971" Top="531" Right="1159" Bottom="672" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -591,7 +576,6 @@
 																					</Child>
 																					<Child Name="Cameo15" Key="{EB5B41CF-B747-4914-8AE1-11DC51C79CBE}">
 																						<Image FileName="-947758575" Left="971" Top="674" Right="1159" Bottom="815" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -603,7 +587,6 @@
 																					</Child>
 																					<Child Name="Cameo16" Key="{3C2CE099-1692-43F1-8FEA-02819D96881A}">
 																						<Image FileName="-2000121706" Left="1161" Top="102" Right="1349" Bottom="243" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -615,7 +598,6 @@
 																					</Child>
 																					<Child Name="Cameo17" Key="{58602A78-B740-4302-82ED-16C2A88D644F}">
 																						<Image FileName="-1023520484" Left="1161" Top="245" Right="1349" Bottom="386" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -627,7 +609,6 @@
 																					</Child>
 																					<Child Name="Cameo18" Key="{55D8F09A-58D8-44B9-B358-FF993020B68B}">
 																						<Image FileName="-1070107788" Left="1161" Top="388" Right="1349" Bottom="529" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -639,7 +620,6 @@
 																					</Child>
 																					<Child Name="Cameo19" Key="{B826F7AF-CEFD-47E2-A76A-4C53DB731C11}">
 																						<Image FileName="774323946" Left="1161" Top="531" Right="1349" Bottom="672" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -651,7 +631,6 @@
 																					</Child>
 																					<Child Name="Cameo20" Key="{AABC3CB9-D1D9-4751-B0FC-FCFF32BE4794}">
 																						<Image FileName="-865545218" Left="1161" Top="674" Right="1349" Bottom="815" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -663,7 +642,6 @@
 																					</Child>
 																					<Child Name="Cameo21" Key="{8CAF4F82-702C-438F-B09B-BD09813FBAE8}">
 																						<Image FileName="-1740284855" Left="1351" Top="102" Right="1539" Bottom="243" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -675,7 +653,6 @@
 																					</Child>
 																					<Child Name="Cameo22" Key="{4020A86F-8D6F-45D6-BDAC-86F90A3EFF3D}">
 																						<Image FileName="313392336" Left="1351" Top="245" Right="1539" Bottom="386" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -687,7 +664,6 @@
 																					</Child>
 																					<Child Name="Cameo23" Key="{FF1D96B6-FAAC-4624-A40E-458386EB1BEB}">
 																						<Image FileName="-1058312699" Left="1351" Top="388" Right="1539" Bottom="529" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -699,7 +675,6 @@
 																					</Child>
 																					<Child Name="Cameo24" Key="{4E8DAED9-A8F2-4EB9-A8DC-BA698DF369BB}">
 																						<Image FileName="-1531938079" Left="1351" Top="531" Right="1539" Bottom="672" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -711,7 +686,6 @@
 																					</Child>
 																					<Child Name="Cameo25" Key="{3FD8612E-A542-4A82-8DF1-0E186DB2417C}">
 																						<Image FileName="720329875" Left="1351" Top="674" Right="1539" Bottom="815" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -723,7 +697,6 @@
 																					</Child>
 																					<Child Name="Cameo26" Key="{95B36C7E-5F85-4A42-BE7E-731DC2E2B3CD}">
 																						<Image FileName="1027333432" Left="1541" Top="102" Right="1729" Bottom="243" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -735,7 +708,6 @@
 																					</Child>
 																					<Child Name="Cameo27" Key="{3AA04419-01BD-463D-98DC-F00CED24F031}">
 																						<Image FileName="1313833200" Left="1541" Top="245" Right="1729" Bottom="386" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -747,7 +719,6 @@
 																					</Child>
 																					<Child Name="Cameo28" Key="{9FA57E97-AC39-4A95-A8A2-D5DD8B0D9CC6}">
 																						<Image FileName="815155192" Left="1541" Top="388" Right="1729" Bottom="529" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -759,7 +730,6 @@
 																					</Child>
 																					<Child Name="Cameo29" Key="{3EF1AD3E-F2D5-4DDE-AE20-200B45B4A363}">
 																						<Image FileName="-2095981662" Left="1541" Top="531" Right="1729" Bottom="672" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -771,7 +741,6 @@
 																					</Child>
 																					<Child Name="Cameo30" Key="{89C10972-B02D-449A-A4E5-BDDBB1430B79}">
 																						<Image FileName="-1231460180" Left="1541" Top="674" Right="1729" Bottom="815" />
-																						<TypeInfo Item0="{2E5AC208-613D-4E9B-8B04-1075D210860C}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -931,6 +900,43 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="HwndSource_StyleableWindow" Key="{36F048A6-7FCF-4DDD-9B0C-B44084100217}">
+								<Image FileName="1705756990" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{1F865709-5A88-4D84-8373-EF77D9AE22C6}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="StyleableWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Operator Client" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StyleableWindow" Key="{FDF3BAF8-E3C4-4EE4-B37A-5BFB364C6157}">
+										<Image FileName="1705756990" Left="0" Top="0" Right="309" Bottom="195" />
+										<TypeInfo Item0="{EC571445-ECE1-4886-B882-C85A1A239842}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtonYes" Key="{7162F323-8D49-43E0-9FB5-E717C2378436}" ExtendedFind="True">
+												<Image FileName="1705756990" Left="82" Top="146" Right="147" Bottom="175" />
+												<TypeInfo Item0="{49850C47-4B54-446A-9742-7CDCD0EA6B26}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Yes" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -1046,6 +1052,11 @@
 			<Child Name="BoschMessageBox" Owner="{6835D41B-6512-445B-9FF2-6C2F0A230E53}">
 				<Child Name="ContainerControl" Owner="{8F3232E6-1D7F-4467-B7F4-715307D48721}">
 					<Child Name="buttonMiddle" Owner="{8D013E1A-0848-415C-ACBA-59D65ADABD94}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_StyleableWindow" Owner="{36F048A6-7FCF-4DDD-9B0C-B44084100217}">
+				<Child Name="StyleableWindow" Owner="{FDF3BAF8-E3C4-4EE4-B37A-5BFB364C6157}">
+					<Child Name="ButtonYes" Owner="{7162F323-8D49-43E0-9FB5-E717C2378436}" />
 				</Child>
 			</Child>
 		</Child>

@@ -48,7 +48,7 @@
 	</testItems>
 	<variables key="{6E6248AA-5C5F-4C57-A541-B8B064147A43}" />
 	<settings key="{79083C54-41F9-4E9D-8CB1-FF2D91BD346A}">
-		<settingsVersion value="15.48" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -156,7 +156,7 @@
 				<row val0="Flat" />
 			</data>
 		</setting>
-		<setting name="General_ProjectLogLocation" type="5" value="C:\_TestCompleteLogs" />
+		<setting name="General_ProjectLogLocation" type="5" value="..\..\..\..\..\_TestCompleteLogs" />
 		<setting name="General_RepaintWindowBeforeCapturingImage" type="1" value="True" />
 		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
 			<columns>

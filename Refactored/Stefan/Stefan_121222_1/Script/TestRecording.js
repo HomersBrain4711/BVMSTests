@@ -25,6 +25,8 @@ function TC400185()
   wnd.Save_Changes.Click();
   wnd.Activate_working_copy_of_configuration.Click();
   configClient.ActivationView.ContainerControl.okButton.ClickButton();
+  wnd.Activate_working_copy_of_configuration.WaitProperty("Enabled", false, 20000);
+
   //configClientForm.Configuration_Client_127_0_0_1_User_admin_.Close.Click();
   Helpers.ConfigClient_Close();
   TestedApps.OperatorClient.Run();

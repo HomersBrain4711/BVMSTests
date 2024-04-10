@@ -1155,7 +1155,6 @@
 																	</Child>
 																	<Child Name="TogglePlaybackCameoSpace" Key="{F37449D6-01DD-489A-9782-489E2FB2938B}">
 																		<Image FileName="1664815030" Left="399" Top="62" Right="1920" Bottom="820" />
-																		<TypeInfo Item0="{DCFF0431-B62E-4E2D-895F-67ED70E42326}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="TogglePlaybackCameoSpace" />
@@ -1164,7 +1163,6 @@
 																		<Children>
 																			<Child Name="UltraToolbarsDockArea" Key="{E4DE6002-ADCD-42AC-AD44-E940BC2FDEBC}">
 																				<Image FileName="1664815030" Left="399" Top="62" Right="1920" Bottom="96" />
-																				<TypeInfo Item0="{7F1F68E8-7B78-4CFD-9B20-CDF8E66B31AD}" />
 																				<Properties>
 																					<Property Name="ClrFullClassName">
 																						<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
@@ -1179,7 +1177,6 @@
 																				<Children>
 																					<Child Name="Toolbar" Key="{226AB822-5ED7-4394-8B44-71A223587292}">
 																						<Image FileName="1664815030" Left="399" Top="62" Right="1920" Bottom="96" />
-																						<TypeInfo Item0="{EB66FD38-7523-49EA-A953-9AA3373DB280}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -1197,7 +1194,6 @@
 																						<Children>
 																							<Child Name="Show_more_Image_pane_rows" Key="{3D265D02-8146-407D-8F6B-EA25CB364B76}">
 																								<Image FileName="1664815030" Left="1846" Top="64" Right="1876" Bottom="94" />
-																								<TypeInfo Item0="{F2BBBD35-05C3-4E19-927E-1E9EAB7E009E}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -1219,7 +1215,6 @@
 																			</Child>
 																			<Child Name="CameoSpacePanel" Key="{6FB97561-C3D6-41AF-8518-8E596EFA30D8}">
 																				<Image FileName="843812909" Left="399" Top="96" Right="1920" Bottom="820" />
-																				<TypeInfo Item0="{DCFF0431-B62E-4E2D-895F-67ED70E42326}" />
 																				<Properties>
 																					<Property Name="WinFormsControlName">
 																						<Value Value="CameoSpacePanel" />
@@ -1228,7 +1223,6 @@
 																				<Children>
 																					<Child Name="Cameo8" Key="{DCE17B99-41DF-44B7-84BE-11F3F71B685D}">
 																						<Image FileName="-486971499" Left="1161" Top="340" Right="1477" Bottom="577" />
-																						<TypeInfo Item0="{DCFF0431-B62E-4E2D-895F-67ED70E42326}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -1886,6 +1880,55 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="HwndSource_StyleableWindow2" Key="{5AA6ECC4-8094-4CCB-8151-EC47FACD85D3}">
+								<Image FileName="-143184734" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{AEC63754-30AE-4CBD-9FE2-E58F791B6A5D}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="StyleableWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Operator Client" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StyleableWindow" Key="{516D17A7-B035-4CC2-9595-3F0921564B24}">
+										<Image FileName="-143184734" Left="0" Top="0" Right="309" Bottom="195" />
+										<TypeInfo Item0="{DF2B2975-C1C0-49F1-81B1-445F0BCC0426}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtonYes" Key="{E2035577-2822-4B6E-BA87-FD5DD45724E7}" ExtendedFind="True">
+												<Image FileName="-143184734" Left="82" Top="146" Right="147" Bottom="175" />
+												<TypeInfo Item0="{46155092-9E23-4C29-9065-C43451347F44}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Yes" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ButtonNo" Key="{ED910849-ED54-4F16-BD66-77E3E92E7E3C}" ExtendedFind="True">
+												<Image FileName="-110067711" Left="132" Top="146" Right="197" Bottom="175" />
+												<TypeInfo Item0="{46155092-9E23-4C29-9065-C43451347F44}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="No" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -2134,6 +2177,12 @@
 						</Child>
 					</Child>
 					<Child Name="okButton" Owner="{91CE7906-0879-4D82-9A81-B3FAC12F9813}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_StyleableWindow2" Owner="{5AA6ECC4-8094-4CCB-8151-EC47FACD85D3}">
+				<Child Name="StyleableWindow" Owner="{516D17A7-B035-4CC2-9595-3F0921564B24}">
+					<Child Name="ButtonYes" Owner="{E2035577-2822-4B6E-BA87-FD5DD45724E7}" />
+					<Child Name="ButtonNo" Owner="{ED910849-ED54-4F16-BD66-77E3E92E7E3C}" />
 				</Child>
 			</Child>
 		</Child>

@@ -121,7 +121,6 @@
 												</Properties>
 												<Children>
 													<Child Name="zConfigTabUltraButton_TabPage_11" Key="{E5F21E9C-AC83-4111-B501-6FDF3D9CD538}">
-														<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="_ConfigTabUltraButton_TabPage_11" />
@@ -129,7 +128,6 @@
 														</Properties>
 													</Child>
 													<Child Name="zConfigTabUltraButton_TabPage_3" Key="{A0D7DCDA-FEC3-411E-8AB2-B067E25AF73C}">
-														<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="_ConfigTabUltraButton_TabPage_3" />
@@ -194,7 +192,6 @@
 																								</Properties>
 																								<Children>
 																									<Child Name="ultraTreeLocalGroups" Key="{8A856386-21CE-4880-9CB8-F6D1752467FF}">
-																										<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																										<Properties>
 																											<Property Name="WinFormsControlName">
 																												<Value Value="ultraTreeLocalGroups" />
@@ -202,7 +199,6 @@
 																										</Properties>
 																										<Children>
 																											<Child Name="ultraTreeLocalGroups_LabelEditNode" Key="{BBBD86FC-001D-4DE9-88C6-55526AE23265}">
-																												<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																												<Properties>
 																													<Property Name="WinFormsControlName">
 																														<Value Value="ultraTreeLocalGroups_LabelEditNode" />
@@ -279,7 +275,6 @@
 																										</Properties>
 																										<Children>
 																											<Child Name="addTaskSchedule" Key="{0CB1C5DB-9D32-47BB-A468-EA0DB788F5FE}">
-																												<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																												<Properties>
 																													<Property Name="WinFormsControlName">
 																														<Value Value="addTaskSchedule" />
@@ -329,7 +324,6 @@
 																										</Properties>
 																										<Children>
 																											<Child Name="scheduleTab" Key="{A50687B8-F493-4D1B-A407-9F1E652F3ABF}">
-																												<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																												<Properties>
 																													<Property Name="WinFormsControlName">
 																														<Value Value="scheduleTab" />
@@ -361,7 +355,6 @@
 																																		</Properties>
 																																		<Children>
 																																			<Child Name="ScheduleTable" Key="{95283C08-9E43-4CDC-B539-251802DF54D8}">
-																																				<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																																				<Properties>
 																																					<Property Name="WinFormsControlName">
 																																						<Value Value="ScheduleTable" />
@@ -399,7 +392,6 @@
 																																		</Properties>
 																																		<Children>
 																																			<Child Name="btnAddHoliday" Key="{50E472CD-5308-4FB0-B10B-5E565C68DE8C}">
-																																				<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																																				<Properties>
 																																					<Property Name="WinFormsControlName">
 																																						<Value Value="btnAddHoliday" />
@@ -437,7 +429,6 @@
 																																		</Properties>
 																																		<Children>
 																																			<Child Name="btnAddSpecialDay" Key="{09716FF1-BA92-4B63-A2F9-6499CDC322B5}">
-																																				<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																																				<Properties>
 																																					<Property Name="WinFormsControlName">
 																																						<Value Value="btnAddSpecialDay" />
@@ -658,7 +649,6 @@
 										</Properties>
 										<Children>
 											<Child Name="userGroupNameTextBox" Key="{B7271A40-1417-4CD0-812F-1CC3603A7FC8}">
-												<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="userGroupNameTextBox" />
@@ -666,7 +656,6 @@
 												</Properties>
 												<Children>
 													<Child Name="userGroupNameTextBox_EmbeddableTextBox" Key="{5DED2E81-DF3C-457A-90C1-97E825A7B1B0}">
-														<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="userGroupNameTextBox_EmbeddableTextBox" />
@@ -676,7 +665,6 @@
 												</Children>
 											</Child>
 											<Child Name="UserGroupOkButton" Key="{33F81FBA-C9E1-4527-ADFA-1DAEF0749B1F}">
-												<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="UserGroupOkButton" />
@@ -712,7 +700,6 @@
 												</Properties>
 												<Children>
 													<Child Name="listViewHolidays" Key="{5E091475-495F-41CD-BEAF-888908F70012}">
-														<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="listViewHolidays" />
@@ -720,7 +707,6 @@
 														</Properties>
 													</Child>
 													<Child Name="btnOK" Key="{673B334D-0F83-492C-B67F-F5E11A813CF7}">
-														<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="btnOK" />
@@ -765,7 +751,6 @@
 														</Properties>
 														<Children>
 															<Child Name="ultraMonthViewMulti1" Key="{F74CB35B-BD98-448A-A9F9-4C21FA3D29F0}">
-																<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="ultraMonthViewMulti1" />
@@ -789,7 +774,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="btnOk" Key="{AAADF4EF-5113-4CBE-A1A9-0ADB7B6C48DA}">
-																		<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="btnOk" />
@@ -969,7 +953,6 @@
 																				</Properties>
 																				<Children>
 																					<Child Name="Cameo1" Key="{8290C373-1820-439C-A7D0-15D705E3C073}">
-																						<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -980,7 +963,6 @@
 																						</Properties>
 																					</Child>
 																					<Child Name="Cameo2" Key="{84A6EE49-233B-4DB3-8577-8DE825106706}">
-																						<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -1011,7 +993,6 @@
 																						</Properties>
 																					</Child>
 																					<Child Name="Cameo5" Key="{0C70E465-5DA1-4FE2-AAAA-4B74680BF708}">
-																						<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																						<Properties>
 																							<Property Name="ClrFullClassName">
 																								<Value Value="Bosch.Vms.Client.OpClient.CameoSystem.Cameo" />
@@ -1053,7 +1034,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="FavoritesTree" Key="{A5FF280C-1C88-4C0D-BCB8-99C63CCB9B1B}">
-																		<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="FavoritesTree" />
@@ -1061,7 +1041,6 @@
 																		</Properties>
 																		<Children>
 																			<Child Name="FavoritesTree_LabelEditNode" Key="{526DCA74-DA38-45E6-9611-C90F35D61E2C}">
-																				<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 																				<Properties>
 																					<Property Name="WinFormsControlName">
 																						<Value Value="FavoritesTree_LabelEditNode" />
@@ -1374,7 +1353,6 @@
 												</Properties>
 												<Children>
 													<Child Name="nameTextBox_EmbeddableTextBox" Key="{B39A2989-DD40-4BD8-9789-7D664B50BF79}">
-														<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="nameTextBox_EmbeddableTextBox" />
@@ -1384,10 +1362,46 @@
 												</Children>
 											</Child>
 											<Child Name="okButton" Key="{D6E2C9C9-49F7-44B5-B093-919540C702B5}">
-												<TypeInfo Item0="{A4A4F8C5-F510-4A98-B7FF-FD5EE950E9F9}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="okButton" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_StyleableWindow" Key="{85E08D60-E196-4CA0-B60D-D85D6DE43545}">
+								<Image FileName="1007168596" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{49774EDC-0A16-4F95-AF37-D31F8C007132}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="StyleableWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Operator Client" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StyleableWindow" Key="{09D32E15-3520-4D77-9E00-035C3599D63F}">
+										<Image FileName="1007168596" Left="0" Top="0" Right="309" Bottom="195" />
+										<TypeInfo Item0="{192AACF4-A9ED-4B8C-858A-2B8451B24B88}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtonYes" Key="{DDC714A6-695B-4BD4-A8F2-9B3184631BA8}" ExtendedFind="True">
+												<Image FileName="1007168596" Left="82" Top="146" Right="147" Bottom="175" />
+												<TypeInfo Item0="{D057C34A-670E-42D2-91F4-32E9887A3DFD}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Yes" />
 													</Property>
 												</Properties>
 											</Child>
@@ -1615,6 +1629,11 @@
 						<Child Name="nameTextBox_EmbeddableTextBox" Owner="{B39A2989-DD40-4BD8-9789-7D664B50BF79}" />
 					</Child>
 					<Child Name="okButton" Owner="{D6E2C9C9-49F7-44B5-B093-919540C702B5}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_StyleableWindow" Owner="{85E08D60-E196-4CA0-B60D-D85D6DE43545}">
+				<Child Name="StyleableWindow" Owner="{09D32E15-3520-4D77-9E00-035C3599D63F}">
+					<Child Name="ButtonYes" Owner="{DDC714A6-695B-4BD4-A8F2-9B3184631BA8}" />
 				</Child>
 			</Child>
 		</Child>

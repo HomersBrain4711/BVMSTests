@@ -14,9 +14,6 @@
 		</folder>
 		<folder name="Recorded">
 			<folder name="Jens" />
-			<folder name="Maria">
-				<child name="TestMaria" key="{4FD66356-2671-40A2-A1EE-C2F8761EBF36}" path="Recorded\Maria\TestMaria\TestMaria.mds" />
-			</folder>
 			<folder name="Markus" />
 			<folder name="Sabine" />
 			<folder name="Stefan">
@@ -58,9 +55,8 @@
 	</children>
 	<testItems key="{A7F35645-FABA-4533-8800-525A88449FA1}">
 		<children>
-			<testItem key="{A5C15B5B-10C8-44C8-BC64-3155B6AB9882}" enabled="False" timeout="0" stopOnError="True" description="" />
-			<testItem key="{4FD66356-2671-40A2-A1EE-C2F8761EBF36}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{4C8FBFB4-A9B0-466D-8281-8411CB3142E4}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{A5C15B5B-10C8-44C8-BC64-3155B6AB9882}" enabled="False" timeout="0" stopOnError="False" description="" />
+			<testItem key="{4C8FBFB4-A9B0-466D-8281-8411CB3142E4}" enabled="False" timeout="0" stopOnError="False" description="" />
 			<testItem key="{AC162841-A8B3-4E18-9331-E0A6667458C7}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{8114E127-9408-4FFA-8513-185B114D2F6C}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{88F71705-83D5-4BD4-9E5F-75E9764FB481}" enabled="True" timeout="0" stopOnError="True" description="" />

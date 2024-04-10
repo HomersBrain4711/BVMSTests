@@ -225,7 +225,8 @@ function TC57403_Login_after_Password_Change_in_OperatorClient()
   containerControl.buttonRight.ClickButton();
   wnd.Click();
   popupMenuControlTrusted.System2.Logoff.Click();
-  containerControl.buttonMiddle.ClickButton();
+  //containerControl.buttonMiddle.ClickButton();
+  operatorClient.HwndSource_StyleableWindow2.StyleableWindow.ButtonYes.ClickButton();
   button.ClickButton();
   aqObject.CheckProperty(Aliases.OperatorClient.HwndSource_StyleableWindow.StyleableWindow.TitleMessage, "Visible", cmpEqual, true);
   aqObject.CheckProperty(Aliases.OperatorClient.HwndSource_StyleableWindow.StyleableWindow.TitleMessage, "Text", cmpEqual, "Wrong user name or password.");
@@ -260,20 +261,19 @@ function TC58453_Menu_System_and_its_Menu_Entries()
   aqObject.CheckProperty(menuPlayback, "Visible", cmpEqual, true);
   let menuLogoff = wnd2.Logoff;
   menuLogoff.Click();
-  let containerControl = operatorClient.BoschMessageBox.ContainerControl;
-  let ultraButton = containerControl.buttonRight;
-  ultraButton.ClickButton();
+  let buttonNo = operatorClient.HwndSource_StyleableWindow2.StyleableWindow.ButtonNo;
+  buttonNo.Click();
   menuSystem.Click();
   menuLogoff.Click();
-  let ultraButton2 = containerControl.buttonMiddle;
-  ultraButton2.ClickButton();
+  let buttonYes = operatorClient.HwndSource_StyleableWindow2.StyleableWindow.ButtonYes;
+  buttonYes.Click();
   aqObject.CheckProperty(Aliases.OperatorClient.HwndSource_StyleableWindow.StyleableWindow.StartupWindowView, "Enabled", cmpEqual, true);
   button.ClickButton();
   menuSystem.Click();
   let menuExit = wnd2.Exit;
   menuExit.Click();
-  ultraButton.ClickButton();
+  buttonNo.Click();
   menuSystem.Click();
   menuExit.Click();
-  ultraButton2.ClickButton();
+  buttonYes.ClickButton();
 }

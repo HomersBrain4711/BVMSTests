@@ -124,7 +124,6 @@
 												<Children>
 													<Child Name="zConfigTabUltraButton_TabPage_1" Key="{82733F47-0240-4C29-A182-11C63C05769E}">
 														<Image FileName="-636403735" Left="89" Top="63" Right="206" Bottom="108" />
-														<TypeInfo Item0="{8C43162E-BAF2-48F3-96F9-BD2E7FCC5C36}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="_ConfigTabUltraButton_TabPage_1" />
@@ -213,7 +212,6 @@
 																												<Children>
 																													<Child Name="Logical_Tree" Key="{EC395A43-9287-4994-8095-52AAA05A8401}">
 																														<Image FileName="-1730031926" Left="334" Top="199" Right="450" Bottom="223" />
-																														<TypeInfo Item0="{87C40A39-B895-421A-A66C-E1123F69F3EB}" />
 																														<Properties>
 																															<Property Name="FrameworkId">
 																																<Value Value="WinForm" />
@@ -262,7 +260,6 @@
 																				<Children>
 																					<Child Name="Save_Changes" Key="{E97E7520-65E2-4ED8-A3B8-B21D10F2CE3B}">
 																						<Image FileName="-248746065" Left="2" Top="108" Right="42" Bottom="148" />
-																						<TypeInfo Item0="{87C40A39-B895-421A-A66C-E1123F69F3EB}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -277,7 +274,6 @@
 																					</Child>
 																					<Child Name="Activate_working_copy_of_configuration" Key="{77F30C45-AA48-498C-BB52-E98C9AF9ABE2}">
 																						<Image FileName="1637176581" Left="82" Top="108" Right="122" Bottom="148" />
-																						<TypeInfo Item0="{87C40A39-B895-421A-A66C-E1123F69F3EB}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -318,7 +314,6 @@
 										<Children>
 											<Child Name="Close" Key="{F3FACC4D-28FC-4222-A9F3-D24321813BBD}">
 												<Image FileName="-259444399" Left="1872" Top="8" Right="1928" Bottom="22" />
-												<TypeInfo Item0="{87C40A39-B895-421A-A66C-E1123F69F3EB}" />
 												<Properties>
 													<Property Name="FrameworkId">
 														<Value Value="WinForm" />
@@ -532,7 +527,6 @@
 												<Children>
 													<Child Name="btnImportUrl" Key="{08FE0DB3-8F53-4DFC-A1B2-79B8A799A59E}">
 														<Image FileName="-1747565581" Left="93" Top="50" Right="148" Bottom="99" />
-														<TypeInfo Item0="{E4906842-31E9-4A07-94F6-C7F966617B24}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="btnImportUrl" />
@@ -543,7 +537,6 @@
 											</Child>
 											<Child Name="btnOK" Key="{FAD52F5C-4AC7-4D81-B63C-9C67083DC09E}">
 												<Image FileName="949340977" Left="629" Top="394" Right="757" Bottom="427" />
-												<TypeInfo Item0="{E4906842-31E9-4A07-94F6-C7F966617B24}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="btnOK" />
@@ -583,7 +576,6 @@
 												<Children>
 													<Child Name="textBox2_EmbeddableTextBox" Key="{6F7A3585-94C2-4899-B3B7-44BCCA4808F4}">
 														<Image FileName="2039483202" Left="120" Top="51" Right="489" Bottom="64" />
-														<TypeInfo Item0="{B7C2BAFA-9EAC-47E7-8A55-0E111EFE2CB4}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="textBox2_EmbeddableTextBox" />
@@ -602,7 +594,6 @@
 												<Children>
 													<Child Name="Editor_Edit_Area" Key="{8D2098A6-C055-4523-B83B-6A370429ACEC}">
 														<Image FileName="169490574" Left="118" Top="97" Right="489" Bottom="114" />
-														<TypeInfo Item0="{87C40A39-B895-421A-A66C-E1123F69F3EB}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WinForm" />
@@ -617,7 +608,6 @@
 													</Child>
 													<Child Name="textBox1_EmbeddableTextBox" Key="{8E1C0575-8ED6-4FB7-A966-7E1287FA3C3B}">
 														<Image FileName="1148809801" Left="120" Top="99" Right="489" Bottom="112" />
-														<TypeInfo Item0="{B7C2BAFA-9EAC-47E7-8A55-0E111EFE2CB4}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="textBox1_EmbeddableTextBox" />
@@ -628,7 +618,6 @@
 											</Child>
 											<Child Name="okButton" Key="{37ADB5F2-0D1B-4DD6-BC8F-5A227BDB8EBF}">
 												<Image FileName="191900703" Left="314" Top="287" Right="394" Bottom="310" />
-												<TypeInfo Item0="{E4906842-31E9-4A07-94F6-C7F966617B24}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="okButton" />
@@ -873,7 +862,6 @@
 																						<Children>
 																							<Child Name="DocumentContainer" Key="{417E5E39-D50F-46C5-8066-7915157AB625}">
 																								<Image FileName="1475088804" Left="1161" Top="361" Right="1477" Bottom="577" />
-																								<TypeInfo Item0="{BF81FA77-3B36-4AF1-9022-057DECAD7AB7}" />
 																								<Properties>
 																									<Property Name="ClrFullClassName">
 																										<Value Value="Bosch.Controls.DocumentContainer" />
@@ -885,7 +873,6 @@
 																								<Children>
 																									<Child Name="WebBrowser" Key="{B281BA88-8CB6-4747-88FF-56522F190F42}">
 																										<Image FileName="1475088804" Left="1161" Top="361" Right="1477" Bottom="577" />
-																										<TypeInfo Item0="{BF81FA77-3B36-4AF1-9022-057DECAD7AB7}" />
 																										<Properties>
 																											<Property Name="ClrFullClassName">
 																												<Value Value="System.Windows.Forms.WebBrowser" />
@@ -897,7 +884,6 @@
 																										<Children>
 																											<Child Name="WebBrowserBaseNativeWindow" Key="{41331601-892D-49EE-ABC5-407AAE7E131C}">
 																												<Image FileName="1475088804" Left="1161" Top="361" Right="1477" Bottom="577" />
-																												<TypeInfo Item0="{62F4EE6C-1B25-4CD4-9909-94517B5ADA0A}" />
 																												<Properties>
 																													<Property Name="WndClass">
 																														<Value Value="Shell Embedding" />
@@ -909,7 +895,6 @@
 																												<Children>
 																													<Child Name="Shell_DocObject_View" Key="{B13D951F-110D-4EF2-BE31-955AF182F24B}">
 																														<Image FileName="1475088804" Left="1161" Top="361" Right="1477" Bottom="577" />
-																														<TypeInfo Item0="{E217C0FE-F8F7-4BE3-92F3-D5607EDFBC5F}" />
 																														<Properties>
 																															<Property Name="FrameworkId">
 																																<Value Value="Win32" />
@@ -930,7 +915,6 @@
 																														<Children>
 																															<Child Name="Before_you_continue_to_Google_Search" Key="{2EFCB5A9-78EB-4A7B-8932-B31C5E683FD0}">
 																																<Image FileName="1475088804" Left="1161" Top="361" Right="1477" Bottom="577" />
-																																<TypeInfo Item0="{8B1C0523-36B6-44B4-A141-723EB51A461D}" />
 																																<Properties>
 																																	<Property Name="FrameworkId">
 																																		<Value Value="Win32" />
@@ -1255,7 +1239,6 @@
 																				<Children>
 																					<Child Name="Google" Key="{F98B50C6-F061-4846-9AB3-45C0F59C183A}">
 																						<Image FileName="-1474634210" Left="63" Top="336" Right="150" Bottom="360" />
-																						<TypeInfo Item0="{87C40A39-B895-421A-A66C-E1123F69F3EB}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -1439,13 +1422,49 @@
 										<Children>
 											<Child Name="ButtonOk" Key="{BE298400-8DC0-4ACF-955A-ABB30159223B}" ExtendedFind="True">
 												<Image FileName="-347652666" Left="194" Top="402" Right="291" Bottom="434" />
-												<TypeInfo Item0="{167AFCC4-3FA2-43BD-9451-1B26E0C45C0D}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
 													</Property>
 													<Property Name="WPFControlText">
 														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_StyleableWindow2" Key="{227AAC3A-25C1-402B-8678-6E18415BE648}">
+								<Image FileName="-2071144692" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{4C24D761-A37A-44E1-A1E7-9A389BEA4440}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="StyleableWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Operator Client" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StyleableWindow" Key="{6B2FDDD0-4558-43C2-82A9-31E61D807526}">
+										<Image FileName="-2071144692" Left="0" Top="0" Right="309" Bottom="195" />
+										<TypeInfo Item0="{5003C35C-B57E-4869-AB79-88C5E7E254EE}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtonYes" Key="{0D349360-861C-4980-9849-F815E63012DB}" ExtendedFind="True">
+												<Image FileName="-2071144692" Left="82" Top="146" Right="147" Bottom="175" />
+												<TypeInfo Item0="{3540EA02-2B28-48B9-89CA-96FFD0A551F0}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Yes" />
 													</Property>
 												</Properties>
 											</Child>
@@ -1645,6 +1664,11 @@
 			<Child Name="HwndSource_StyleableWindow" Owner="{4686FD0C-2724-4DCD-ADB2-15E654814D31}">
 				<Child Name="StyleableWindow" Owner="{DB9B9D0E-A0FD-4B8C-9A95-77541CF614E2}">
 					<Child Name="ButtonOk" Owner="{BE298400-8DC0-4ACF-955A-ABB30159223B}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_StyleableWindow2" Owner="{227AAC3A-25C1-402B-8678-6E18415BE648}">
+				<Child Name="StyleableWindow" Owner="{6B2FDDD0-4558-43C2-82A9-31E61D807526}">
+					<Child Name="ButtonYes" Owner="{0D349360-861C-4980-9849-F815E63012DB}" />
 				</Child>
 			</Child>
 		</Child>

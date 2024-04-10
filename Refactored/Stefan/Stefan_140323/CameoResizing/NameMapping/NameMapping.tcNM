@@ -405,7 +405,6 @@
 																						</Properties>
 																					</Child>
 																					<Child Name="Toolbar" Key="{CCB6C27A-7E90-4CE0-8D09-6F16D96AC732}">
-																						<Image FileName="-1638688062" Left="399" Top="62" Right="1920" Bottom="96" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -419,8 +418,6 @@
 																						</Properties>
 																						<Children>
 																							<Child Name="Show_more_Image_pane_rows" Key="{AA9D3FA2-963A-4252-B120-8006802F2061}">
-																								<Image FileName="-1638688062" Left="1846" Top="64" Right="1876" Bottom="94" />
-																								<TypeInfo Item0="{32041C93-33D8-4C81-964B-39BEA37A3B6B}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -784,7 +781,6 @@
 														</Children>
 													</Child>
 													<Child Name="DockableWindow2" Key="{8DBD125C-2ED9-4FCC-A3E8-3BC0FCFC80EA}">
-														<Image FileName="341042460" Left="44" Top="62" Right="396" Bottom="881" />
 														<Properties>
 															<Property Name="ClrFullClassName">
 																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
@@ -798,7 +794,6 @@
 														</Properties>
 														<Children>
 															<Child Name="LogicalTree" Key="{790C9948-B2A7-4A11-97B7-E8BBD607D966}">
-																<Image FileName="341042460" Left="44" Top="62" Right="396" Bottom="881" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="LogicalTree" />
@@ -806,7 +801,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="LogicalTree" Key="{3390085E-0830-4F08-9050-F2AB34D7CBD0}">
-																		<Image FileName="341042460" Left="44" Top="96" Right="396" Bottom="881" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="LogicalTree" />
@@ -814,7 +808,6 @@
 																		</Properties>
 																		<Children>
 																			<Child Name="Logical_Tree" Key="{629CE5AA-BA71-4897-9A0C-EBA60C48B7A0}">
-																				<Image FileName="341042460" Left="44" Top="96" Right="157" Bottom="120" />
 																				<Properties>
 																					<Property Name="AutomationId">
 																						<Value Value="[Node] 0" />
@@ -822,8 +815,6 @@
 																				</Properties>
 																				<Children>
 																					<Child Name="Camera_1_5_" Key="{068C5E96-D958-4536-A1E8-67F5E60CA456}">
-																						<Image FileName="341042460" Left="63" Top="120" Right="178" Bottom="144" />
-																						<TypeInfo Item0="{32041C93-33D8-4C81-964B-39BEA37A3B6B}" />
 																						<Properties>
 																							<Property Name="AutomationId">
 																								<Value Value="[Node] 0, [Node] 0" />
@@ -980,6 +971,43 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="HwndSource_StyleableWindow" Key="{F37C7631-22AE-430F-A089-5ED77A1D8D21}">
+								<Image FileName="567025318" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{3235CDD2-14FA-4348-A3AF-FD97D16A3FE2}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="StyleableWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Operator Client" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StyleableWindow" Key="{B75DBD1C-301A-444F-A31A-A33E4210F7D3}">
+										<Image FileName="567025318" Left="0" Top="0" Right="309" Bottom="195" />
+										<TypeInfo Item0="{AE23417A-941F-4DE6-8A57-D53F693DDEF3}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtonYes" Key="{0A4C2572-BB3A-458B-A356-47433D445FBB}" ExtendedFind="True">
+												<Image FileName="567025318" Left="82" Top="146" Right="147" Bottom="175" />
+												<TypeInfo Item0="{7ECF2D32-B821-4C20-B2E8-FDD5104238A3}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Yes" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -1107,6 +1135,11 @@
 			<Child Name="BoschMessageBox" Owner="{6835D41B-6512-445B-9FF2-6C2F0A230E53}">
 				<Child Name="ContainerControl" Owner="{8F3232E6-1D7F-4467-B7F4-715307D48721}">
 					<Child Name="buttonMiddle" Owner="{8D013E1A-0848-415C-ACBA-59D65ADABD94}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_StyleableWindow" Owner="{F37C7631-22AE-430F-A089-5ED77A1D8D21}">
+				<Child Name="StyleableWindow" Owner="{B75DBD1C-301A-444F-A31A-A33E4210F7D3}">
+					<Child Name="ButtonYes" Owner="{0A4C2572-BB3A-458B-A356-47433D445FBB}" />
 				</Child>
 			</Child>
 		</Child>

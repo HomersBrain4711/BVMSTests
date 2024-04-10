@@ -1402,7 +1402,6 @@
 								<Children>
 									<Child Name="StartupWindowView" Key="{DF887B6A-977C-42F6-9466-9B926F452531}">
 										<Image FileName="-1440990307" Left="0" Top="0" Right="800" Bottom="600" />
-										<TypeInfo Item0="{A30713AD-E73F-4E49-BE08-446260E175EB}" />
 										<Properties>
 											<Property Name="FrameworkId">
 												<Value Value="WPF" />
@@ -1423,7 +1422,6 @@
 										<Children>
 											<Child Name="LogonView" Key="{2ED9C2B8-F667-495E-8D69-633CC41FFD78}">
 												<Image FileName="-1440990307" Left="34" Top="242" Right="767" Bottom="552" />
-												<TypeInfo Item0="{A30713AD-E73F-4E49-BE08-446260E175EB}" />
 												<Properties>
 													<Property Name="FrameworkId">
 														<Value Value="WPF" />
@@ -1444,7 +1442,6 @@
 												<Children>
 													<Child Name="ButtonOK" Key="{D01A3F46-AE00-486E-AD94-4180DB5B0E3A}">
 														<Image FileName="-1440990307" Left="243" Top="503" Right="363" Bottom="542" />
-														<TypeInfo Item0="{A30713AD-E73F-4E49-BE08-446260E175EB}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WPF" />
@@ -1462,7 +1459,6 @@
 													</Child>
 													<Child Name="UserNameBox" Key="{7FA1F21B-72EE-4961-8E4C-CD0196158DD0}">
 														<Image FileName="-1440990307" Left="243" Top="267" Right="642" Bottom="297" />
-														<TypeInfo Item0="{B2A4FD29-C0C8-4217-8F9A-8094C50EA66E}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WPF" />
@@ -1480,7 +1476,6 @@
 													</Child>
 													<Child Name="PasswordBox" Key="{2B10BABF-7F5A-49D1-876B-908EA621A6B3}">
 														<Image FileName="-1440990307" Left="243" Top="307" Right="642" Bottom="337" />
-														<TypeInfo Item0="{B2A4FD29-C0C8-4217-8F9A-8094C50EA66E}" />
 														<Properties>
 															<Property Name="FrameworkId">
 																<Value Value="WPF" />
@@ -1497,6 +1492,43 @@
 														</Properties>
 													</Child>
 												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_StyleableWindow2" Key="{E8110C08-D11C-4D24-B3F2-ACCFF5518D64}">
+								<Image FileName="-1570265513" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{7E814BE0-22CC-48BA-A753-926D32F92083}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="StyleableWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Operator Client" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StyleableWindow" Key="{2E236955-C666-4389-8476-E8F6EAB39037}">
+										<Image FileName="-1570265513" Left="0" Top="0" Right="309" Bottom="195" />
+										<TypeInfo Item0="{8D877B44-A461-4674-A726-B1FB1825EC74}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtonYes" Key="{2D330DFC-92B4-469A-B382-620DC6B8E564}" ExtendedFind="True">
+												<Image FileName="-1570265513" Left="82" Top="146" Right="147" Bottom="175" />
+												<TypeInfo Item0="{AB05F48F-FE19-4EF2-BA04-E3A1D008E309}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Yes" />
+													</Property>
+												</Properties>
 											</Child>
 										</Children>
 									</Child>
@@ -1694,6 +1726,11 @@
 						<Child Name="UserNameBox" Owner="{7FA1F21B-72EE-4961-8E4C-CD0196158DD0}" />
 						<Child Name="PasswordBox" Owner="{2B10BABF-7F5A-49D1-876B-908EA621A6B3}" />
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="HwndSource_StyleableWindow2" Owner="{E8110C08-D11C-4D24-B3F2-ACCFF5518D64}">
+				<Child Name="StyleableWindow" Owner="{2E236955-C666-4389-8476-E8F6EAB39037}">
+					<Child Name="ButtonYes" Owner="{2D330DFC-92B4-469A-B382-620DC6B8E564}" />
 				</Child>
 			</Child>
 		</Child>

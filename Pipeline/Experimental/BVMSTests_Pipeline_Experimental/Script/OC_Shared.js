@@ -13,7 +13,7 @@ function Start_OC_AndWaitForReady()
 function Close_OC()
 {
   Aliases.OperatorClient.Control.Button.ClickButton();
-  Aliases.OperatorClient.BoschMessageBox.ContainerControl.buttonMiddle.ClickButton();
+  Aliases.OperatorClient.HwndSource_StyleableWindow.StyleableWindow.ButtonYes.ClickButton();
   
 }
 

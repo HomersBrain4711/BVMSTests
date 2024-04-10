@@ -804,7 +804,6 @@
 																				<Children>
 																					<Child Name="Camera_1_5_" Key="{5D508479-D68F-455B-A0C5-EE5178ECF5AA}">
 																						<Image FileName="1667232319" Left="63" Top="120" Right="178" Bottom="144" />
-																						<TypeInfo Item0="{24181520-FE12-4835-A5FE-5CB40A7DC224}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -988,13 +987,49 @@
 										<Children>
 											<Child Name="ButtonOk" Key="{F6FA64AF-113C-4510-B82B-B9467BFD8235}" ExtendedFind="True">
 												<Image FileName="-347652666" Left="194" Top="402" Right="291" Bottom="434" />
-												<TypeInfo Item0="{6C516513-A207-43C6-B6D6-DD273BAE1270}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
 													</Property>
 													<Property Name="WPFControlText">
 														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_StyleableWindow2" Key="{DBDFCFBD-73B5-4195-A81F-A330246F3C5A}">
+								<Image FileName="-2071144692" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{B2C1B9D1-ACE4-4A2A-A346-4B2CE4B82D54}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="StyleableWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Operator Client" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StyleableWindow" Key="{D90A2043-00A3-4438-911D-1CAD3DDE6750}">
+										<Image FileName="-2071144692" Left="0" Top="0" Right="309" Bottom="195" />
+										<TypeInfo Item0="{732E3D98-4F71-40F0-A02C-5ABF488180E7}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtonYes" Key="{0C909B4F-7C81-4E0C-A81B-5EBD37549A67}" ExtendedFind="True">
+												<Image FileName="-2071144692" Left="82" Top="146" Right="147" Bottom="175" />
+												<TypeInfo Item0="{B5D51EAF-BBF3-4A91-B568-D019959EF095}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Yes" />
 													</Property>
 												</Properties>
 											</Child>
@@ -1131,6 +1166,11 @@
 			<Child Name="HwndSource_StyleableWindow" Owner="{64814548-BA20-4A2C-8768-30C44AC32B0D}">
 				<Child Name="StyleableWindow" Owner="{D33B8A9C-FC6C-4343-AE55-83081CE247D1}">
 					<Child Name="ButtonOk" Owner="{F6FA64AF-113C-4510-B82B-B9467BFD8235}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_StyleableWindow2" Owner="{DBDFCFBD-73B5-4195-A81F-A330246F3C5A}">
+				<Child Name="StyleableWindow" Owner="{D90A2043-00A3-4438-911D-1CAD3DDE6750}">
+					<Child Name="ButtonYes" Owner="{0C909B4F-7C81-4E0C-A81B-5EBD37549A67}" />
 				</Child>
 			</Child>
 		</Child>

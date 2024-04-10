@@ -1398,8 +1398,6 @@
 																				</Children>
 																			</Child>
 																			<Child Name="UltraToolbarsDockArea" Key="{4412CA13-BC9F-4598-A9B7-353B529ADC9C}">
-																				<Image FileName="2020498974" Left="399" Top="62" Right="1920" Bottom="96" />
-																				<TypeInfo Item0="{90EF7532-D897-4D03-AD48-3BB52AB5AEDC}" />
 																				<Properties>
 																					<Property Name="ClrFullClassName">
 																						<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
@@ -1413,8 +1411,6 @@
 																				</Properties>
 																				<Children>
 																					<Child Name="TrickPlayBar" Key="{BD3BCA72-958F-4ECF-A123-C8826AD6BE45}" ExtendedFind="True">
-																						<Image FileName="2020498974" Left="979" Top="66" Right="1182" Bottom="92" />
-																						<TypeInfo Item0="{5FC6083C-9731-4A89-89E7-F15499F9D9A6}" />
 																						<Properties>
 																							<Property Name="WinFormsControlName">
 																								<Value Value="TrickPlayBar" />
@@ -1667,6 +1663,43 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="HwndSource_StyleableWindow" Key="{D778255B-4EA0-4273-A8B8-25C048BB099D}">
+								<Image FileName="188128169" Left="0" Top="0" Right="308" Bottom="194" />
+								<TypeInfo Item0="{049AB1E2-CC93-4411-A551-1F2616301D6B}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="StyleableWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Operator Client" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="StyleableWindow" Key="{17C7AE79-C2B9-44EF-B1EB-059988561590}">
+										<Image FileName="188128169" Left="0" Top="0" Right="309" Bottom="195" />
+										<TypeInfo Item0="{25291CB5-C9AF-4082-8809-1875268C800B}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtonYes" Key="{65985C6E-F266-4CB7-A47D-E6522D20D735}" ExtendedFind="True">
+												<Image FileName="188128169" Left="82" Top="146" Right="147" Bottom="175" />
+												<TypeInfo Item0="{DAA471D1-1E62-422B-9E48-D7A2D4948D21}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Yes" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -1886,6 +1919,11 @@
 					<Child Name="MenuAgent" Owner="{9CA92FF9-1E2F-4EFB-BDC7-47760E72B502}">
 						<Child Name="Show" Owner="{BF676942-BECC-4122-9ACF-8C13BF4129B6}" />
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="HwndSource_StyleableWindow" Owner="{D778255B-4EA0-4273-A8B8-25C048BB099D}">
+				<Child Name="StyleableWindow" Owner="{17C7AE79-C2B9-44EF-B1EB-059988561590}">
+					<Child Name="ButtonYes" Owner="{65985C6E-F266-4CB7-A47D-E6522D20D735}" />
 				</Child>
 			</Child>
 		</Child>

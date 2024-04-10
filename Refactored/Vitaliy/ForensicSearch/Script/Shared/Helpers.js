@@ -227,7 +227,7 @@ function OperatorClient_Close()
   {  
     let operatorClient = Aliases.OperatorClient;
     operatorClient.Control.Button.ClickButton();
-    operatorClient.BoschMessageBox.ContainerControl.buttonMiddle.ClickButton();
+    operatorClient.Operator_Client.CloseDialogView.Yes.Click();
     while(IsOperatorClientRunning())
     {
       aqUtils.Delay(100);

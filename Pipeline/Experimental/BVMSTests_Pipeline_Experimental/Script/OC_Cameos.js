@@ -29,7 +29,7 @@ function TC384588_TestDragCamsToCameos()
     VerifyNoCamsOnCameos();
   }
   operatorClient.Control.Button.ClickButton();
-  operatorClient.BoschMessageBox.ContainerControl.buttonMiddle.ClickButton();
+  operatorClient.HwndSource_StyleableWindow.StyleableWindow.ButtonYes.ClickButton();
   //cameoSpacePanel.Cameo3.StreamVisualizationControl.ClickR(127, 64);
   //let popupMenuControlTrusted = operatorClient.DropDownForm.PopupControl;
   //OCR.Recognize(popupMenuControlTrusted).BlockByText("image", spNearestToCenter).Click();
