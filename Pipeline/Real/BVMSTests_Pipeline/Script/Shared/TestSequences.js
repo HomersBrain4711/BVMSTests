@@ -193,6 +193,7 @@ function CreateSequence()
   wnd.Save_Changes.Click();
   wnd.Activate_working_copy_of_configuration.Click();
   configClient.ActivationView.ContainerControl.okButton.ClickButton();
+  wnd.Activate_working_copy_of_configuration.WaitProperty("Enabled", false, 20000);
 }
 
 function SelectSequenceByContextMenu()
