@@ -80,8 +80,8 @@ function CreateConfig(void_param)
 {
   //Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow7.ForensicSearchControl.scrollablePanel.VerticalScrollProperties.set_Value(100);
   let panel = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow7.ForensicSearchControl.scrollablePanel.UltraPanelClientAreaUnsafe.panelActiveXPlaceholder.Panel;
-  //let buttonVisible = panel.SubPanel1.Button1.WaitProperty("visible", true, 10000)
-  //aqObject.CheckProperty(panel.SubPanel1.Button1, "visible", cmpEqual, true);
+  let buttonVisible = panel.SubPanel1.Button1.WaitProperty("visible", true, 10000)
+  aqObject.CheckProperty(panel.SubPanel1.Button1, "visible", cmpEqual, true);
   //aqUtils.Delay(7000);
   panel.SubPanel1.Button1.ClickButton();
   panel.SubPanel2.Button2.ClickButton();
