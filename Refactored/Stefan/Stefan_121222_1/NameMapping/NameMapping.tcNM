@@ -547,80 +547,54 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="UrlSelectorForm" Key="{7C991637-542E-47A3-8205-18425AB8BA6C}">
-								<Image FileName="2039483202" Left="0" Top="0" Right="498" Bottom="326" />
+							<Child Name="HwndSource_CommonWindowView" Key="{173B88D0-D3A1-4C2B-9DC8-B99ADF497DB1}">
+								<Image FileName="464835387" Left="0" Top="0" Right="546" Bottom="474" />
+								<TypeInfo Item0="{345CA50E-A6A2-47C3-82BE-FB20648ED29F}" />
 								<Properties>
-									<Property Name="WinFormsControlName">
-										<Value Value="UrlSelectorForm" />
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="CommonWindowView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Add URL" />
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="ContainerControl" Key="{546DC4B8-F1AD-4ADD-96A6-97EAA1BC48AD}">
-										<Image FileName="2039483202" Left="4" Top="32" Right="494" Bottom="322" />
+									<Child Name="CommonWindowView" Key="{36B41586-3F0C-48EA-A5A9-42A7B21F1259}">
+										<Image FileName="464835387" Left="0" Top="0" Right="547" Bottom="475" />
+										<TypeInfo Item0="{B11F590E-D040-46D4-B00C-144C9ED6B8F6}" />
 										<Properties>
 											<Property Name="ClrFullClassName">
-												<Value Value="System.Windows.Forms.ContainerControl" />
-											</Property>
-											<Property Name="WndCaption">
-												<Value Value="" />
+												<Value Value="Bosch.Vms.Frontend.ConfigClient.Wpf.Styles.Utilities.CommonWindowView" />
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="textBox2" Key="{D541B5CB-8A66-4B2D-AA0B-58D840590B56}">
-												<Image FileName="2039483202" Left="115" Top="48" Right="490" Bottom="67" />
+											<Child Name="firstBox" Key="{F8DDF330-D0D1-48D7-87E8-25830C5872F7}" ExtendedFind="True">
+												<Image FileName="464835387" Left="213" Top="67" Right="514" Bottom="125" />
+												<TypeInfo Item0="{34DB3B22-253F-4623-A8AB-3C7A882D1CF6}" />
 												<Properties>
-													<Property Name="WinFormsControlName">
-														<Value Value="textBox2" />
+													<Property Name="WPFControlAutomationId">
+														<Value Value="AddEditUrlResource-UrlResourceNameId" />
 													</Property>
 												</Properties>
-												<Children>
-													<Child Name="textBox2_EmbeddableTextBox" Key="{6F7A3585-94C2-4899-B3B7-44BCCA4808F4}">
-														<Image FileName="2039483202" Left="120" Top="51" Right="489" Bottom="64" />
-														<Properties>
-															<Property Name="WinFormsControlName">
-																<Value Value="textBox2_EmbeddableTextBox" />
-															</Property>
-														</Properties>
-													</Child>
-												</Children>
 											</Child>
-											<Child Name="textBox1" Key="{18C7999B-1795-423A-A903-D1DA28C10228}">
-												<Image FileName="169490574" Left="115" Top="96" Right="490" Bottom="115" />
+											<Child Name="TextboxUrl" Key="{1DB7C14C-CA4F-4526-8C2D-41584BD0B647}" ExtendedFind="True">
+												<Image FileName="-1024053291" Left="213" Top="132" Right="514" Bottom="190" />
+												<TypeInfo Item0="{34DB3B22-253F-4623-A8AB-3C7A882D1CF6}" />
 												<Properties>
-													<Property Name="WinFormsControlName">
-														<Value Value="textBox1" />
+													<Property Name="WPFControlAutomationId">
+														<Value Value="AddEditUrlResource-UrlId" />
 													</Property>
 												</Properties>
-												<Children>
-													<Child Name="Editor_Edit_Area" Key="{8D2098A6-C055-4523-B83B-6A370429ACEC}">
-														<Image FileName="169490574" Left="118" Top="97" Right="489" Bottom="114" />
-														<Properties>
-															<Property Name="FrameworkId">
-																<Value Value="WinForm" />
-															</Property>
-															<Property Name="LocalizedControlType">
-																<Value Value="edit" />
-															</Property>
-															<Property Name="ObjectIdentifier">
-																<Value Value="Editor_Edit_Area" />
-															</Property>
-														</Properties>
-													</Child>
-													<Child Name="textBox1_EmbeddableTextBox" Key="{8E1C0575-8ED6-4FB7-A966-7E1287FA3C3B}">
-														<Image FileName="1148809801" Left="120" Top="99" Right="489" Bottom="112" />
-														<Properties>
-															<Property Name="WinFormsControlName">
-																<Value Value="textBox1_EmbeddableTextBox" />
-															</Property>
-														</Properties>
-													</Child>
-												</Children>
 											</Child>
-											<Child Name="okButton" Key="{37ADB5F2-0D1B-4DD6-BC8F-5A227BDB8EBF}">
-												<Image FileName="191900703" Left="314" Top="287" Right="394" Bottom="310" />
+											<Child Name="AddEditUrlResource" Key="{372A0EF4-A035-405F-9BB1-370390057F1D}" ExtendedFind="True">
+												<Image FileName="1882283191" Left="1" Top="31" Right="546" Bottom="408" />
+												<TypeInfo Item0="{B11F590E-D040-46D4-B00C-144C9ED6B8F6}" />
 												<Properties>
-													<Property Name="WinFormsControlName">
-														<Value Value="okButton" />
+													<Property Name="ClrFullClassName">
+														<Value Value="Bosch.Vms.Frontend.ConfigClient.Common.Wpf.LogicalTree.AddEditUrlResource" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="" />
 													</Property>
 												</Properties>
 											</Child>
@@ -1437,7 +1411,6 @@
 							</Child>
 							<Child Name="HwndSource_StyleableWindow2" Key="{227AAC3A-25C1-402B-8678-6E18415BE648}">
 								<Image FileName="-2071144692" Left="0" Top="0" Right="308" Bottom="194" />
-								<TypeInfo Item0="{4C24D761-A37A-44E1-A1E7-9A389BEA4440}" />
 								<Properties>
 									<Property Name="RootVisual.ClrClassName">
 										<Value Value="StyleableWindow" />
@@ -1449,7 +1422,6 @@
 								<Children>
 									<Child Name="StyleableWindow" Key="{6B2FDDD0-4558-43C2-82A9-31E61D807526}">
 										<Image FileName="-2071144692" Left="0" Top="0" Right="309" Bottom="195" />
-										<TypeInfo Item0="{5003C35C-B57E-4869-AB79-88C5E7E254EE}" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
@@ -1458,7 +1430,6 @@
 										<Children>
 											<Child Name="ButtonYes" Key="{0D349360-861C-4980-9849-F815E63012DB}" ExtendedFind="True">
 												<Image FileName="-2071144692" Left="82" Top="146" Right="147" Bottom="175" />
-												<TypeInfo Item0="{3540EA02-2B28-48B9-89CA-96FFD0A551F0}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
@@ -1556,16 +1527,11 @@
 					<Child Name="btnOK" Owner="{FAD52F5C-4AC7-4D81-B63C-9C67083DC09E}" />
 				</Child>
 			</Child>
-			<Child Name="UrlSelectorForm" Owner="{7C991637-542E-47A3-8205-18425AB8BA6C}">
-				<Child Name="ContainerControl" Owner="{546DC4B8-F1AD-4ADD-96A6-97EAA1BC48AD}">
-					<Child Name="textBox2" Owner="{D541B5CB-8A66-4B2D-AA0B-58D840590B56}">
-						<Child Name="textBox2_EmbeddableTextBox" Owner="{6F7A3585-94C2-4899-B3B7-44BCCA4808F4}" />
-					</Child>
-					<Child Name="textBox1" Owner="{18C7999B-1795-423A-A903-D1DA28C10228}">
-						<Child Name="Editor_Edit_Area" Owner="{8D2098A6-C055-4523-B83B-6A370429ACEC}" />
-						<Child Name="textBox1_EmbeddableTextBox" Owner="{8E1C0575-8ED6-4FB7-A966-7E1287FA3C3B}" />
-					</Child>
-					<Child Name="okButton" Owner="{37ADB5F2-0D1B-4DD6-BC8F-5A227BDB8EBF}" />
+			<Child Name="HwndSource_CommonWindowView" Owner="{173B88D0-D3A1-4C2B-9DC8-B99ADF497DB1}">
+				<Child Name="CommonWindowView" Owner="{36B41586-3F0C-48EA-A5A9-42A7B21F1259}">
+					<Child Name="firstBox" Owner="{F8DDF330-D0D1-48D7-87E8-25830C5872F7}" />
+					<Child Name="TextboxUrl" Owner="{1DB7C14C-CA4F-4526-8C2D-41584BD0B647}" />
+					<Child Name="AddEditUrlResource" Owner="{372A0EF4-A035-405F-9BB1-370390057F1D}" />
 				</Child>
 			</Child>
 		</Child>

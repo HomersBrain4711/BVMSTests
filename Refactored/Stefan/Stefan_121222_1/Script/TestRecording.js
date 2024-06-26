@@ -14,12 +14,15 @@ function TC400185()
   ultraTree.PopupMenu.Click("Add Document");
   let containerControl = configClient.ResourceControlCenterForm.ContainerControl;
   containerControl.panelTopButtons.btnImportUrl.Click();
-  let containerControl2 = configClient.UrlSelectorForm.ContainerControl;
-  containerControl2.textBox2.textBox2_EmbeddableTextBox.SetText("Google");
-  let ultraTextEditor = containerControl2.textBox1;
-  ultraTextEditor.Editor_Edit_Area.Click();
-  ultraTextEditor.textBox1_EmbeddableTextBox.SetText("https://www.google.de/");
-  containerControl2.okButton.ClickButton();
+  //urlConfigDlg has been changed from WinForms to WPF
+  let urlConfigDlg = configClient.HwndSource_CommonWindowView.CommonWindowView;
+  let textBoxName = urlConfigDlg.firstBox;
+  let textBoxUrl = urlConfigDlg.TextboxUrl;
+  textBoxName.SetText("Google");
+  textBoxUrl.SetText("https://www.google.de/");
+  // OK button in UrlConfigDlg not reachable, so we have to work with relative coordinates
+  // of UrlConfigDlg to click the OK Button
+  urlConfigDlg.Click(229, 360);
   containerControl.btnOK.ClickButton();
   wnd = structurePage.zConfigurationControl_Toolbars_Dock_Area_Top.configBar;
   wnd.Save_Changes.Click();
