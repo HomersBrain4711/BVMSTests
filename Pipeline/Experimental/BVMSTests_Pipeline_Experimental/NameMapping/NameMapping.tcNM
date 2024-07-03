@@ -285,7 +285,6 @@
 																									</Child>
 																									<Child Name="panel2" Key="{907BAE35-A580-49AB-BD4F-3AB6B8AD3F55}">
 																										<Image FileName="-1338756319" Left="24" Top="525" Right="292" Bottom="579" />
-																										<TypeInfo Item0="{DC91B883-276F-4191-A84F-9A231CE9AF05}" />
 																										<Properties>
 																											<Property Name="WinFormsControlName">
 																												<Value Value="panel2" />
@@ -294,7 +293,6 @@
 																										<Children>
 																											<Child Name="taskScheduleTree" Key="{F64E598D-DC48-4661-86B9-213C0A20A945}">
 																												<Image FileName="-1338756319" Left="24" Top="525" Right="292" Bottom="579" />
-																												<TypeInfo Item0="{6D9443AE-A9A0-4AD4-A8A5-B0BF2FFE13DA}" />
 																												<Properties>
 																													<Property Name="WinFormsControlName">
 																														<Value Value="taskScheduleTree" />
@@ -303,7 +301,6 @@
 																												<Children>
 																													<Child Name="taskScheduleTree_LabelEditNode" Key="{94EDE7A7-6E60-42DE-8EE4-F7162B627712}">
 																														<Image FileName="-1338756319" Left="52" Top="527" Right="155" Bottom="549" />
-																														<TypeInfo Item0="{49B61C5F-F436-417F-B61F-D77C07A839C1}" />
 																														<Properties>
 																															<Property Name="WinFormsControlName">
 																																<Value Value="taskScheduleTree_LabelEditNode" />
@@ -948,6 +945,48 @@
 																<Value Value="6" Type="0" />
 															</Property>
 														</Properties>
+														<Children>
+															<Child Name="LogicalTree" Key="{E2E17080-CAFD-4875-8D0D-431516A9D938}">
+																<Image FileName="-1560377728" Left="44" Top="62" Right="396" Bottom="890" />
+																<TypeInfo Item0="{6252062F-9447-402F-98C5-FAC76312290E}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="LogicalTree" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="LogicalTree" Key="{D46434FC-D279-4982-B923-1B844842BA32}">
+																		<Image FileName="-1560377728" Left="44" Top="96" Right="396" Bottom="890" />
+																		<TypeInfo Item0="{432CD6A3-86AF-4A85-B30B-52F198765016}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="LogicalTree" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Logical_Tree" Key="{FAAB4970-1D85-4310-9B73-82194B6FAE84}">
+																				<Image FileName="-1560377728" Left="44" Top="96" Right="157" Bottom="120" />
+																				<TypeInfo Item0="{EB788419-0354-41AB-90CD-D1EA71A9B1DC}" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="WinForm" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="0" Type="0" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="dataitem" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Logical_Tree" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
 													</Child>
 													<Child Name="DockableWindow2" Key="{E6E61A59-2BFD-4A16-A00D-9EA4A81379F8}">
 														<Properties>
@@ -1597,7 +1636,13 @@
 						</Child>
 					</Child>
 					<Child Name="WindowDockingArea" Owner="{44AFBEEA-4A86-4970-90A3-BD6323FE9A00}">
-						<Child Name="DockableWindow" Owner="{749361EA-FEF3-47F1-808C-5FCAD4CD674B}" />
+						<Child Name="DockableWindow" Owner="{749361EA-FEF3-47F1-808C-5FCAD4CD674B}">
+							<Child Name="LogicalTree" Owner="{E2E17080-CAFD-4875-8D0D-431516A9D938}">
+								<Child Name="LogicalTree" Owner="{D46434FC-D279-4982-B923-1B844842BA32}">
+									<Child Name="Logical_Tree" Owner="{FAAB4970-1D85-4310-9B73-82194B6FAE84}" />
+								</Child>
+							</Child>
+						</Child>
 						<Child Name="DockableWindow2" Owner="{E6E61A59-2BFD-4A16-A00D-9EA4A81379F8}">
 							<Child Name="CameoSpace" Owner="{BAC0A70A-6500-48D9-BBCA-76CD6328CA89}">
 								<Child Name="ToggleLiveCameoSpace" Owner="{F7811B68-3E57-411E-AFFF-D6108E59831E}">
