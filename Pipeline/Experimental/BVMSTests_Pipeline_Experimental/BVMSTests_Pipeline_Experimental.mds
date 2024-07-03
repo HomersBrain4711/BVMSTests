@@ -38,7 +38,7 @@
 	</testItems>
 	<variables key="{5E4AAEB3-D66C-47B6-ABA2-4A6EDB17E12D}" />
 	<settings key="{456132EA-BA84-42D5-9BC8-A2A02C27ABEC}">
-		<settingsVersion value="15.53" />
+		<settingsVersion value="15.64" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -65,10 +65,12 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="BVMS" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="ot1tfs" />
 		<setting name="AzureDevOps_URL" type="5" value="https://tfsservice.bst-eng.com/tfs/ot1tfs" />
-		<setting name="BitBar_APIkey" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
@@ -597,6 +599,7 @@
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

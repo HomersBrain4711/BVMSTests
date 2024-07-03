@@ -283,6 +283,37 @@
 																											</Child>
 																										</Children>
 																									</Child>
+																									<Child Name="panel2" Key="{907BAE35-A580-49AB-BD4F-3AB6B8AD3F55}">
+																										<Image FileName="-1338756319" Left="24" Top="525" Right="292" Bottom="579" />
+																										<TypeInfo Item0="{DC91B883-276F-4191-A84F-9A231CE9AF05}" />
+																										<Properties>
+																											<Property Name="WinFormsControlName">
+																												<Value Value="panel2" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="taskScheduleTree" Key="{F64E598D-DC48-4661-86B9-213C0A20A945}">
+																												<Image FileName="-1338756319" Left="24" Top="525" Right="292" Bottom="579" />
+																												<TypeInfo Item0="{6D9443AE-A9A0-4AD4-A8A5-B0BF2FFE13DA}" />
+																												<Properties>
+																													<Property Name="WinFormsControlName">
+																														<Value Value="taskScheduleTree" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="taskScheduleTree_LabelEditNode" Key="{94EDE7A7-6E60-42DE-8EE4-F7162B627712}">
+																														<Image FileName="-1338756319" Left="52" Top="527" Right="155" Bottom="549" />
+																														<TypeInfo Item0="{49B61C5F-F436-417F-B61F-D77C07A839C1}" />
+																														<Properties>
+																															<Property Name="WinFormsControlName">
+																																<Value Value="taskScheduleTree_LabelEditNode" />
+																															</Property>
+																														</Properties>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
 																								</Children>
 																							</Child>
 																						</Children>
@@ -1374,7 +1405,6 @@
 							</Child>
 							<Child Name="HwndSource_StyleableWindow" Key="{85E08D60-E196-4CA0-B60D-D85D6DE43545}">
 								<Image FileName="1007168596" Left="0" Top="0" Right="308" Bottom="194" />
-								<TypeInfo Item0="{49774EDC-0A16-4F95-AF37-D31F8C007132}" />
 								<Properties>
 									<Property Name="RootVisual.ClrClassName">
 										<Value Value="StyleableWindow" />
@@ -1386,7 +1416,6 @@
 								<Children>
 									<Child Name="StyleableWindow" Key="{09D32E15-3520-4D77-9E00-035C3599D63F}">
 										<Image FileName="1007168596" Left="0" Top="0" Right="309" Bottom="195" />
-										<TypeInfo Item0="{192AACF4-A9ED-4B8C-858A-2B8451B24B88}" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
@@ -1395,7 +1424,6 @@
 										<Children>
 											<Child Name="ButtonYes" Key="{DDC714A6-695B-4BD4-A8F2-9B3184631BA8}" ExtendedFind="True">
 												<Image FileName="1007168596" Left="82" Top="146" Right="147" Bottom="175" />
-												<TypeInfo Item0="{D057C34A-670E-42D2-91F4-32E9887A3DFD}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
@@ -1458,6 +1486,11 @@
 											<Child Name="labelTaskSchedules" Owner="{701A49BB-16C5-4BB5-B33C-2092D2916A1A}">
 												<Child Name="panel1" Owner="{40F9DE62-4976-4DE3-862F-A9445190D0C9}">
 													<Child Name="addTaskSchedule" Owner="{0CB1C5DB-9D32-47BB-A468-EA0DB788F5FE}" />
+												</Child>
+												<Child Name="panel2" Owner="{907BAE35-A580-49AB-BD4F-3AB6B8AD3F55}">
+													<Child Name="taskScheduleTree" Owner="{F64E598D-DC48-4661-86B9-213C0A20A945}">
+														<Child Name="taskScheduleTree_LabelEditNode" Owner="{94EDE7A7-6E60-42DE-8EE4-F7162B627712}" />
+													</Child>
 												</Child>
 											</Child>
 										</Child>
