@@ -84,12 +84,13 @@ function ResizeAndVerifyCameo(cameo)
   Helpers.ResizeCameo(cameo, -1/2, 1/2);
   aqObject.CheckProperty(cameo, "Width", cmpEqual, originalWidth);
   aqObject.CheckProperty(cameo, "Height", cmpEqual, originalHeight);
-  
 }
 
 function TC109222_Flexible_Cameo_Ratios_Resizing_Cameos()
 {
   TestedApps.OperatorClient.Run();
+  //hide TestComplete Indicator, because it sporadically desturbs cameo resizing
+  Indicator.Hide();
   let operatorClient = Aliases.OperatorClient;
   let containerControl = operatorClient.Control.ContainerControl;
   let cameoSpace = containerControl.WindowDockingArea.DockableWindow.CameoSpace;
@@ -121,7 +122,9 @@ function TC109222_Flexible_Cameo_Ratios_Resizing_Cameos()
   ResizeAndVerifyCameo(cameo);
   buttonIncreaseGranularity.Click();
   ResizeAndVerifyCameo(cameo);
-  
+  //show TestComplete Indicator again after test escecution
+  Indicator.Show();
+
   Helpers.OperatorClient_RestoreDefaultSettings();
   Helpers.OperatorClient_Close();
   
