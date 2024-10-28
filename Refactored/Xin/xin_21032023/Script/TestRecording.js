@@ -144,7 +144,7 @@ function TC56207_Adding_Bosch_ATM_POS_Bridge_No_Name()
   let configClient = Aliases.ConfigClient;
   let configClientForm = configClient.ConfigClientForm;
   let deviceTree = configClientForm.ConfigTabCtrl.tabControl.UltraTabPageControl.DeviceTreeConfigurationPage.ConfigurationControl_Fill_Panel.deviceTree;
-  let otherDevices = deviceTree.Device_Tree_10_.Other_Devices_12_;
+  let otherDevices = deviceTree.Device_Tree.Other_Devices_12_;
   otherDevices.DblClick();
   let atm_pos_device = otherDevices.ATM_POS;
   atm_pos_device.Click();
