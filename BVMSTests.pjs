@@ -43,6 +43,7 @@
 				<child name="Stefan_101222_1" key="{9EA1C283-497A-4C87-8848-CCB8B79B03F6}" path="Refactored\Stefan\Stefan_101222_1\Stefan_101222_1.mds" />
 				<child name="Stefan_121222_1" key="{86380BD0-7FD5-45D2-B249-B24379781F80}" path="Refactored\Stefan\Stefan_121222_1\Stefan_121222_1.mds" />
 				<child name="CameoResizing" key="{3D94E88C-2B37-475A-A028-472F973DD5C5}" path="Refactored\Stefan\Stefan_140323\CameoResizing\CameoResizing.mds" />
+				<child name="CompoundEvents" key="{DCBE5D7C-8E54-4ECB-A799-F8D556BA11A6}" path="Refactored\Stefan\CompoundEvents\CompoundEvents.mds" />
 			</folder>
 			<folder name="Xin">
 				<child name="xin_16032023" key="{C4E19CB4-0923-4A9F-BE5D-6B693D5E8697}" path="Refactored\Xin\xin_16032023\xin_16032023.mds" />
@@ -74,6 +75,7 @@
 			<testItem key="{C4E19CB4-0923-4A9F-BE5D-6B693D5E8697}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{6D534F13-C2A4-4117-8BE4-54E885E5F81B}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{4D7334FF-053C-4D87-9229-0AAE2502C7CB}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{DCBE5D7C-8E54-4ECB-A799-F8D556BA11A6}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{0C2E123D-7808-44A3-B401-46DE641D8100}">

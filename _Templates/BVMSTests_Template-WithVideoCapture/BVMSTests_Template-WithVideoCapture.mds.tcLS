@@ -22,7 +22,7 @@
 		<Node name="data">
 			<Node name="logs">
 				<Prp name="key" type="S" value="{D2C09DEE-1AFD-4AA4-82BD-1D9B03123AFD}"/>
-				<Prp name="relpath" type="S" value="C:\_TestCompleteLogs"/>
+				<Prp name="relpath" type="S" value="..\..\Log"/>
 			</Node>
 			<Node name="variables">
 				<Node name="datav4">
