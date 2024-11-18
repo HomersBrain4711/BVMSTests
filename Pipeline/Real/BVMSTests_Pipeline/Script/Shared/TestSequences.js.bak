@@ -37,8 +37,9 @@ function TC56368_TestSequence_Pause()
   var Cameo3_initialCaption = Cameo3.WndCaption;
   
   //click pause button
-  Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar.Click(104, 13);
-  
+  //Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar.Click(104, 13);
+  Helpers.ClickTrickPlayBarButton(ButtonAction.Pause);
+
   //wait longer than dwell time of one sequence step, to assure the sequence is paused
   aqUtils.Delay(5000);
 
@@ -61,11 +62,12 @@ function TC56369_TestSequence_ForwardBackward()
   let Cameo2 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo4;
   let Cameo3 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo7;
 
-  let trickPlayBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
+  //let trickPlayBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
   
   
-  //backward
-  trickPlayBar.Click(74, 12);
+  //play backward
+  //trickPlayBar.Click(74, 12);
+  Helpers.ClickTrickPlayBarButton(ButtonAction.PlayBackward);
   WaitForSequenceStep(3);
   VerifySequenceStep(3);
   VerifySequenceStep(2);
@@ -74,8 +76,9 @@ function TC56369_TestSequence_ForwardBackward()
   VerifySequenceStep(2);
   VerifySequenceStep(1);
 
-  //forward
-  trickPlayBar.Click(127, 12);
+  //play forward
+  //trickPlayBar.Click(127, 12);
+  Helpers.ClickTrickPlayBarButton(ButtonAction.PlayForward);
   WaitForSequenceStep(1);
   VerifySequenceStep(1);
   VerifySequenceStep(2);
@@ -89,10 +92,11 @@ function TC56369_TestSequence_ForwardBackward()
 
 function TC56371_TestSequence_StepForward()
 {
-  var sequenceNavigationBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
+  //var sequenceNavigationBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
   SelectSequenceByContextMenu();
   //click Pause
-  sequenceNavigationBar.Click(157, 12);
+  //sequenceNavigationBar.Click(157, 12);
+  Helpers.ClickTrickPlayBarButton(ButtonAction.Pause);
   var currentSequenceStep = FindSequenceStep();
   //verify, Sequence is paused
   aqUtils.Delay(5000);
@@ -102,7 +106,8 @@ function TC56371_TestSequence_StepForward()
   {
     currentSequenceStep = FindSequenceStep();
     //click StepForward
-    sequenceNavigationBar.Click(157, 12);
+    //sequenceNavigationBar.Click(157, 12);
+    //Helpers.ClickTrickPlayBarButton(ButtonAction.StepForward);
     var nextSequenceStep = GetNextSequenceStep(currentSequenceStep, true);
     //verify, next sequence step is shown
     VerifySequenceStep(nextSequenceStep);
@@ -116,10 +121,12 @@ function TC56371_TestSequence_StepForward()
 
 function TC56370_TestSequence_StepBackward()
 {
-  var sequenceNavigationBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
+  //var sequenceNavigationBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
   SelectSequenceByContextMenu();
   //click Pause
-  sequenceNavigationBar.Click(157, 12);
+  //sequenceNavigationBar.Click(157, 12);
+  Helpers.ClickTrickPlayBarButton(ButtonAction.Pause);
+
   var currentSequenceStep = FindSequenceStep();
   //verify, Sequence is paused
   aqUtils.Delay(5000);
@@ -129,7 +136,9 @@ function TC56370_TestSequence_StepBackward()
   {
     currentSequenceStep = FindSequenceStep();
     //click StepBackward
-    sequenceNavigationBar.Click(48, 10);
+    //sequenceNavigationBar.Click(48, 10);
+    Helpers.ClickTrickPlayBarButton(ButtonAction.StepBackward);
+
     var nextSequenceStep = GetNextSequenceStep(currentSequenceStep, false);
     //verify, next sequence step is shown
     VerifySequenceStep(nextSequenceStep);
@@ -193,6 +202,7 @@ function CreateSequence()
   wnd.Save_Changes.Click();
   wnd.Activate_working_copy_of_configuration.Click();
   configClient.ActivationView.ContainerControl.okButton.ClickButton();
+  wnd.Activate_working_copy_of_configuration.WaitProperty("Enabled", false, 20000);
 }
 
 function SelectSequenceByContextMenu()

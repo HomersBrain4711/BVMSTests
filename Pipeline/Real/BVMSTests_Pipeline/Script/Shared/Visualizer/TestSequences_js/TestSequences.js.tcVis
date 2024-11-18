@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{9CDD0521-56D6-47F9-A06E-D5F1EC4926B7}" />
+	<data key="{9CDD0521-56D6-47F9-A06E-D5F1EC4926B7}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="395" kind="0" dateTime="45602.7741898148" objectName="Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar" objectLeft="979" objectTop="66" objectRight="1182" objectBottom="92" clickPointX="1082" clickPointY="75" imageFileName="tcvi3943342185160.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

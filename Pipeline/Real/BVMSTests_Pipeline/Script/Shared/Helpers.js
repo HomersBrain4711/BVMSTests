@@ -209,3 +209,32 @@ function ConfigClient_RestoreConfig(restart = false)
 
 }
 
+//all possible TrickPlayBar Button actions (from left to right)
+ButtonAction =
+{
+  Backward: "Backward",
+	StepBackward: "StepBackward",
+  PlayBackward: "PlayBackward",
+  Pause: "Pause",
+  PlayForward: "PlayForward",
+	StepForward: "StepForward",
+  Forward: "Forward"  
+};
+
+//Helper for clicking TrickPlayBar Buttons (custom control for controlling sequences, buttons not recognizable by TestComplete)
+function ClickTrickPlayBarButton(buttonAction)
+{
+  if (Object.values(ButtonAction).includes(buttonAction))
+  {
+    let trickPlayBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
+    let widget = trickPlayBar.Widgets.Item_2(buttonAction);
+    if(widget != null)
+    {
+      trickPlayBar.ClickWidget(widget);
+      logPicture = trickPlayBar.Picture();
+      logMessage = "Button '" + buttonAction + "' clicked on TrickPlayBar control.";
+      Log.Event(logMessage, "", pmNormal, null, logPicture);
+    }
+  }
+}
+
