@@ -28,24 +28,18 @@ function TC56342_StartSequence()
 function TC56368_TestSequence_Pause()
 {
   SelectSequenceByContextMenu();
-  aqUtils.Delay(1000);
-  let Cameo1 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo1;
-  let Cameo2 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo4;
-  let Cameo3 = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo7;
-  var Cameo1_initialCaption = Cameo1.WndCaption;
-  var Cameo2_initialCaption = Cameo2.WndCaption;
-  var Cameo3_initialCaption = Cameo3.WndCaption;
-  
+
   //click pause button
   //Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar.Click(104, 13);
   Helpers.ClickTrickPlayBarButton(ButtonAction.Pause);
 
   //wait longer than dwell time of one sequence step, to assure the sequence is paused
-  aqUtils.Delay(5000);
-
-  aqObject.CheckProperty(Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo1, "WndCaption", cmpEqual, Cameo1_initialCaption);
-  aqObject.CheckProperty(Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo4, "WndCaption", cmpEqual, Cameo2_initialCaption);
-  aqObject.CheckProperty(Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.CameoSpacePanel.Cameo7, "WndCaption", cmpEqual, Cameo3_initialCaption);
+  aqUtils.Delay(2100);
+  VerifySequenceStep(1);
+  aqUtils.Delay(2100);
+  VerifySequenceStep(1);
+  aqUtils.Delay(2100);
+  VerifySequenceStep(1);
 
   Helpers.OperatorClient_RestoreDefaultSettings();
 

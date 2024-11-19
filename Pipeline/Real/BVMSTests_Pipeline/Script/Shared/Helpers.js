@@ -230,10 +230,21 @@ function ClickTrickPlayBarButton(buttonAction)
     let widget = trickPlayBar.Widgets.Item_2(buttonAction);
     if(widget != null)
     {
-      trickPlayBar.ClickWidget(widget);
-      logPicture = trickPlayBar.Picture();
-      logMessage = "Button '" + buttonAction + "' clicked on TrickPlayBar control.";
-      Log.Event(logMessage, "", pmNormal, null, logPicture);
+      if(buttonAction == ButtonAction.Pause)
+      {
+        //Pause button needs special treatment
+        trickPlayBar.ClickWidget(widget);
+      }
+      //calculate the center position of the corresponding button for clicking
+      let clickX = widget.X + widget.Width/2;
+      let clickY = widget.Y + widget.Height/2;
+      //calling the trickPlayBar.Click() will create log entry with screenshot automatically
+      trickPlayBar.Click(clickX, clickY);
+      
+      //trickPlayBar.ClickWidget(widget);
+      //logPicture = trickPlayBar.Picture();
+      //logMessage = "Button '" + buttonAction + "' clicked on TrickPlayBar control.";
+      //Log.Event(logMessage, "", pmNormal, null, logPicture);
     }
   }
 }
