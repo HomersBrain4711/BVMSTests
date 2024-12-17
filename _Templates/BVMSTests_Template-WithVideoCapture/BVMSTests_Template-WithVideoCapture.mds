@@ -12,7 +12,7 @@
 	</testItems>
 	<variables key="{3B225058-56A6-41C0-9E21-24C8DB3F12D9}" />
 	<settings key="{9F8A2CD9-B42D-4884-8189-BCB4616C8A2D}">
-		<settingsVersion value="15.43" />
+		<settingsVersion value="15.69" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -135,6 +135,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
@@ -186,6 +188,10 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="LoadTestAPIKey" type="5" value="" />
+		<setting name="LoadTestAPIKeyLogin" type="5" value="&lt;A&gt;Login to LoadNinja&lt;/A&gt; to get your API key." />
+		<setting name="LoadTestAPIKeySales" type="5" value="Want to know more &lt;A&gt;Contact Sales&lt;/A&gt;." />
+		<setting name="LoadTestAPIKeySignup" type="5" value="&lt;A&gt;Sign up for LN trial&lt;/A&gt;." />
 		<setting name="MobileSupportType" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -287,13 +293,13 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="False" val1="*" />
+				<row val0="True" val1="*" />
 				<row val0="True" val1="MsoCommandBar*" />
 				<row val0="True" val1="_Ww*" />
 				<row val0="True" val1="OpusApp" />
@@ -308,7 +314,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
-		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="14" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -327,8 +333,8 @@
 				<row val0="NativeSAPObject" />
 				<row val0="NativeQtObject" />
 				<row val0="NativeWebDriverObject" />
-				<row val0="NativeMSAA" />
 				<row val0="NativeUIAObject" />
+				<row val0="NativeMSAA" />
 			</data>
 		</setting>
 		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
@@ -348,15 +354,15 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
 				<row val0="True" val1="*" />
-				<row val0="False" val1="DirectUIHWND" />
-				<row val0="False" val1="Windows.UI.Core.CoreWindow" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
@@ -569,6 +575,7 @@
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -657,6 +664,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="VTAPIKey" type="5" value="" />
 		<setting name="WebCloudProvider" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

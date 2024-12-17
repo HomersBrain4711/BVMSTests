@@ -41,6 +41,75 @@ function OC_TestClickAllExistingCameos()
   Helpers.OperatorClient_Close();
 }
 
+function OC_TestClickAllPTZButtons()
+{
+  TestedApps.OperatorClient.Run();
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.DigitalZoomIn);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.DigitalZoomOut);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.Up);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.Down);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.Left);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.Right);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.Joystick);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.OpticalZoomIn);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.OpticalZoomOut);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.FocusNear);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.FocusFar);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.IrisOpen);
+  Helpers.ClickPTZControlButton(Helpers.PTZControlButton.IrisClosed);
+  Helpers.OperatorClient_Close();
+}
+
+
+function OC_TestClickAllSequenceControlButtons()
+{
+  TestedApps.OperatorClient.Run();
+  Helpers.ClickSequenceControlButton(Helpers.SequenceControlButton.Backward);
+  Helpers.ClickSequenceControlButton(Helpers.SequenceControlButton.StepBackward);
+  Helpers.ClickSequenceControlButton(Helpers.SequenceControlButton.PlayBackward);
+  Helpers.ClickSequenceControlButton(Helpers.SequenceControlButton.Pause);
+  Helpers.ClickSequenceControlButton(Helpers.SequenceControlButton.PlayForward);
+  Helpers.ClickSequenceControlButton(Helpers.SequenceControlButton.StepForward);
+  Helpers.ClickSequenceControlButton(Helpers.SequenceControlButton.Forward);
+  Helpers.OperatorClient_Close();
+}
+
+function OC_TestClickAllPlaybackControlButtons()
+{
+  TestedApps.OperatorClient.Run();
+  //switch to playback mode
+  Helpers.SetViewMode(Helpers.ViewMode.Playback);
+  Helpers.ClickPlaybackControlButton(Helpers.PlaybackControlButton.MaxBackward);
+  Helpers.ClickPlaybackControlButton(Helpers.PlaybackControlButton.StepBackward);
+  Helpers.ClickPlaybackControlButton(Helpers.PlaybackControlButton.PlayBackward);
+  Helpers.ClickPlaybackControlButton(Helpers.PlaybackControlButton.Pause);
+  Helpers.ClickPlaybackControlButton(Helpers.PlaybackControlButton.PlayForward);
+  Helpers.ClickPlaybackControlButton(Helpers.PlaybackControlButton.StepForward);
+  Helpers.ClickPlaybackControlButton(Helpers.PlaybackControlButton.MaxForward);
+  Helpers.OperatorClient_Close();
+}
+
+
+function OC_TestSelectAllLeftTabs()
+{
+  TestedApps.OperatorClient.Run();
+
+  //live mode
+  Helpers.SelectMainLeftTab(Helpers.MainLeftTab.LogicalTree);
+  Helpers.SelectMainLeftTab(Helpers.MainLeftTab.FavoritesTree);
+  Helpers.SelectMainLeftTab(Helpers.MainLeftTab.BookmarksTree);
+  //switch to playback mode
+  Helpers.SetViewMode(Helpers.ViewMode.Playback);
+  //playback mode
+  Helpers.SelectMainLeftTab(Helpers.MainLeftTab.LogicalTree);
+  Helpers.SelectMainLeftTab(Helpers.MainLeftTab.FavoritesTree);
+  Helpers.SelectMainLeftTab(Helpers.MainLeftTab.BookmarksTree);
+  Helpers.SelectMainLeftTab(Helpers.MainLeftTab.ExportsTree);
+  Helpers.SelectMainLeftTab(Helpers.MainLeftTab.ForensicSearch);
+
+  Helpers.OperatorClient_Close();
+}
+
 function CC_TestRestoreDefaultConfigAndExit()
 {
   TestedApps.ConfigClient.Run();

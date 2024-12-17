@@ -410,6 +410,15 @@
 																							</Property>
 																						</Properties>
 																					</Child>
+																					<Child Name="TrickPlayBar" Key="{0BE298CC-B6B1-47D0-A2EE-3E4D77901678}">
+																						<Image FileName="1503798689" Left="978" Top="66" Right="1181" Bottom="92" />
+																						<TypeInfo Item0="{527A866E-199B-4BBF-8CB0-9704C467A686}" />
+																						<Properties>
+																							<Property Name="WinFormsControlName">
+																								<Value Value="TrickPlayBar" />
+																							</Property>
+																						</Properties>
+																					</Child>
 																				</Children>
 																			</Child>
 																			<Child Name="CameoSpacePanel" Key="{D80D960C-2177-4558-9F8B-5BAEC1A79D9C}">
@@ -758,6 +767,86 @@
 															</Child>
 														</Children>
 													</Child>
+													<Child Name="DockableWindow2" Key="{0524D36D-A204-49C8-B2B3-10AFACD45314}">
+														<Image FileName="1034430800" Left="0" Top="918" Right="396" Bottom="1080" />
+														<TypeInfo Item0="{0F70ACBF-2F12-482A-B203-6853768489B0}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="7" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="PTZControl" Key="{780D38DA-BF3A-46D3-8574-CDABC30F97B8}">
+																<Image FileName="1034430800" Left="0" Top="918" Right="396" Bottom="1080" />
+																<TypeInfo Item0="{527A866E-199B-4BBF-8CB0-9704C467A686}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="PTZControl" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="DockableWindow3" Key="{685C15C1-F580-48A0-A1E9-B9EE2AF02D74}">
+														<Image FileName="1418159185" Left="445" Top="851" Right="1916" Bottom="1076" />
+														<TypeInfo Item0="{0F70ACBF-2F12-482A-B203-6853768489B0}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="11" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TimelineControl" Key="{DCECE056-2C60-4A1B-9E4C-CBB8E988DCF5}">
+																<Image FileName="1418159185" Left="445" Top="851" Right="1916" Bottom="1076" />
+																<TypeInfo Item0="{527A866E-199B-4BBF-8CB0-9704C467A686}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="TimelineControl" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="UltraToolbarsDockArea" Key="{4A20544E-B5CD-440C-B69F-766D99534472}">
+																		<Image FileName="1418159185" Left="445" Top="851" Right="1916" Bottom="886" />
+																		<TypeInfo Item0="{CC42C974-064E-42A4-A94D-660F83F95739}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="PlaybackPlayerControl" Key="{3D7EA743-BF13-409B-9254-7B505D4C5700}">
+																				<Image FileName="1418159185" Left="804" Top="855" Right="1007" Bottom="881" />
+																				<TypeInfo Item0="{527A866E-199B-4BBF-8CB0-9704C467A686}" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="PlaybackPlayerControl" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -902,7 +991,6 @@
 							</Child>
 							<Child Name="HwndSource_StyleableWindow" Key="{36F048A6-7FCF-4DDD-9B0C-B44084100217}">
 								<Image FileName="1705756990" Left="0" Top="0" Right="308" Bottom="194" />
-								<TypeInfo Item0="{1F865709-5A88-4D84-8373-EF77D9AE22C6}" />
 								<Properties>
 									<Property Name="RootVisual.ClrClassName">
 										<Value Value="StyleableWindow" />
@@ -914,7 +1002,6 @@
 								<Children>
 									<Child Name="StyleableWindow" Key="{FDF3BAF8-E3C4-4EE4-B37A-5BFB364C6157}">
 										<Image FileName="1705756990" Left="0" Top="0" Right="309" Bottom="195" />
-										<TypeInfo Item0="{EC571445-ECE1-4886-B882-C85A1A239842}" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
@@ -923,7 +1010,6 @@
 										<Children>
 											<Child Name="ButtonYes" Key="{7162F323-8D49-43E0-9FB5-E717C2378436}" ExtendedFind="True">
 												<Image FileName="1705756990" Left="82" Top="146" Right="147" Bottom="175" />
-												<TypeInfo Item0="{49850C47-4B54-446A-9742-7CDCD0EA6B26}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
@@ -995,6 +1081,7 @@
 								<Child Name="ToggleLiveCameoSpace" Owner="{8E12DD03-3433-4729-B1AE-94D40083B424}">
 									<Child Name="UltraToolbarsDockArea" Owner="{BC58A307-0DDE-476D-87B9-214C1B96514E}">
 										<Child Name="GranularitySlider" Owner="{371E0BCF-A6EA-4402-86D6-66D38DA338B8}" />
+										<Child Name="TrickPlayBar" Owner="{0BE298CC-B6B1-47D0-A2EE-3E4D77901678}" />
 									</Child>
 									<Child Name="CameoSpacePanel" Owner="{D80D960C-2177-4558-9F8B-5BAEC1A79D9C}">
 										<Child Name="Cameo1" Owner="{AB925948-A131-41B2-AFF5-BA2185EE3C08}" />
@@ -1028,6 +1115,16 @@
 										<Child Name="Cameo29" Owner="{3EF1AD3E-F2D5-4DDE-AE20-200B45B4A363}" />
 										<Child Name="Cameo30" Owner="{89C10972-B02D-449A-A4E5-BDDBB1430B79}" />
 									</Child>
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="DockableWindow2" Owner="{0524D36D-A204-49C8-B2B3-10AFACD45314}">
+							<Child Name="PTZControl" Owner="{780D38DA-BF3A-46D3-8574-CDABC30F97B8}" />
+						</Child>
+						<Child Name="DockableWindow3" Owner="{685C15C1-F580-48A0-A1E9-B9EE2AF02D74}">
+							<Child Name="TimelineControl" Owner="{DCECE056-2C60-4A1B-9E4C-CBB8E988DCF5}">
+								<Child Name="UltraToolbarsDockArea" Owner="{4A20544E-B5CD-440C-B69F-766D99534472}">
+									<Child Name="PlaybackPlayerControl" Owner="{3D7EA743-BF13-409B-9254-7B505D4C5700}" />
 								</Child>
 							</Child>
 						</Child>

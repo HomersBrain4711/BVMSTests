@@ -279,9 +279,26 @@ function ConfigClient_RestoreConfig(restart = false)
 
 }
 
+ViewMode =
+{
+  Live: true,
+	Playback: false
+}
+
+function SetViewMode(viewMode)
+{
+  let attArr = new Array("FrameworkId", "LocalizedControlType", "ObjectIdentifier", "VisibleOnScreen");
+  let valArr = new Array("WinForm", "button", viewMode ? "Switch_to_Live_Mode": "Switch_to_Playback_Mode", "True");
+  let btnViewMode = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.FindChild(attArr, valArr, 100);
+  if(btnViewMode.Exists && btnViewMode.Visible)
+  {
+    btnViewMode.Click();
+  }
+}
+
 
 //all possible TrickPlayBar Button actions (from left to right)
-ButtonAction =
+SequenceControlButton =
 {
   Backward: "Backward",
 	StepBackward: "StepBackward",
@@ -293,15 +310,16 @@ ButtonAction =
 };
 
 //Helper for clicking TrickPlayBar Buttons (custom control for controlling sequences, buttons not recognizable by TestComplete)
-function ClickTrickPlayBarButton(buttonAction)
+function ClickSequenceControlButton(buttonAction)
 {
-  if (Object.values(ButtonAction).includes(buttonAction))
+  //check if button action is valid
+  if (Object.values(SequenceControlButton).includes(buttonAction))
   {
-    let trickPlayBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
+    let trickPlayBar = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow.CameoSpace.ToggleLiveCameoSpace.UltraToolbarsDockArea.TrickPlayBar;
     let widget = trickPlayBar.Widgets.Item_2(buttonAction);
     if(widget != null)
     {
-      if(buttonAction == ButtonAction.Pause)
+      if(buttonAction == SequenceControlButton.Pause)
       {
         //Pause button needs special treatment
         trickPlayBar.ClickWidget(widget);
@@ -319,3 +337,110 @@ function ClickTrickPlayBarButton(buttonAction)
     }
   }
 }
+
+//all possible PlaybackPlayerControl Button actions (from left to right)
+PlaybackControlButton =
+{
+  MaxBackward: "MaxBackward",
+  StepBackward: "StepBackward",
+  PlayBackward: "PlayBackward",
+  Pause: "Pause",
+  PlayForward: "PlayForward",
+  StepForward: "StepForward",
+  MaxForward: "MaxForward"  
+};
+
+//Helper for clicking PlaybackPlayerControl Buttons (custom control for controlling sequences, buttons not recognizable by TestComplete)
+function ClickPlaybackControlButton(buttonAction)
+{
+  //check if button action is valid
+  if (Object.values(PlaybackControlButton).includes(buttonAction))
+  {
+    let playbackPlayerControl = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow3.TimelineControl.UltraToolbarsDockArea.PlaybackPlayerControl;
+    if(playbackPlayerControl != null && playbackPlayerControl.Visible == true)
+    {
+      let widget = playbackPlayerControl.Widgets.Item_2(buttonAction);
+      if(widget != null)
+      {
+        //calculate the center position of the corresponding button for clicking
+        let clickX = widget.X + widget.Width/2;
+        let clickY = widget.Y + widget.Height/2;
+        //calling the trickPlayBar.Click() will create log entry with screenshot automatically
+        playbackPlayerControl.Click(clickX, clickY);
+      
+        //playbackPlayerControl.ClickWidget(widget);
+        //logPicture = playbackPlayerControl.Picture();
+        //logMessage = "Button '" + buttonAction + "' clicked on PlaybackPlayer control.";
+        //Log.Event(logMessage, "", pmNormal, null, logPicture);
+      }
+    }
+  }
+}
+
+
+PTZControlButton =
+{
+  DigitalZoomIn: "DigitalZoomIn",
+  DigitalZoomOut: "DigitalZoomOut",
+  Up: "Up",
+  Down: "Down",
+  Left: "Left",
+  Right: "Right",
+  Joystick: "Joystick",
+  OpticalZoomIn: "OpticalZoomIn",
+  OpticalZoomOut: "OpticalZoomOut",
+  FocusNear: "FocusNear",
+  FocusFar: "FocusFar",
+  IrisOpen: "IrisOpen",
+  IrisClosed: "IrisClosed" 
+};
+
+//Helper for clicking TPTZControl Buttons (custom control for controlling PTZ Cams), buttons are not recognizable by TestComplete)
+function ClickPTZControlButton(buttonAction)
+{
+  //check if button action is valid
+  if (Object.values(PTZControlButton).includes(buttonAction))
+  {
+    let ptzControl = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow2.PTZControl;
+    if(ptzControl != null && ptzControl.Visible == true)
+    {
+      let widget = ptzControl.zctrlskin.Widgets.get_Item_2(buttonAction);
+      //calculate the center position of the corresponding button for clicking
+      let clickX = widget.X + widget.Width * 0.75;
+      let clickY = widget.Y + widget.Height * 0.75;
+      //calling the trickPlayBar.Click() will create log entry with screenshot automatically
+      ptzControl.Click(clickX, clickY);
+    }
+  }
+}
+
+
+MainLeftTab =
+{
+  LogicalTree: 0,
+  FavoritesTree: 1,
+  BookmarksTree: 2,
+  ExportsTree: 3,
+  ForensicSearch: 4
+}
+
+function SelectMainLeftTab(tabIndex)
+{
+  let windowDockingArea = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea;
+  let attArr = new Array("ClrClassName", "Index");
+  let valArr = new Array("DockableWindow", "7");
+  let containerForPTZControl = windowDockingArea.FindChild(attArr, valArr);
+
+  let lifeMode = containerForPTZControl.Visible;
+  let tabCount = lifeMode ? 3 : 5;
+  if(tabIndex < tabCount)
+  {
+    let tabControlHieight = lifeMode ? windowDockingArea.Size.Height - containerForPTZControl.Size.Height : windowDockingArea.Size.Height;
+    let tabHeight = tabControlHieight / tabCount;
+    let clickX = 15;
+    let clickY =(tabHeight * tabIndex)  + (tabHeight * 0.5); 
+    windowDockingArea.Click(clickX, clickY);
+  }
+}
+
+
