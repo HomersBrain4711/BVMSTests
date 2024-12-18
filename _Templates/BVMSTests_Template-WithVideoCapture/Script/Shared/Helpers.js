@@ -289,7 +289,7 @@ function SetViewMode(viewMode)
 {
   let attArr = new Array("FrameworkId", "LocalizedControlType", "ObjectIdentifier", "VisibleOnScreen");
   let valArr = new Array("WinForm", "button", viewMode ? "Switch_to_Live_Mode": "Switch_to_Playback_Mode", "True");
-  let btnViewMode = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.FindChild(attArr, valArr, 100);
+  let btnViewMode = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.FindChild(attArr, valArr, 5);
   if(btnViewMode.Exists && btnViewMode.Visible)
   {
     btnViewMode.Click();
@@ -443,4 +443,29 @@ function SelectMainLeftTab(tabIndex)
   }
 }
 
+PlaybackLeftTab =
+{
+  AlarmList: 0,
+  Timeline: 1,
+  VideoSearchResults: 2,
+  ForensicSearchResults: 3,
+}
+
+function SelectPlaybackLeftTab(tabIndex)
+{
+  let windowDockingArea = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea;
+  let attArr = new Array("ClrClassName", "Index");
+  let valArr = new Array("DockableWindow", "8");
+  let cameoSpacePanel = windowDockingArea.FindChild(attArr, valArr);
+
+  let tabCount = 4;
+  if(tabIndex < tabCount)
+  {
+    let tabControlHieight = windowDockingArea.Size.Height - cameoSpacePanel.Size.Height;
+    let tabHeight = tabControlHieight / tabCount;
+    let clickX = cameoSpacePanel.Left + 15;
+    let clickY = cameoSpacePanel.Bottom + (tabHeight * tabIndex)  + (tabHeight * 0.5); 
+    windowDockingArea.Click(clickX, clickY);
+  }
+}
 

@@ -90,7 +90,7 @@ function OC_TestClickAllPlaybackControlButtons()
 }
 
 
-function OC_TestSelectAllLeftTabs()
+function OC_TestSelectAllMainLeftTabs()
 {
   TestedApps.OperatorClient.Run();
 
@@ -106,6 +106,22 @@ function OC_TestSelectAllLeftTabs()
   Helpers.SelectMainLeftTab(Helpers.MainLeftTab.BookmarksTree);
   Helpers.SelectMainLeftTab(Helpers.MainLeftTab.ExportsTree);
   Helpers.SelectMainLeftTab(Helpers.MainLeftTab.ForensicSearch);
+
+  Helpers.OperatorClient_Close();
+}
+
+
+function OC_TestSelectAllPlaybackLeftTabs()
+{
+  TestedApps.OperatorClient.Run();
+
+  //switch to playback mode
+  Helpers.SetViewMode(Helpers.ViewMode.Playback);
+
+  Helpers.SelectPlaybackLeftTab(Helpers.PlaybackLeftTab.AlarmList);
+  Helpers.SelectPlaybackLeftTab(Helpers.PlaybackLeftTab.Timeline);
+  Helpers.SelectPlaybackLeftTab(Helpers.PlaybackLeftTab.VideoSearchResults);
+  Helpers.SelectPlaybackLeftTab(Helpers.PlaybackLeftTab.ForensicSearchResults);
 
   Helpers.OperatorClient_Close();
 }
