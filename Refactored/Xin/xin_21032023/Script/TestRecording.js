@@ -93,6 +93,7 @@ function TC200917_Remove_AMG_Configuration_from_Workstation_Settings()
   let wnd = ultraTree.Device_Tree.Workstations;
   wnd.Click();
   wnd.ClickR();
+  aqUtils.Delay(100);
   ultraTree.PopupMenu.Click("Add Workstation");
   let embeddableTextBoxWithUIPermissions = configClient.NetworkAddressForm.ContainerControl.networkAddress.networkAddress_EmbeddableTextBox;
   embeddableTextBoxWithUIPermissions.SetText("testStation");
@@ -121,6 +122,7 @@ function TC56208_Adding_Bosch_ATM_POS_Bridge_No_IP()
   let wnd2 = wnd.ATM_POS;
   wnd2.Click();
   wnd2.ClickR();
+  aqUtils.Delay(100);
   ultraTree.PopupMenu.Click("Add Bosch ATM/POS-Bridge");
   let containerControl = configClient.PosBridgeAddDeviceForm.ContainerControl;
   containerControl.name.name_EmbeddableTextBox.SetText("nameBridge");
@@ -149,6 +151,7 @@ function TC56207_Adding_Bosch_ATM_POS_Bridge_No_Name()
   let atm_pos_device = otherDevices.ATM_POS;
   atm_pos_device.Click();
   atm_pos_device.ClickR();
+  aqUtils.Delay(100);
   deviceTree.PopupMenu.Click("Add Bosch ATM/POS-Bridge");
   aqObject.CheckProperty(Aliases.ConfigClient.PosBridgeAddDeviceForm, "WndCaption", cmpEqual, "Add Bosch ATM/POS-Bridge");
   let containerControl = configClient.PosBridgeAddDeviceForm.ContainerControl;
@@ -175,6 +178,7 @@ function TC55923_Add_Email_SMTP_Devices()
   let wnd2 = wnd.Communication_Devices;
   wnd2.Click();
   wnd2.ClickR();
+  aqUtils.Delay(100);
   ultraTree.PopupMenu.Click("Add E-mail/SMTP Device");
   aqObject.CheckProperty(Aliases.ConfigClient.SmtpAddDeviceForm, "WndCaption", cmpEqual, "E-mail/SMTP Server");
   let containerControl = configClient.SmtpAddDeviceForm.ContainerControl;
@@ -212,6 +216,7 @@ function TC55928_Delete_Email_SMTP_Devices()
   let communicationDevicesCount = communicationDevices.ChildCount;
   communicationDevices.Click();
   communicationDevices.ClickR();
+  aqUtils.Delay(100);
   deviceTree.PopupMenu.Click("Add E-mail/SMTP Device");
   let embeddableTextBoxWithUIPermissions = configClient.SmtpAddDeviceForm.ContainerControl.textBox2.textBox2_EmbeddableTextBox;
   embeddableTextBoxWithUIPermissions.SetText("toBeDeleted");
