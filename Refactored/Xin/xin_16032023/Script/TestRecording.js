@@ -142,6 +142,7 @@ function TC151308_Configure_Automatic_Stream_Switch()
   let wnd = ultraTree.Device_Tree.Workstations;
   wnd.Click();
   wnd.ClickR();
+  aqUtils.Delay(100);
   ultraTree.PopupMenu.Click("Add Workstation");
   let embeddableTextBoxWithUIPermissions = configClient.NetworkAddressForm.ContainerControl.networkAddress.networkAddress_EmbeddableTextBox;
   embeddableTextBoxWithUIPermissions.SetText("test");
