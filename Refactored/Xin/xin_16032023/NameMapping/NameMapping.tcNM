@@ -1608,7 +1608,7 @@
 												<Image FileName="-400139172" Left="80" Top="44" Right="267" Bottom="61" />
 												<Properties>
 													<Property Name="WPFControlName">
-														<Value Value="TitleMessage" />
+														<Value Value="message" />
 													</Property>
 												</Properties>
 											</Child>
@@ -1882,7 +1882,6 @@
 							</Child>
 							<Child Name="HwndSource_StyleableWindow2" Key="{5AA6ECC4-8094-4CCB-8151-EC47FACD85D3}">
 								<Image FileName="-143184734" Left="0" Top="0" Right="308" Bottom="194" />
-								<TypeInfo Item0="{AEC63754-30AE-4CBD-9FE2-E58F791B6A5D}" />
 								<Properties>
 									<Property Name="RootVisual.ClrClassName">
 										<Value Value="StyleableWindow" />
@@ -1894,7 +1893,6 @@
 								<Children>
 									<Child Name="StyleableWindow" Key="{516D17A7-B035-4CC2-9595-3F0921564B24}">
 										<Image FileName="-143184734" Left="0" Top="0" Right="309" Bottom="195" />
-										<TypeInfo Item0="{DF2B2975-C1C0-49F1-81B1-445F0BCC0426}" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
@@ -1903,7 +1901,6 @@
 										<Children>
 											<Child Name="ButtonYes" Key="{E2035577-2822-4B6E-BA87-FD5DD45724E7}" ExtendedFind="True">
 												<Image FileName="-143184734" Left="82" Top="146" Right="147" Bottom="175" />
-												<TypeInfo Item0="{46155092-9E23-4C29-9065-C43451347F44}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
@@ -1915,7 +1912,6 @@
 											</Child>
 											<Child Name="ButtonNo" Key="{ED910849-ED54-4F16-BD66-77E3E92E7E3C}" ExtendedFind="True">
 												<Image FileName="-110067711" Left="132" Top="146" Right="197" Bottom="175" />
-												<TypeInfo Item0="{46155092-9E23-4C29-9065-C43451347F44}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
