@@ -195,6 +195,7 @@ function TC55923_Add_Email_SMTP_Devices()
   aqObject.CheckProperty(Aliases.ConfigClient.ConfigClientForm.ConfigTabCtrl.tabControl.UltraTabPageControl.DeviceTreeConfigurationPage.ConfigurationControl_Fill_Panel.deviceTree.Device_Tree.Other_Devices_12_.Communication_Devices, "Enabled", cmpEqual, true);
   aqObject.CheckProperty(Aliases.ConfigClient.ConfigClientForm.ConfigTabCtrl.tabControl.UltraTabPageControl.DeviceTreeConfigurationPage.ConfigurationControl_Fill_Panel.deviceTree.Device_Tree.Other_Devices_12_.Communication_Devices, "Name", cmpEqual, "UIAObject(\"Communication_Devices\")");
   wnd2.ClickR();
+  aqUtils.Delay(100);
   ultraTree.PopupMenu.Click("Add E-mail/SMTP Device");
   embeddableTextBoxWithUIPermissions.SetText("131651651431165654");
   ultraButton.ClickButton();
