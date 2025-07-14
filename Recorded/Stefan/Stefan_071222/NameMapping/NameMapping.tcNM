@@ -1396,7 +1396,7 @@
 										<Value Value="StyleableWindow" />
 									</Property>
 									<Property Name="WndCaption">
-										<Value Value="" />
+										<Value Value="Operator Client" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1499,7 +1499,6 @@
 							</Child>
 							<Child Name="HwndSource_StyleableWindow2" Key="{E8110C08-D11C-4D24-B3F2-ACCFF5518D64}">
 								<Image FileName="-1570265513" Left="0" Top="0" Right="308" Bottom="194" />
-								<TypeInfo Item0="{7E814BE0-22CC-48BA-A753-926D32F92083}" />
 								<Properties>
 									<Property Name="RootVisual.ClrClassName">
 										<Value Value="StyleableWindow" />
@@ -1511,7 +1510,6 @@
 								<Children>
 									<Child Name="StyleableWindow" Key="{2E236955-C666-4389-8476-E8F6EAB39037}">
 										<Image FileName="-1570265513" Left="0" Top="0" Right="309" Bottom="195" />
-										<TypeInfo Item0="{8D877B44-A461-4674-A726-B1FB1825EC74}" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value Value="Bosch.Frontend.Framework.Wpf.StyleableWindow" />
@@ -1520,7 +1518,6 @@
 										<Children>
 											<Child Name="ButtonYes" Key="{2D330DFC-92B4-469A-B382-620DC6B8E564}" ExtendedFind="True">
 												<Image FileName="-1570265513" Left="82" Top="146" Right="147" Bottom="175" />
-												<TypeInfo Item0="{AB05F48F-FE19-4EF2-BA04-E3A1D008E309}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />

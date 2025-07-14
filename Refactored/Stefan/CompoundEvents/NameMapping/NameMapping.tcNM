@@ -176,7 +176,6 @@
 																						<Children>
 																							<Child Name="Other_Devices_11_" Key="{1D7F5EB2-6658-41F8-B444-B9A9C9990901}">
 																								<Image FileName="152200968" Left="28" Top="303" Right="172" Bottom="327" />
-																								<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -191,7 +190,6 @@
 																								<Children>
 																									<Child Name="Virtual_Inputs" Key="{6A269B18-0A16-4E61-AB48-07FBE2E3F3C6}">
 																										<Image FileName="-1894586164" Left="47" Top="399" Right="163" Bottom="423" />
-																										<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																										<Properties>
 																											<Property Name="FrameworkId">
 																												<Value Value="WinForm" />
@@ -244,7 +242,6 @@
 																										<Children>
 																											<Child Name="btnAdd" Key="{7FF417E4-598C-42BD-8222-251F8E3751F9}">
 																												<Image FileName="1001416015" Left="367" Top="232" Right="495" Bottom="255" />
-																												<TypeInfo Item0="{7F626D08-40A5-4DF4-A822-4387425E3C90}" />
 																												<Properties>
 																													<Property Name="WinFormsControlName">
 																														<Value Value="btnAdd" />
@@ -327,7 +324,6 @@
 																								<Children>
 																									<Child Name="Other_Devices_9_" Key="{3124AC65-F2CA-4F20-929C-BD8D436542FA}">
 																										<Image FileName="1803806384" Left="28" Top="330" Right="165" Bottom="354" />
-																										<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																										<Properties>
 																											<Property Name="FrameworkId">
 																												<Value Value="WinForm" />
@@ -342,7 +338,6 @@
 																										<Children>
 																											<Child Name="Virtual_Inputs_3_" Key="{BF22A2BB-744E-4599-98EB-4148442C2BE6}">
 																												<Image FileName="-1945083779" Left="47" Top="378" Right="179" Bottom="402" />
-																												<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="WinForm" />
@@ -365,7 +360,6 @@
 																			</Child>
 																			<Child Name="ultraTabControl1" Key="{8A526671-FD7E-4621-82C6-5E77C5BA07BC}">
 																				<Image FileName="1870908384" Left="316" Top="158" Right="1016" Bottom="760" />
-																				<TypeInfo Item0="{90165662-2266-4C8A-A066-C1B9BA02F7AF}" />
 																				<Properties>
 																					<Property Name="WinFormsControlName">
 																						<Value Value="ultraTabControl1" />
@@ -374,7 +368,6 @@
 																				<Children>
 																					<Child Name="ultraTabPageControl1" Key="{AD273E6B-0175-4C38-AB2A-CE69FA24A32A}">
 																						<Image FileName="1870908384" Left="341" Top="206" Right="991" Bottom="735" />
-																						<TypeInfo Item0="{F170573B-B73E-4986-BE4A-5EFD218FB18A}" />
 																						<Properties>
 																							<Property Name="WinFormsControlName">
 																								<Value Value="ultraTabPageControl1" />
@@ -383,7 +376,6 @@
 																						<Children>
 																							<Child Name="LogicalTreePanel" Key="{39962106-81C7-4958-B4BF-7F46ED04E7EA}">
 																								<Image FileName="1870908384" Left="341" Top="206" Right="991" Bottom="735" />
-																								<TypeInfo Item0="{F170573B-B73E-4986-BE4A-5EFD218FB18A}" />
 																								<Properties>
 																									<Property Name="WinFormsControlName">
 																										<Value Value="LogicalTreePanel" />
@@ -392,7 +384,6 @@
 																								<Children>
 																									<Child Name="logicalTree" Key="{1B5FCD77-8F44-49B9-B3EA-721DEA5DCC12}">
 																										<Image FileName="1870908384" Left="341" Top="206" Right="641" Bottom="735" />
-																										<TypeInfo Item0="{F170573B-B73E-4986-BE4A-5EFD218FB18A}" />
 																										<Properties>
 																											<Property Name="WinFormsControlName">
 																												<Value Value="logicalTree" />
@@ -401,7 +392,6 @@
 																										<Children>
 																											<Child Name="ultraTreeLogical" Key="{2CD1B552-CC05-431A-852B-806DDFC6B365}">
 																												<Image FileName="1870908384" Left="341" Top="206" Right="641" Bottom="735" />
-																												<TypeInfo Item0="{894012BE-B6FB-4E86-950E-507C1703E4A2}" />
 																												<Properties>
 																													<Property Name="WinFormsControlName">
 																														<Value Value="ultraTreeLogical" />
@@ -410,7 +400,6 @@
 																												<Children>
 																													<Child Name="Logical_Tree" Key="{4B4AF518-E3C2-4728-B764-D0A5D088A617}">
 																														<Image FileName="1870908384" Left="342" Top="207" Right="458" Bottom="231" />
-																														<TypeInfo Item0="{B66D9621-0EC9-4EC2-997A-02A3C02A8B0E}" />
 																														<Properties>
 																															<Property Name="FrameworkId">
 																																<Value Value="WinForm" />
@@ -462,7 +451,6 @@
 																				<Children>
 																					<Child Name="Save_Changes" Key="{06F486FC-DFF5-4E5D-9130-69E93216AB17}">
 																						<Image FileName="-1808123442" Left="10" Top="116" Right="50" Bottom="156" />
-																						<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -529,7 +517,6 @@
 																				<Children>
 																					<Child Name="Create_Compound_Event" Key="{3A6F86E9-E987-42BE-9EB7-48D0183E2580}">
 																						<Image FileName="718026130" Left="228" Top="116" Right="268" Bottom="156" />
-																						<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -544,7 +531,6 @@
 																					</Child>
 																					<Child Name="Save_Changes" Key="{F249826E-5BF7-4510-BC9C-58D17F50B963}">
 																						<Image FileName="224165372" Left="10" Top="116" Right="50" Bottom="156" />
-																						<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -559,7 +545,6 @@
 																					</Child>
 																					<Child Name="Activate_working_copy_of_configuration" Key="{962453B0-7D19-43B2-95EE-0E16E4A4E21F}">
 																						<Image FileName="899334577" Left="90" Top="116" Right="130" Bottom="156" />
-																						<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -608,7 +593,6 @@
 																						<Children>
 																							<Child Name="System_Devices" Key="{E6591AEC-BA90-4F4B-919B-14939BD5C83C}">
 																								<Image FileName="1157533779" Left="28" Top="303" Right="159" Bottom="327" />
-																								<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -623,7 +607,6 @@
 																								<Children>
 																									<Child Name="Compound_Events" Key="{FA8C7C50-ADD9-4696-8254-DB8FF6402563}">
 																										<Image FileName="1137216208" Left="47" Top="327" Right="190" Bottom="351" />
-																										<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																										<Properties>
 																											<Property Name="FrameworkId">
 																												<Value Value="WinForm" />
@@ -638,7 +621,6 @@
 																										<Children>
 																											<Child Name="Compound_Event_State" Key="{EDD6423F-C728-4049-BFC1-5395E5291610}">
 																												<Image FileName="-1251647397" Left="66" Top="351" Right="233" Bottom="375" />
-																												<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="WinForm" />
@@ -653,7 +635,6 @@
 																												<Children>
 																													<Child Name="Compound_Event_is_True" Key="{BC6305C2-F192-4EFA-A1DD-0E2F32669E2B}">
 																														<Image FileName="-1032674047" Left="85" Top="375" Right="260" Bottom="399" />
-																														<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																														<Properties>
 																															<Property Name="FrameworkId">
 																																<Value Value="WinForm" />
@@ -774,7 +755,6 @@
 																																				<Children>
 																																					<Child Name="Editor_dropdown_button" Key="{CD06BDDD-D06D-436C-8060-C137B1B0F9C4}">
 																																						<Image FileName="-1569686861" Left="591" Top="271" Right="608" Bottom="291" />
-																																						<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																																						<Properties>
 																																							<Property Name="FrameworkId">
 																																								<Value Value="WinForm" />
@@ -823,7 +803,6 @@
 												<Children>
 													<Child Name="zConfigTabUltraButton_TabPage_1" Key="{49AC1898-8855-4537-848A-053BACA213BD}">
 														<Image FileName="1602361820" Left="97" Top="71" Right="212" Bottom="116" />
-														<TypeInfo Item0="{B26DD2C2-4B0B-473E-97CB-4B22481772F6}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="_ConfigTabUltraButton_TabPage_1" />
@@ -832,7 +811,6 @@
 													</Child>
 													<Child Name="zConfigTabUltraButton_TabPage_7" Key="{C08CC02A-52F2-44B2-94A0-5C4858E56840}">
 														<Image FileName="-1069342536" Left="503" Top="71" Right="556" Bottom="116" />
-														<TypeInfo Item0="{B26DD2C2-4B0B-473E-97CB-4B22481772F6}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="_ConfigTabUltraButton_TabPage_7" />
@@ -845,7 +823,6 @@
 									</Child>
 									<Child Name="Configuration_Client_127_0_0_1_User_admin_" Key="{3EECAC2E-1803-4A0C-A56D-06C85D314CA1}">
 										<Image FileName="-2014685723" Left="8" Top="8" Right="1016" Bottom="31" />
-										<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 										<Properties>
 											<Property Name="FrameworkId">
 												<Value Value="WinForm" />
@@ -935,7 +912,6 @@
 										<Children>
 											<Child Name="Always" Key="{1F207759-B270-412B-894D-8E043FC9B07F}">
 												<Image FileName="-1946974928" Left="1" Top="19" Right="96" Bottom="37" />
-												<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 												<Properties>
 													<Property Name="FrameworkId">
 														<Value Value="WinForm" />
@@ -1051,7 +1027,6 @@
 											</Child>
 											<Child Name="buttonLeft" Key="{AFFF0A36-DDA1-4074-92FD-3C9F5486C28D}">
 												<Image FileName="-119451109" Left="171" Top="114" Right="251" Bottom="137" />
-												<TypeInfo Item0="{7F626D08-40A5-4DF4-A822-4387425E3C90}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="buttonLeft" />
@@ -1091,7 +1066,6 @@
 												<Children>
 													<Child Name="UpDownEdit" Key="{CD311D1E-129A-4C41-BF08-134400C098AB}">
 														<Image FileName="400308673" Left="153" Top="76" Right="199" Bottom="92" />
-														<TypeInfo Item0="{1603F9BC-F6E0-4FFF-88D8-EB452784DADC}" />
 														<Properties>
 															<Property Name="ClrFullClassName">
 																<Value Value="System.Windows.Forms.UpDownBase+UpDownEdit" />
@@ -1102,7 +1076,6 @@
 											</Child>
 											<Child Name="btnAdd" Key="{6D843E1B-4B0D-415C-8CE9-10022EF87A3C}">
 												<Image FileName="1591722809" Left="142" Top="184" Right="222" Bottom="207" />
-												<TypeInfo Item0="{7F626D08-40A5-4DF4-A822-4387425E3C90}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="btnAdd" />
@@ -1172,7 +1145,6 @@
 																		<Children>
 																			<Child Name="System_Devices" Key="{7CE74553-C43A-4230-850A-64A3BD9D71FA}">
 																				<Image FileName="1464875903" Left="42" Top="316" Right="173" Bottom="340" />
-																				<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																				<Properties>
 																					<Property Name="FrameworkId">
 																						<Value Value="WinForm" />
@@ -1187,7 +1159,6 @@
 																				<Children>
 																					<Child Name="Virtual_Inputs" Key="{725B1B7C-DDD5-44D2-B2FF-1097D1899C7F}">
 																						<Image FileName="1945939172" Left="61" Top="388" Right="177" Bottom="412" />
-																						<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -1202,7 +1173,6 @@
 																						<Children>
 																							<Child Name="Input_State" Key="{6454C5FA-7350-4CB6-B7D8-514BDFFE91E8}">
 																								<Image FileName="-1787968408" Left="80" Top="412" Right="185" Bottom="436" />
-																								<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -1217,7 +1187,6 @@
 																								<Children>
 																									<Child Name="Input_Closed" Key="{F5446168-C123-42CB-872F-12AF27E5B62C}">
 																										<Image FileName="-237118764" Left="99" Top="460" Right="213" Bottom="484" />
-																										<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																										<Properties>
 																											<Property Name="FrameworkId">
 																												<Value Value="WinForm" />
@@ -1250,7 +1219,6 @@
 																<Children>
 																	<Child Name="Virtual_Input_1" Key="{5E8198D1-A3CC-41BC-A8D4-70EB3FDA537C}">
 																		<Image FileName="-730923092" Left="379" Top="173" Right="492" Bottom="189" />
-																		<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																		<Properties>
 																			<Property Name="FrameworkId">
 																				<Value Value="WinForm" />
@@ -1265,7 +1233,6 @@
 																	</Child>
 																	<Child Name="Virtual_Input_2" Key="{90A52E9B-2BE6-4DDD-8E4B-CFB75A7AE574}">
 																		<Image FileName="1586096493" Left="379" Top="191" Right="492" Bottom="207" />
-																		<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																		<Properties>
 																			<Property Name="FrameworkId">
 																				<Value Value="WinForm" />
@@ -1280,7 +1247,6 @@
 																	</Child>
 																	<Child Name="Virtual_Input_3" Key="{28BCD23E-2584-4390-8758-A9A476DE98C1}">
 																		<Image FileName="-907207962" Left="379" Top="209" Right="492" Bottom="225" />
-																		<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																		<Properties>
 																			<Property Name="FrameworkId">
 																				<Value Value="WinForm" />
@@ -1299,7 +1265,6 @@
 													</Child>
 													<Child Name="btnOk" Key="{27D4FDD1-777E-4890-ACC8-6EDDE7701F35}">
 														<Image FileName="-1783152188" Left="988" Top="666" Right="1068" Bottom="689" />
-														<TypeInfo Item0="{7F626D08-40A5-4DF4-A822-4387425E3C90}" />
 														<Properties>
 															<Property Name="WinFormsControlName">
 																<Value Value="btnOk" />
@@ -1796,7 +1761,6 @@
 													</Child>
 													<Child Name="DockableWindow2" Key="{0BD1EC73-40EB-4ACC-A182-9387261B155D}">
 														<Image FileName="-565887505" Left="399" Top="854" Right="1920" Bottom="1080" />
-														<TypeInfo Item0="{D68CAAB3-45F8-40A0-A628-92F0E2517B19}" />
 														<Properties>
 															<Property Name="ClrFullClassName">
 																<Value Value="Infragistics.Win.UltraWinDock.DockableWindow" />
@@ -1811,7 +1775,6 @@
 														<Children>
 															<Child Name="AlarmList" Key="{6B16A972-97AD-4757-B61F-ACC253FD5C62}">
 																<Image FileName="-565887505" Left="399" Top="854" Right="1920" Bottom="1080" />
-																<TypeInfo Item0="{F170573B-B73E-4986-BE4A-5EFD218FB18A}" />
 																<Properties>
 																	<Property Name="WinFormsControlName">
 																		<Value Value="AlarmList" />
@@ -1820,7 +1783,6 @@
 																<Children>
 																	<Child Name="ultraGridAlarms" Key="{D15AD0B1-8ECC-444F-88C7-7393BDDFE21F}">
 																		<Image FileName="-565887505" Left="399" Top="896" Right="1920" Bottom="1080" />
-																		<TypeInfo Item0="{130DAED1-0BB4-4744-9731-1BAAF86F7D05}" />
 																		<Properties>
 																			<Property Name="WinFormsControlName">
 																				<Value Value="ultraGridAlarms" />
@@ -1829,7 +1791,6 @@
 																		<Children>
 																			<Child Name="Data_Area" Key="{DD0BC18D-0B4B-48CC-8EB2-1B0AE09E0633}">
 																				<Image FileName="-565887505" Left="399" Top="896" Right="1920" Bottom="1080" />
-																				<TypeInfo Item0="{1550968E-8887-43DA-80AB-0B174E676887}" />
 																				<Properties>
 																					<Property Name="FrameworkId">
 																						<Value Value="WinForm" />
@@ -1847,7 +1808,6 @@
 																				<Children>
 																					<Child Name="ColScrollRegion_0_RowScrollRegion_0" Key="{C59F965F-AD05-45E5-A66D-13092574C076}">
 																						<Image FileName="-565887505" Left="399" Top="896" Right="1920" Bottom="1080" />
-																						<TypeInfo Item0="{1550968E-8887-43DA-80AB-0B174E676887}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="WinForm" />
@@ -1865,7 +1825,6 @@
 																						<Children>
 																							<Child Name="Item" Key="{598EBF29-7165-42E6-969E-4FF7BB3350E7}">
 																								<Image FileName="-565887505" Left="399" Top="915" Right="1920" Bottom="937" />
-																								<TypeInfo Item0="{B66D9621-0EC9-4EC2-997A-02A3C02A8B0E}" />
 																								<Properties>
 																									<Property Name="FrameworkId">
 																										<Value Value="WinForm" />
@@ -1883,7 +1842,6 @@
 																								<Children>
 																									<Child Name="Alarm_Title" Key="{42601210-2F6F-4983-9160-E80B41F35F65}">
 																										<Image FileName="-565887505" Left="433" Top="916" Right="574" Bottom="936" />
-																										<TypeInfo Item0="{75114EB2-9AB9-406E-96F7-848B2A978B6F}" />
 																										<Properties>
 																											<Property Name="FrameworkId">
 																												<Value Value="WinForm" />
@@ -1901,7 +1859,6 @@
 																										<Children>
 																											<Child Name="Editor_Edit_Area" Key="{A1F8F23B-4452-4998-A187-4BBDB1F15B25}">
 																												<Image FileName="-565887505" Left="436" Top="916" Right="573" Bottom="936" />
-																												<TypeInfo Item0="{75114EB2-9AB9-406E-96F7-848B2A978B6F}" />
 																												<Properties>
 																													<Property Name="FrameworkId">
 																														<Value Value="WinForm" />
@@ -1948,7 +1905,6 @@
 									</Child>
 									<Child Name="Button2" Key="{7D9DED93-04AA-4F89-AE4E-754FB8FC9193}">
 										<Image FileName="-1845029972" Left="1778" Top="4" Right="1824" Bottom="32" />
-										<TypeInfo Item0="{7F626D08-40A5-4DF4-A822-4387425E3C90}" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value Value="System.Windows.Forms.Button" />
@@ -2126,7 +2082,7 @@
 										<Value Value="StyleableWindow" />
 									</Property>
 									<Property Name="WndCaption">
-										<Value Value="" />
+										<Value Value="Operator Client" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2140,7 +2096,6 @@
 										<Children>
 											<Child Name="ButtonOk" Key="{E36A6AF3-B7AF-40F2-BEDF-2D1564CAB4E3}" ExtendedFind="True">
 												<Image FileName="2059948748" Left="194" Top="476" Right="291" Bottom="508" />
-												<TypeInfo Item0="{F5D90CC8-DCE6-4635-950F-7A1BD29F26D5}" />
 												<Properties>
 													<Property Name="ClrFullClassName">
 														<Value Value="System.Windows.Controls.Button" />
@@ -2173,7 +2128,6 @@
 								<Children>
 									<Child Name="BVMS_Virtual_Input_Test" Key="{806AC447-6CFC-4179-AE6A-8970CAF714AE}">
 										<Image FileName="-1498653270" Left="8" Top="8" Right="768" Bottom="31" />
-										<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 										<Properties>
 											<Property Name="FrameworkId">
 												<Value Value="WinForm" />
@@ -2188,7 +2142,6 @@
 										<Children>
 											<Child Name="Close" Key="{0EFCA033-718F-48AE-BC71-2A81F799634B}">
 												<Image FileName="-2143195648" Left="722" Top="1" Right="769" Bottom="31" />
-												<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 												<Properties>
 													<Property Name="FrameworkId">
 														<Value Value="WinForm" />
@@ -2213,7 +2166,6 @@
 										<Children>
 											<Child Name="connectBtn" Key="{040191C8-9F14-42A3-84A9-79646AD50ADD}">
 												<Image FileName="1148224833" Left="257" Top="170" Right="367" Bottom="193" />
-												<TypeInfo Item0="{7F626D08-40A5-4DF4-A822-4387425E3C90}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="connectBtn" />
@@ -2232,7 +2184,6 @@
 										<Children>
 											<Child Name="buttonSwitchOn" Key="{3448B18D-5321-4552-B590-62C119217636}">
 												<Image FileName="716444627" Left="36" Top="280" Right="176" Bottom="303" />
-												<TypeInfo Item0="{7F626D08-40A5-4DF4-A822-4387425E3C90}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="buttonSwitchOn" />
@@ -2251,7 +2202,6 @@
 										<Children>
 											<Child Name="inputNr" Key="{4BBF36DD-25FB-482F-A6B6-C0292682D158}">
 												<Image FileName="1018763187" Left="84" Top="224" Right="168" Bottom="244" />
-												<TypeInfo Item0="{1603F9BC-F6E0-4FFF-88D8-EB452784DADC}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="inputNr" />
@@ -2260,7 +2210,6 @@
 											</Child>
 											<Child Name="inputNr2" Key="{0476379D-8B5B-4BCE-9D86-B81339B35C4E}">
 												<Image FileName="-1331508847" Left="224" Top="224" Right="308" Bottom="244" />
-												<TypeInfo Item0="{1603F9BC-F6E0-4FFF-88D8-EB452784DADC}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="inputNr2" />
@@ -2362,7 +2311,6 @@
 														<Children>
 															<Child Name="OperatorClient_1_running_window" Key="{3419190C-892A-40A1-8087-3E38E2464C2E}">
 																<Image FileName="1793419294" Left="927" Top="0" Right="976" Bottom="40" />
-																<TypeInfo Item0="{501DA7BC-F1F4-47FE-B5B0-D80558783F22}" />
 																<Properties>
 																	<Property Name="LocalizedControlType">
 																		<Value Value="button" />

@@ -1581,7 +1581,7 @@
 										<Value Value="StyleableWindow" />
 									</Property>
 									<Property Name="WndCaption">
-										<Value Value="" />
+										<Value Value="Operator Client" />
 									</Property>
 								</Properties>
 								<Children>
