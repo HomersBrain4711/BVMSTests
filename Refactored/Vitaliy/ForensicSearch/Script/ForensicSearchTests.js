@@ -13,7 +13,7 @@ function TC_428355_SearchOption_Scenario_SingleCameraSearch()
   let bottomForensicSearch = Aliases.OperatorClient.Control.ContainerControl.WindowDockingArea.DockableWindow7.ForensicSearchControl.panelBottomWpfPlaceholder.StyleableElementHost.HwndSource_AdornerDecorator.AdornerDecorator;
     
   aqObject.CheckProperty(topForensicSearch.ComboboxSearchMode, "wText", cmpEqual, "IndividualSearch");
-  aqObject.CheckProperty(topForensicSearch.ComboboxType, "wText", cmpEqual, "Video analytics");
+  aqObject.CheckProperty(topForensicSearch.ComboboxType, "wText", cmpEqual, "IVA (debug)");
   aqObject.CheckProperty(bottomForensicSearch.Search, "Enabled", cmpEqual, false);
   Helpers.OperatorClient_RestoreDefaultSettings();
   Helpers.OperatorClient_Close();
