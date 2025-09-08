@@ -9,32 +9,32 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{7BCD660A-0EBD-4F7B-9296-C1DA1E1806DD}" version="14">
 		<children>
-			<testItem name="TC57682" key="{8F8C1C5D-FAEB-4963-9EF9-9EF9D77CEFCF}" group="False" parallel="False" enabled="True" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC57682_Camera_Several_Times_in_CameoSpace" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC57682" key="{8F8C1C5D-FAEB-4963-9EF9-9EF9D77CEFCF}" group="False" parallel="False" enabled="True" load="False" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC57682_Camera_Several_Times_in_CameoSpace" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="TC109222" key="{2FA64D28-506F-45B1-89A5-02F35E58E1FA}" group="False" parallel="False" enabled="True" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC109222_Flexible_Cameo_Ratios_Resizing_Cameos" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC109222" key="{2FA64D28-506F-45B1-89A5-02F35E58E1FA}" group="False" parallel="False" enabled="True" load="False" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC109222_Flexible_Cameo_Ratios_Resizing_Cameos" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="TC151308" key="{E197E649-E3D2-4F9B-B4C9-87A1805831E0}" group="False" parallel="False" enabled="True" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC151308_Configure_Automatic_Stream_Switch" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC151308" key="{E197E649-E3D2-4F9B-B4C9-87A1805831E0}" group="False" parallel="False" enabled="True" load="False" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC151308_Configure_Automatic_Stream_Switch" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="TC165705" key="{0F29BB19-AECD-4D84-93E0-D6E17FDDFDF2}" group="False" parallel="False" enabled="True" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC165705_Default_Setting_of_Hardware_Acceleration" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC165705" key="{0F29BB19-AECD-4D84-93E0-D6E17FDDFDF2}" group="False" parallel="False" enabled="True" load="False" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC165705_Default_Setting_of_Hardware_Acceleration" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="TC57403" key="{5C8D5C54-06AC-45F3-98EA-384585A29593}" group="False" parallel="False" enabled="True" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC57403_Login_after_Password_Change_in_OperatorClient" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC57403" key="{5C8D5C54-06AC-45F3-98EA-384585A29593}" group="False" parallel="False" enabled="True" load="False" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC57403_Login_after_Password_Change_in_OperatorClient" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="TC58453" key="{B4B3383B-4E17-46AD-A12A-967512AF0202}" group="False" parallel="False" enabled="True" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC58453_Menu_System_and_its_Menu_Entries" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC58453" key="{B4B3383B-4E17-46AD-A12A-967512AF0202}" group="False" parallel="False" enabled="True" load="False" testMoniker="{BA391A42-C42F-4728-92D4-B908EAC4B9D6}TC58453_Menu_System_and_its_Menu_Entries" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
@@ -60,7 +60,7 @@
 		</data>
 	</variables>
 	<settings key="{21F3563F-8A45-4DFE-889C-6490002321C1}">
-		<settingsVersion value="15.48" />
+		<settingsVersion value="15.69" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -87,10 +87,12 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="BVMS" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="ot1tfs" />
 		<setting name="AzureDevOps_URL" type="5" value="https://tfsservice.bst-eng.com/tfs/ot1tfs" />
-		<setting name="BitBar_APIkey" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
@@ -236,6 +238,10 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="LoadTestAPIKey" type="5" value="" />
+		<setting name="LoadTestAPIKeyLogin" type="5" value="&lt;A&gt;Login to LoadNinja&lt;/A&gt; to get your API key." />
+		<setting name="LoadTestAPIKeySales" type="5" value="Want to know more &lt;A&gt;Contact Sales&lt;/A&gt;." />
+		<setting name="LoadTestAPIKeySignup" type="5" value="&lt;A&gt;Sign up for LN trial&lt;/A&gt;." />
 		<setting name="MobileSupportType" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -581,7 +587,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -619,6 +625,7 @@
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -634,7 +641,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
@@ -707,6 +714,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="VTAPIKey" type="5" value="" />
 		<setting name="WebCloudProvider" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
