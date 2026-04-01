@@ -195,7 +195,7 @@ function TC165705_Default_Setting_of_Hardware_Acceleration()
   wnd2.Options_2.Click();
   ultraTabControl.Display2.Click();
 
-  aqObject.CheckProperty(Aliases.OperatorClient.OptionsForm.ContainerControl.panel1.tabControlOptions.ultraTabPageControlDisplay.FlowLayoutPanel.DisplayGpuDecodingOptions.ultraGroupBoxPreferHardwareAcceleration.chkPreferHardwareAcceleration, "ToggleState", cmpEqual, 0);
+  aqObject.CheckProperty(Aliases.OperatorClient.OptionsForm.ContainerControl.panel1.tabControlOptions.ultraTabPageControlDisplay.FlowLayoutPanel.DisplayGpuDecodingOptions.ultraGroupBoxPreferHardwareAcceleration.chkPreferHardwareAcceleration, "ToggleState", cmpEqual, 1);
 
   //ultraButton.ClickButton();
   containerControl.Keys("[Enter]");
