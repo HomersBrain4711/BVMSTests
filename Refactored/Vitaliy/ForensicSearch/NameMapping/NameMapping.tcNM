@@ -364,12 +364,6 @@
 													<Property Name="ClrFullClassName">
 														<Value Value="Infragistics.Win.UltraWinDock.WindowDockingArea" />
 													</Property>
-													<Property Name="WndCaption">
-														<Value Value="" />
-													</Property>
-													<Property Name="Index">
-														<Value Value="1" Type="0" />
-													</Property>
 												</Properties>
 												<Children>
 													<Child Name="DockableWindow" Key="{078EA50C-593F-4B06-815C-8F238377C21F}">
@@ -921,12 +915,6 @@
 																		<Properties>
 																			<Property Name="ClrFullClassName">
 																				<Value Value="Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea" />
-																			</Property>
-																			<Property Name="WndCaption">
-																				<Value Value="" />
-																			</Property>
-																			<Property Name="Index">
-																				<Value Value="2" Type="0" />
 																			</Property>
 																		</Properties>
 																		<Children>
@@ -2351,7 +2339,6 @@
 							</Child>
 							<Child Name="Operator_Client" Key="{AA52D796-854E-4502-B10E-3C30C081DFF1}">
 								<Image FileName="-1620258751" Left="0" Top="0" Right="308" Bottom="194" />
-								<TypeInfo Item0="{7C5E02F0-B7F5-4B31-8ED3-D945E175741A}" />
 								<Properties>
 									<Property Name="FrameworkId">
 										<Value Value="WPF" />
@@ -2372,7 +2359,6 @@
 								<Children>
 									<Child Name="CloseDialogView" Key="{920262CF-9737-41FD-832C-EC4A5692E371}">
 										<Image FileName="-1620258751" Left="4" Top="34" Right="304" Bottom="190" />
-										<TypeInfo Item0="{44AE690B-1340-488B-B055-78D5EFDFA2F1}" />
 										<Properties>
 											<Property Name="FrameworkId">
 												<Value Value="WPF" />
@@ -2393,7 +2379,6 @@
 										<Children>
 											<Child Name="Yes" Key="{C7083CE1-04B1-44D0-BD36-D05217AF50AA}">
 												<Image FileName="-1620258751" Left="82" Top="146" Right="146" Bottom="174" />
-												<TypeInfo Item0="{44AE690B-1340-488B-B055-78D5EFDFA2F1}" />
 												<Properties>
 													<Property Name="FrameworkId">
 														<Value Value="WPF" />
