@@ -7,10 +7,10 @@
 		<child key="{C3C35422-8E09-4661-A559-757979123D85}">
 			<config nodeName="ConfigClient" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="ConfigClient.exe" filePath="$(BvmsDirectory)\" parameters="" workFolder="" />
+					<param name="RunAs" parameters="-user:admin -password:&quot;&quot;" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-user:admin -password:&quot;&quot;" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+					<param name="Simple" fileName="ConfigClient.exe" filePath="$(BvmsDirectory)\" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -31,10 +31,10 @@
 		<child key="{B80ED7AC-E9A7-4F7A-A491-265EA82ABFE2}">
 			<config nodeName="OperatorClient" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="OperatorClient.exe" filePath="$(BvmsDirectory)\" parameters="" workFolder="" />
+					<param name="RunAs" parameters="-user:admin -password:&quot;&quot;" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-user:admin -password:&quot;&quot;" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
+					<param name="Simple" fileName="OperatorClient.exe" filePath="$(BvmsDirectory)\" parameters="-user:admin -password:&quot;&quot;" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

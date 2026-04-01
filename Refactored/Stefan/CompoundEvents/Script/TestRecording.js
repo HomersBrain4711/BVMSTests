@@ -97,9 +97,10 @@ function TC_56757_CompoundEvents_Recorded()
 function TC_56757_CompoundEvents_Refactored()
 {
   //Configuration
-  TestedApps.ConfigClient.Run(1, true);
+  TestedApps.ConfigClient.Run();
   let configClient = Aliases.ConfigClient;
-  configClient.OnSiteClientLoginForm.login.btnOK.ClickButton();
+  //configClient.OnSiteClientLoginForm.login.btnOK.ClickButton();
+  Helpers.ConfigClient_WaitForReady();
   let configClientForm = configClient.ConfigClientForm;
   let configTabCtrl = configClientForm.ConfigTabCtrl;
   let ultraTabControl = configTabCtrl.tabControl;
@@ -162,9 +163,9 @@ function TC_56757_CompoundEvents_Refactored()
   configClient.ActivationView.ContainerControl.okButton.ClickButton();
 
   //Operation
-  TestedApps.OperatorClient.Run(1, true);
+  TestedApps.OperatorClient.Run();
   let operatorClient = Aliases.OperatorClient;
-  operatorClient.HwndSource_StyleableWindow2.StyleableWindow.ButtonOk.ClickButton();
+  //operatorClient.HwndSource_StyleableWindow2.StyleableWindow.ButtonOk.ClickButton();
   Helpers.OperatorClient_WaitForReady();
   TestedApps.VirtualInputsTest.Run(1, true);
   let virtualInputTestForm = Aliases.VirtualInputsTest.Form1;
